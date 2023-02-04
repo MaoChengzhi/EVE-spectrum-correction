@@ -3,27 +3,15 @@ import glob
 
 import numpy as np
 
-from IPython.display import HTML
 
-import astropy.table
-from astropy.coordinates import SkyCoord
-import astropy.units as u
-from astropy.io import fits
-from astropy.modeling.models import Gaussian1D
-from astropy.modeling import fitting,models
+
+
 from astropy.stats import gaussian_fwhm_to_sigma
 
 import sunpy.map
 import sunpy.sun.constants
-from sunpy.coordinates import Helioprojective
-from sunpy.map.maputils import all_coordinates_from_map, coordinate_is_on_solar_disk
-from sunpy.coordinates import frames
 
 import math
-
-import time
-
-from scipy import optimize
 
 from my_pixel_to_world import my_pixel_to_world
 #%%
@@ -41,10 +29,14 @@ def my_Gaussian1D(x,amplitude=1, mean=0, stddev=1):
 
 def calculating_irradiance(wavelength,offaxis_angle_x,offaxis_angle_y):
     total_irradiance=0
-    # for pixel_x in range(image_shape_x):
-    #     for pixel_y in range(image_shape_y): #first only calculate a small fraction to check 
-    for pixel_x in np.linspace(0,image_shape_x-1,200,dtype=int):
-        for pixel_y in np.linspace(0,image_shape_y-1,200,dtype=int):
+    
+    #first only calculate a small fraction to check 
+    # for pixel_x in np.linspace(0,image_shape_x-1,200,dtype=int):
+    #     for pixel_y in np.linspace(0,image_shape_y-1,200,dtype=int):
+        
+    for pixel_x in range(image_shape_x):
+        for pixel_y in range(image_shape_y): 
+
             Tx,Ty=my_pixel_to_world(pixel_x,pixel_y)
 
             Tx+=offaxis_angle_x
