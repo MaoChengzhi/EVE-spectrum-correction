@@ -17,7 +17,16 @@ import sunpy.map
 import sunpy.timeseries
 import sunpy.sun.constants
 from sunpy.coordinates import Helioprojective
+import sunpy
+
+import asdf
+#%%
+AIA_filename="data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
+m_aia=sunpy.map.Map(AIA_filename)
+m2=sunpy.io.read_file(AIA_filename)
+m2[1]
 
 #%%
-AIA_file_name="data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
-m_aia=sunpy.map.Map(AIA_file_name)
+np.set_printoptions(edgeitems=3, infstr='inf',
+linewidth=75, nanstr='nan', precision=8,
+suppress=False, threshold=1000, formatter=None)
