@@ -18,7 +18,8 @@ def my_pixel_to_world(pixel_x,pixel_y):
     Returns
     -------
     Coordinates in the Helioprojective Cartesian (HPC), which is observer-based:
-    
+        using a linear function to simulate
+        
     Tx :  angle relative to the plane containing the Sun-observer line 
         and the Sun’s rotation axis, 
         with positive values in the direction of the Sun’s west limb.
