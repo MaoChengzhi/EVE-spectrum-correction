@@ -1,0 +1,188 @@
+File name:  esp_L1_2011027_007 (1).fit.gz
+                                           Run Number 33226
+ 
+              fitsverify 4.20 (CFITSIO V3.470)              
+              --------------------------------              
+ 
+
+2 Header-Data Units in this file.
+ 
+=================== HDU 1: Primary Array ===================
+ 
+   1 | SIMPLE  =                    T /Dummy Created by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Dummy primary header created by MWRFITS
+   3 | NAXIS   =                    0 /No data is associated with this header
+   4 | EXTEND  =                    T /Extensions may (will!) be present
+   5 | END     
+ 
+ 5 header keywords
+ 
+ Null data array; NAXIS = 0 
+ 
+=================== HDU 2: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                  126 /Number of bytes per row
+   5 | NAXIS2  =               345308 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                   33 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | ORIGIN  = '            SDO/EVE SPOC' // LASP, University of Colorado, Boulder
+  13 | DATE    = '2021-06-09T23:46:27.000Z' // UTC file creation time
+  14 | TAI_OBS =            1674777646.850 // TAI time at start of obs
+  15 | DATE_OBS= '2011-01-27T00:00:12.850Z' // UTC at start of obs
+  16 | T_OBS   = '2011-01-27T00:00:42.850Z' // UTC at center of obs
+  17 | EXPTIME =                    60.000 // seconds exposed, or integration time
+  18 | TIME    =                    12.850 // UTC seconds of day at start of obs
+  19 | TELESCOP= '                 SDO/EVE'
+  20 | INSTRUME= '                 EVE_ESP'
+  21 | VERSION =                       007 // major code/cal version
+  22 | REVISION=                       007 // reprocess number
+  23 | FILENAME= 'esp_L1_2011027_007.fit'
+  24 | CH1_COEF=            -137.6691//Ch1 mean Coeff
+  25 | CH2_COEF=           -1898.5936//Ch2 mean Coeff
+  26 | CH4_COEF=            -333.2743//Ch4 mean Coeff
+  27 | CH5_COEF=            -350.1866//Ch5 mean Coeff
+  28 | CH6_COEF=            -348.4118//Ch6 mean Coeff
+  29 | CH7_COEF=            -346.1948//Ch7 mean Coeff
+  30 | CH8_COEF=           -5209.1147//Ch8 mean Coeff
+  31 | CH9_COEF=           -2708.8826//Ch9 mean Coeff
+  32 | COMMENT
+  33 | COMMENT  *** Column names ***
+  34 | COMMENT
+  35 | TTYPE1  = 'Q_0     '           /
+  36 | TTYPE2  = 'Q_1     '           /
+  37 | TTYPE3  = 'Q_2     '           /
+  38 | TTYPE4  = 'Q_3     '           /
+  39 | TTYPE5  = 'QD      '           /
+  40 | TTYPE6  = 'CH_18   '           /
+  41 | TTYPE7  = 'CH_26   '           /
+  42 | TTYPE8  = 'CH_30   '           /
+  43 | TTYPE9  = 'CH_36   '           /
+  44 | TTYPE10 = 'CH_D    '           /
+  45 | TTYPE11 = 'Q_0_PREC'           /
+  46 | TTYPE12 = 'Q_1_PREC'           /
+  47 | TTYPE13 = 'Q_2_PREC'           /
+  48 | TTYPE14 = 'Q_3_PREC'           /
+  49 | TTYPE15 = 'QD_PREC '           /
+  50 | TTYPE16 = 'CH_18_PREC'         /
+  51 | TTYPE17 = 'CH_26_PREC'         /
+  52 | TTYPE18 = 'CH_30_PREC'         /
+  53 | TTYPE19 = 'CH_36_PREC'         /
+  54 | TTYPE20 = 'CH_D_PREC'          /
+  55 | TTYPE21 = 'FILTER  '           /
+  56 | TTYPE22 = 'CH_TEMP '           /
+  57 | TTYPE23 = 'YEAR    '           /
+  58 | TTYPE24 = 'DOY     '           /
+  59 | TTYPE25 = 'SOD     '           /
+  60 | TTYPE26 = 'EFF_QD  '           /
+  61 | TTYPE27 = 'EFF_CH_26'          /
+  62 | TTYPE28 = 'EFF_CH_18'          /
+  63 | TTYPE29 = 'EFF_CH_30'          /
+  64 | TTYPE30 = 'EFF_COUNTS'         /
+  65 | TTYPE31 = 'QD_F3_DEGRAD'       /
+  66 | TTYPE32 = 'L1C_FLAGS'          /
+  67 | TTYPE33 = 'L1NC_FLAGS'         /
+  68 | COMMENT
+  69 | COMMENT  *** Column formats ***
+  70 | COMMENT
+  71 | TFORM1  = 'E       '           /
+  72 | TFORM2  = 'E       '           /
+  73 | TFORM3  = 'E       '           /
+  74 | TFORM4  = 'E       '           /
+  75 | TFORM5  = 'E       '           /
+  76 | TFORM6  = 'E       '           /
+  77 | TFORM7  = 'E       '           /
+  78 | TFORM8  = 'E       '           /
+  79 | TFORM9  = 'E       '           /
+  80 | TFORM10 = 'E       '           /
+  81 | TFORM11 = 'E       '           /
+  82 | TFORM12 = 'E       '           /
+  83 | TFORM13 = 'E       '           /
+  84 | TFORM14 = 'E       '           /
+  85 | TFORM15 = 'E       '           /
+  86 | TFORM16 = 'E       '           /
+  87 | TFORM17 = 'E       '           /
+  88 | TFORM18 = 'E       '           /
+  89 | TFORM19 = 'E       '           /
+  90 | TFORM20 = 'E       '           /
+  91 | TFORM21 = 'E       '           /
+  92 | TFORM22 = 'E       '           /
+  93 | TFORM23 = 'I       '           /
+  94 | TFORM24 = 'I       '           /
+  95 | TFORM25 = 'D       '           /
+  96 | TFORM26 = 'E       '           /
+  97 | TFORM27 = 'E       '           /
+  98 | TFORM28 = 'E       '           /
+  99 | TFORM29 = 'E       '           /
+ 100 | TFORM30 = 'E       '           /
+ 101 | TFORM31 = 'E       '           /
+ 102 | TFORM32 = 'B       '           /
+ 103 | TFORM33 = 'B       '           /
+ 104 | COMMENT Website reference http://lasp.colorado.edu/home/eve
+ 105 | COMMENT EVE Principal Investigator T. N. Woods
+ 106 | COMMENT Laboratory for Atmospheric and Space Physics
+ 107 | COMMENT 1234 Innovation Drive, Boulder, CO 80303
+ 108 | COMMENT SDO Mission scientific and model results are open to all.
+ 109 | COMMENT Users should contact the PI or designated EVE team member early in an
+ 110 | COMMENT analysis project to discuss appropriate use of instrument data results.
+ 111 | COMMENT Appropriate acknowledgement to institutions, personnel, and funding
+ 112 | COMMENT agencies should be given. Version numbers should also be specified.
+ 113 | COMMENT Pre-prints of publications and conference abstracts should be widely
+ 114 | COMMENT distributed to interested parties within the mission.
+ 115 | COMMENT Quad-Diode (QD) data (0.1 - 7.0 nm) are stored in 5 channels:
+ 116 | COMMENT the whole solar disk irradiance and ratios of each diode irradiance
+ 117 | COMMENT to the whole disk solar irradiance. These ratios are about 0.25.
+ 118 | END     
+ 
+ 118 header keywords
+ 
+   (33 columns x 345308 rows)
+ 
+ Col# Name (Units)       Format
+   1 Q_0                  E         
+   2 Q_1                  E         
+   3 Q_2                  E         
+   4 Q_3                  E         
+   5 QD                   E         
+   6 CH_18                E         
+   7 CH_26                E         
+   8 CH_30                E         
+   9 CH_36                E         
+  10 CH_D                 E         
+  11 Q_0_PREC             E         
+  12 Q_1_PREC             E         
+  13 Q_2_PREC             E         
+  14 Q_3_PREC             E         
+  15 QD_PREC              E         
+  16 CH_18_PREC           E         
+  17 CH_26_PREC           E         
+  18 CH_30_PREC           E         
+  19 CH_36_PREC           E         
+  20 CH_D_PREC            E         
+  21 FILTER               E         
+  22 CH_TEMP              E         
+  23 YEAR                 I         
+  24 DOY                  I         
+  25 SOD                  D         
+  26 EFF_QD               E         
+  27 EFF_CH_26            E         
+  28 EFF_CH_18            E         
+  29 EFF_CH_30            E         
+  30 EFF_COUNTS           E         
+  31 QD_F3_DEGRAD         E         
+  32 L1C_FLAGS            B         
+  33 L1NC_FLAGS           B         
+ 
+++++++++++++++++++++++ Error Summary  ++++++++++++++++++++++
+ 
+ HDU#  Name (version)       Type             Warnings  Errors
+ 1                          Primary Array    0         0     
+ 2                          Binary Table     0         0     
+ 
+**** Verification found 0 warning(s) and 0 error(s). ****

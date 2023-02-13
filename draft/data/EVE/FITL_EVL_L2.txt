@@ -1,0 +1,449 @@
+File name:  EVL_L2_2011027_16_007_02.fit.gz
+                                           Run Number 33241
+ 
+              fitsverify 4.20 (CFITSIO V3.470)              
+              --------------------------------              
+ 
+
+7 Header-Data Units in this file.
+ 
+=================== HDU 1: Primary Array ===================
+ 
+   1 | SIMPLE  =                    T /Dummy Created by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Dummy primary header created by MWRFITS
+   3 | NAXIS   =                    0 /No data is associated with this header
+   4 | EXTEND  =                    T /Extensions may (will!) be present
+   5 | END     
+ 
+ 5 header keywords
+ 
+ Null data array; NAXIS = 0 
+ 
+=================== HDU 2: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                   42 /Number of bytes per row
+   5 | NAXIS2  =                   39 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                    7 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | EXTNAME = 'LinesMeta'
+  13 | TUNIT1  = 'nm'
+  14 | TUNIT2  = 'nm'
+  15 | TUNIT3  = 'nm'
+  16 | TUNIT4  = 'log(K)'
+  17 | COMMENT
+  18 | COMMENT  *** Column names ***
+  19 | COMMENT
+  20 | TTYPE1  = 'WAVE_CENTER'        /
+  21 | TTYPE2  = 'WAVE_MIN'           /
+  22 | TTYPE3  = 'WAVE_MAX'           /
+  23 | TTYPE4  = 'LOGT    '           /
+  24 | TTYPE5  = 'NAME    '           /
+  25 | TTYPE6  = 'TYPE    '           /
+  26 | TTYPE7  = 'BLENDS  '           /
+  27 | COMMENT
+  28 | COMMENT  *** Column formats ***
+  29 | COMMENT
+  30 | TFORM1  = 'E       '           /
+  31 | TFORM2  = 'E       '           /
+  32 | TFORM3  = 'E       '           /
+  33 | TFORM4  = 'E       '           /
+  34 | TFORM5  = '8A      '           /
+  35 | TFORM6  = '5A      '           /
+  36 | TFORM7  = '13A     '           /
+  37 | COMMENT  For every element in the LINE_* column in the LinesData table, there is
+  38 | COMMENT  one row here describing the spectral line for that element
+  39 | COMMENT  wave_center is the nominal 'center' or 'peak'
+  40 | COMMENT  wave_min is the lower edge of the integration window
+  41 | COMMENT  wave_max is the upper edge of the integration window
+  42 | COMMENT  logt is the base-10 log of the temperature of this line in Kelvin
+  43 | COMMENT  name is the primary ion
+  44 | COMMENT  type is the electron configuration of the primary ion
+  45 | COMMENT  blends are other ions that may be in this line
+  46 | END     
+ 
+ 46 header keywords
+ 
+ LinesMeta  (7 columns x 39 rows)
+ 
+ Col# Name (Units)       Format
+   1 WAVE_CENTER (nm)     E         
+   2 WAVE_MIN (nm)        E         
+   3 WAVE_MAX (nm)        E         
+   4 LOGT (log(K))        E         
+   5 NAME                 8A        
+   6 TYPE                 5A        
+   7 BLENDS               13A       
+ 
+=================== HDU 3: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                   25 /Number of bytes per row
+   5 | NAXIS2  =                   20 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                    4 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | EXTNAME = 'BandsMeta'
+  13 | COMMENT
+  14 | COMMENT  *** Column names ***
+  15 | COMMENT
+  16 | TTYPE1  = 'NAME    '           /
+  17 | TTYPE2  = 'TYPE    '           /
+  18 | TTYPE3  = 'LOW_WAVELENGTH_NM'  /
+  19 | TTYPE4  = 'HIGH_WAVELENGTH_NM' /
+  20 | COMMENT
+  21 | COMMENT  *** Column formats ***
+  22 | COMMENT
+  23 | TFORM1  = '13A     '           /
+  24 | TFORM2  = '4A      '           /
+  25 | TFORM3  = 'E       '           /
+  26 | TFORM4  = 'E       '           /
+  27 | COMMENT  For every element in the BAND_* column in the LinesData table, there is
+  28 | COMMENT  one row here describing the band.
+  29 | COMMENT  name is the name of the band
+  30 | COMMENT  type describes the source of the band weighting
+  31 | COMMENT    No matter the type, all irradiance data used here comes from MEGS A/B
+  32 | END     
+ 
+ 32 header keywords
+ 
+ BandsMeta  (4 columns x 20 rows)
+ 
+ Col# Name (Units)       Format
+   1 NAME                 13A       
+   2 TYPE                 4A        
+   3 LOW_WAVELENGTH_NM    E         
+   4 HIGH_WAVELENGTH_NM   E         
+ 
+=================== HDU 4: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                   36 /Number of bytes per row
+   5 | NAXIS2  =                    6 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                    3 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | EXTNAME = 'DiodeMeta'
+  13 | COMMENT
+  14 | COMMENT  *** Column names ***
+  15 | COMMENT
+  16 | TTYPE1  = 'NAME    '           /
+  17 | TTYPE2  = 'TYPE    '           /
+  18 | TTYPE3  = 'UNITS   '           /
+  19 | COMMENT
+  20 | COMMENT  *** Column formats ***
+  21 | COMMENT
+  22 | TFORM1  = '25A     '           /
+  23 | TFORM2  = '6A      '           /
+  24 | TFORM3  = '5A      '           /
+  25 | COMMENT  For every element in the DIODE_* column in the LinesData table, there
+  26 | COMMENT  is one row here describing the diode.
+  27 | COMMENT  name is a designation for the diode bandpass
+  28 | COMMENT  type describes the source of the band
+  29 | END     
+ 
+ 29 header keywords
+ 
+ DiodeMeta  (3 columns x 6 rows)
+ 
+ Col# Name (Units)       Format
+   1 NAME                 25A       
+   2 TYPE                 6A        
+   3 UNITS                5A        
+ 
+=================== HDU 5: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                    5 /Number of bytes per row
+   5 | NAXIS2  =                    4 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                    2 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | EXTNAME = 'QuadMeta'
+  13 | COMMENT
+  14 | COMMENT  *** Column names ***
+  15 | COMMENT
+  16 | TTYPE1  = 'NAME    '           /
+  17 | TTYPE2  = 'TYPE    '           /
+  18 | COMMENT
+  19 | COMMENT  *** Column formats ***
+  20 | COMMENT
+  21 | TFORM1  = '2A      '           /
+  22 | TFORM2  = '3A      '           /
+  23 | COMMENT  For every element in the QUAD_* column in the LinesData table, there is
+  24 | COMMENT  one row here describing the quadrant.
+  25 | COMMENT  name is the name of the quadrant
+  26 | COMMENT  type is the instrument channel (always ESP)
+  27 | END     
+ 
+ 27 header keywords
+ 
+ QuadMeta  (2 columns x 4 rows)
+ 
+ Col# Name (Units)       Format
+   1 NAME                 2A        
+   2 TYPE                 3A        
+ 
+=================== HDU 6: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                  890 /Number of bytes per row
+   5 | NAXIS2  =                  360 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                   19 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | ORIGIN  = '            SDO/EVE SPOC' // LASP, University of Colorado, Boulder
+  13 | DATE    = '2021-12-09T01:27:31.000Z' // UTC file creation time (per ISO8601)
+  14 | TAI_OBS =            1674835236.779 // TAI time at start of obs
+  15 | DATE_OBS= '2011-01-27T16:00:02.779Z' // UTC at start of obs
+  16 | T_OBS   = '2011-01-27T16:00:07.779Z' // UTC at center of obs
+  17 | EXPTIME =                    10.000 // seconds exposed, or integration time
+  18 | TIME    =                 57602.779 // UTC seconds of day at center of obs
+  19 | TELESCOP= '            SDO/EVE'
+  20 | INSTRUME= '        EVE_MEGS'
+  21 | VERSION =                        07 // major code/cal version
+  22 | REVISION=                        01 // reprocess number
+  23 | FILENAME= 'EVL_L2_2011027_16_007_01.fit'
+  24 | COMMENT
+  25 | COMMENT  *** Column names ***
+  26 | COMMENT
+  27 | TTYPE1  = 'TAI     '           /
+  28 | TTYPE2  = 'YYYYDOY '           /
+  29 | TTYPE3  = 'SOD     '           /
+  30 | TTYPE4  = 'FLAGS   '           /
+  31 | TTYPE5  = 'SC_FLAGS'           /
+  32 | TTYPE6  = 'LINE_IRRADIANCE'    /
+  33 | TTYPE7  = 'LINE_PRECISION'     /
+  34 | TTYPE8  = 'LINE_ACCURACY'      /
+  35 | TTYPE9  = 'BAND_IRRADIANCE'    /
+  36 | TTYPE10 = 'BAND_PRECISION'     /
+  37 | TTYPE11 = 'BAND_ACCURACY'      /
+  38 | TTYPE12 = 'DIODE_IRRADIANCE'   /
+  39 | TTYPE13 = 'DIODE_STDEV'        /
+  40 | TTYPE14 = 'DIODE_PRECISION'    /
+  41 | TTYPE15 = 'DIODE_ACCURACY'     /
+  42 | TTYPE16 = 'QUAD_FRACTION'      /
+  43 | TTYPE17 = 'QUAD_STDEV'         /
+  44 | TTYPE18 = 'QUAD_PRECISION'     /
+  45 | TTYPE19 = 'QUAD_ACCURACY'      /
+  46 | COMMENT
+  47 | COMMENT  *** Column formats ***
+  48 | COMMENT
+  49 | TFORM1  = 'D       '           /
+  50 | TFORM2  = 'J       '           /
+  51 | TFORM3  = 'D       '           /
+  52 | TFORM4  = 'B       '           /
+  53 | TFORM5  = 'B       '           /
+  54 | TFORM6  = '39E     '           /
+  55 | TFORM7  = '39E     '           /
+  56 | TFORM8  = '39E     '           /
+  57 | TFORM9  = '20E     '           /
+  58 | TFORM10 = '20E     '           /
+  59 | TFORM11 = '20E     '           /
+  60 | TFORM12 = '6E      '           /
+  61 | TFORM13 = '6E      '           /
+  62 | TFORM14 = '6E      '           /
+  63 | TFORM15 = '6E      '           /
+  64 | TFORM16 = '4E      '           /
+  65 | TFORM17 = '4E      '           /
+  66 | TFORM18 = '4E      '           /
+  67 | TFORM19 = '4E      '           /
+  68 | COMMENT Website reference http://lasp.colorado.edu/home/eve
+  69 | COMMENT EVE Principal Investigator T. N. Woods
+  70 | COMMENT Laboratory for Atmospheric and Space Physics
+  71 | COMMENT 1234 Innovation Drive, Boulder, CO 80303
+  72 | COMMENT SDO Mission scientific and model results are open to all.
+  73 | COMMENT Users should contact the PI or designated EVE team member early in an
+  74 | COMMENT analysis project to discuss appropriate use of instrument data results.
+  75 | COMMENT Appropriate acknowledgement to institutions, personnel, and funding
+  76 | COMMENT agencies should be given. Version numbers should also be specified.
+  77 | COMMENT Pre-prints of publications and conference abstracts should be widely
+  78 | COMMENT distributed to interested parties within the mission.
+  79 | EXTNAME = 'LinesData'
+  80 | TUNIT6  = 'W m^-2' /Units of Lines Irradiance field
+  81 | TUNIT12 = 'W m^-2' /Units of Diode Irradiance field
+  82 | COMMENT  Values in FLAGS field are the bitwise OR of these values.
+  83 | COMMENT  Bit 0 (value    1) - MEGS-A data is missing
+  84 | COMMENT  Bit 1 (value    2) - MEGS-B data is missing
+  85 | COMMENT  Bit 2 (value    4) - ESP data is missing
+  86 | COMMENT  Bit 3 (value    8) - MEGS-P data is missing
+  87 | COMMENT  Bit 4 (value   16) - Possible clock adjust in MEGS-A
+  88 | COMMENT  Bit 5 (value   32) - Possible clock adjust in MEGS-B
+  89 | COMMENT  Bit 6 (value   64) - Possible clock adjust in ESP
+  90 | COMMENT  Bit 7 (value  128) - Possible clock adjust in MEGS-P
+  91 | COMMENT  Values in SC_FLAGS field are the bitwise OR of these values.
+  92 | COMMENT  Bit 0 (value    1) - 4-bit obstruction indicator (0 is no obstruction)
+  93 | COMMENT  Bit 1 (value    2) - 4-bit obstruction indicator (0 is no obstruction)
+  94 | COMMENT  Bit 2 (value    4) - 4-bit obstruction indicator (0 is no obstruction)
+  95 | COMMENT  Bit 3 (value    8) - 4-bit obstruction indicator (0 is no obstruction)
+  96 | COMMENT  Bit 4 (value   16) - Observatory is off-pointed by more than 1 arcmin
+  97 | COMMENT  Obstruction flag values:
+  98 | COMMENT  Value 0 No obstruction
+  99 | COMMENT  Value 1 Warmup from Earth eclipse
+ 100 | COMMENT  Value 2 Atmosphere penumbra
+ 101 | COMMENT  Value 3 Atmosphere umbra
+ 102 | COMMENT  Value 4 Penumbra of Mercury
+ 103 | COMMENT  Value 5 Umbra of Mercury
+ 104 | COMMENT  Value 6 Penumbra of Venus
+ 105 | COMMENT  Value 7 Umbra of Venus
+ 106 | COMMENT  Value 8 Penumbra of Moon
+ 107 | COMMENT  Value 9 Umbra of Moon
+ 108 | COMMENT  Value 10 Penumbra of solid Earth
+ 109 | COMMENT  Value 11 Umbra of solid Earth
+ 110 | COMMENT  If more than one obstruction is taking place, only
+ 111 | COMMENT    the highest-numbered one will be indicated.
+ 112 | COMMENT  Uncertainties (precision, accuracy and standard deviation)
+ 113 | COMMENT    are relative, (0.1=10% uncertainty) multiply by corresponding
+ 114 | COMMENT    irradiance to get uncertainty in physical irradiance units
+ 115 | END     
+ 
+ 115 header keywords
+ 
+ LinesData  (19 columns x 360 rows)
+ 
+ Col# Name (Units)       Format
+   1 TAI                  D         
+   2 YYYYDOY              J         
+   3 SOD                  D         
+   4 FLAGS                B         
+   5 SC_FLAGS             B         
+   6 LINE_IRRADIANCE (W m 39E       
+   7 LINE_PRECISION       39E       
+   8 LINE_ACCURACY        39E       
+   9 BAND_IRRADIANCE      20E       
+  10 BAND_PRECISION       20E       
+  11 BAND_ACCURACY        20E       
+  12 DIODE_IRRADIANCE (W  6E        
+  13 DIODE_STDEV          6E        
+  14 DIODE_PRECISION      6E        
+  15 DIODE_ACCURACY       6E        
+  16 QUAD_FRACTION        4E        
+  17 QUAD_STDEV           4E        
+  18 QUAD_PRECISION       4E        
+  19 QUAD_ACCURACY        4E        
+ 
+=================== HDU 7: BINARY Table ====================
+ 
+   1 | XTENSION= 'BINTABLE'           /Binary table written by MWRFITS v1.11
+   2 | BITPIX  =                    8 /Required value
+   3 | NAXIS   =                    2 /Required value
+   4 | NAXIS1  =                 1373 /Number of bytes per row
+   5 | NAXIS2  =                    1 /Number of rows
+   6 | PCOUNT  =                    0 /Normally 0 (no varying arrays)
+   7 | GCOUNT  =                    1 /Required value
+   8 | TFIELDS =                   19 /Number of columns in table
+   9 | COMMENT
+  10 | COMMENT  *** End of mandatory fields ***
+  11 | COMMENT
+  12 | EXTNAME = 'LinesDataUnits'
+  13 | COMMENT
+  14 | COMMENT  *** Column names ***
+  15 | COMMENT
+  16 | TTYPE1  = 'TAI     '           /
+  17 | TTYPE2  = 'YYYYDOY '           /
+  18 | TTYPE3  = 'SOD     '           /
+  19 | TTYPE4  = 'FLAGS   '           /
+  20 | TTYPE5  = 'SC_FLAGS'           /
+  21 | TTYPE6  = 'LINE_IRRADIANCE'    /
+  22 | TTYPE7  = 'LINE_PRECISION'     /
+  23 | TTYPE8  = 'LINE_ACCURACY'      /
+  24 | TTYPE9  = 'BAND_IRRADIANCE'    /
+  25 | TTYPE10 = 'BAND_PRECISION'     /
+  26 | TTYPE11 = 'BAND_ACCURACY'      /
+  27 | TTYPE12 = 'DIODE_IRRADIANCE'   /
+  28 | TTYPE13 = 'DIODE_STDEV'        /
+  29 | TTYPE14 = 'DIODE_PRECISION'    /
+  30 | TTYPE15 = 'DIODE_ACCURACY'     /
+  31 | TTYPE16 = 'QUAD_FRACTION'      /
+  32 | TTYPE17 = 'QUAD_STDEV'         /
+  33 | TTYPE18 = 'QUAD_PRECISION'     /
+  34 | TTYPE19 = 'QUAD_ACCURACY'      /
+  35 | COMMENT
+  36 | COMMENT  *** Column formats ***
+  37 | COMMENT
+  38 | TFORM1  = '87A     '           /
+  39 | TFORM2  = '62A     '           /
+  40 | TFORM3  = '65A     '           /
+  41 | TFORM4  = '49A     '           /
+  42 | TFORM5  = '81A     '           /
+  43 | TFORM6  = '171A    '           /
+  44 | TFORM7  = '18A     '           /
+  45 | TFORM8  = '17A     '           /
+  46 | TFORM9  = '242A    '           /
+  47 | TFORM10 = '18A     '           /
+  48 | TFORM11 = '17A     '           /
+  49 | TFORM12 = '59A     '           /
+  50 | TFORM13 = '72A     '           /
+  51 | TFORM14 = '18A     '           /
+  52 | TFORM15 = '66A     '           /
+  53 | TFORM16 = '135A    '           /
+  54 | TFORM17 = '72A     '           /
+  55 | TFORM18 = '49A     '           /
+  56 | TFORM19 = '75A     '           /
+  57 | COMMENT  First element is unit
+  58 | COMMENT  Other elements are brief descriptions and other info
+  59 | END     
+ 
+ 59 header keywords
+ 
+ LinesDataUnits  (19 columns x 1 rows)
+ 
+ Col# Name (Units)       Format
+   1 TAI                  87A       
+   2 YYYYDOY              62A       
+   3 SOD                  65A       
+   4 FLAGS                49A       
+   5 SC_FLAGS             81A       
+   6 LINE_IRRADIANCE      171A      
+   7 LINE_PRECISION       18A       
+   8 LINE_ACCURACY        17A       
+   9 BAND_IRRADIANCE      242A      
+  10 BAND_PRECISION       18A       
+  11 BAND_ACCURACY        17A       
+  12 DIODE_IRRADIANCE     59A       
+  13 DIODE_STDEV          72A       
+  14 DIODE_PRECISION      18A       
+  15 DIODE_ACCURACY       66A       
+  16 QUAD_FRACTION        135A      
+  17 QUAD_STDEV           72A       
+  18 QUAD_PRECISION       49A       
+  19 QUAD_ACCURACY        75A       
+ 
+++++++++++++++++++++++ Error Summary  ++++++++++++++++++++++
+ 
+ HDU#  Name (version)       Type             Warnings  Errors
+ 1                          Primary Array    0         0     
+ 2     LinesMeta            Binary Table     0         0     
+ 3     BandsMeta            Binary Table     0         0     
+ 4     DiodeMeta            Binary Table     0         0     
+ 5     QuadMeta             Binary Table     0         0     
+ 6     LinesData            Binary Table     0         0     
+ 7     LinesDataUnits       Binary Table     0         0     
+ 
+**** Verification found 0 warning(s) and 0 error(s). ****
