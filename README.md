@@ -17,7 +17,12 @@
 
 
 
-运行main.py 13h 得到DN.py
+- 运行 "main.py" 13h 得到"DN.npz"
+  运行 "analyze_DN.py" 得到以下结果
+- 运行 "main_parrallel.py" 2.5h 得到"DN_above0_fulldisk.npz"
+  运行 "analyze_DN.py" 得到以下结果
+
+
 
 ### He II 谱线轮廓随入射偏角𝜶和𝜷变化的模拟结果
 
