@@ -17,16 +17,20 @@
 
 
 
-- 运行 "main.py" 13h 得到"DN.npz"
-  运行 "analyze_DN.py" 得到以下结果
-- 运行 "main_parrallel.py" 2.5h 得到"DN_above0_fulldisk.npz"
-  运行 "analyze_DN.py" 得到以下结果
+- 运行 "[AIA_main](https://github.com/MaoChengzhi/EVE-spectrum-correction/tree/main/AIA_main)/**main.py**" 13h 
+  	得到"[AIA_main](https://github.com/MaoChengzhi/EVE-spectrum-correction/tree/main/AIA_main)/**DN.npz**"
+  运行 "[AIA_main](https://github.com/MaoChengzhi/EVE-spectrum-correction/tree/main/AIA_main)/**analyze_DN.py**" 
+  	得到以下结果
+- 运行 "[AIA_main](https://github.com/MaoChengzhi/EVE-spectrum-correction/tree/main/AIA_main)/**main_parallel.py**" 1h 
+      得到"[AIA_main](https://github.com/MaoChengzhi/EVE-spectrum-correction/tree/main/AIA_main)/**DN_above0_fulldisk.npz**"
+  运行 "[AIA_main](https://github.com/MaoChengzhi/EVE-spectrum-correction/tree/main/AIA_main)/**analyze_DN.py**" 
+      得到以下结果
 
 
 
 ### He II 谱线轮廓随入射偏角𝜶和𝜷变化的模拟结果
 
-对应论文中P61 图3.3
+对应论文中P43 图3.3
 
 <img src="./README.assets/alpha_curves.png" alt="alpha_curves" style="zoom: 50%;" />
 
@@ -36,7 +40,7 @@
 
 ### He II 中心波长随入射偏角𝜶和𝜷变化的模拟结果
 
-对应论文中P64 图3.6
+对应论文中P46 图3.6
 
 <img src="./README.assets/beta_center.png" alt="beta_center" style="zoom:50%;" />
 
@@ -44,7 +48,7 @@
 
 论文中模拟结果大于观测结果，我的模拟结果甚至小于观测结果，差距很大。
 
-
+论文中P49迭代结果A值越来越大，我的迭代结果越来越小。
 
 ## EVE
 
