@@ -34,7 +34,10 @@
 
 <img src="./README.assets/alpha_curves.png" alt="alpha_curves" style="zoom: 50%;" />
 
-峰值是论文中3.4倍
+峰值是论文中 7.77/3.25=2.39 倍.
+
+- gaussian_fwhm_to_sigma^(-1)=2.35
+- $\sqrt{2\pi}\approx 2.506$
 
 <img src="./README.assets/beta_curves.png" alt="beta_curves" style="zoom:50%;" />
 
