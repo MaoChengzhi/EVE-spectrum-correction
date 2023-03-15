@@ -7,7 +7,7 @@
 
 我一开始是想找到 波长-时间，偏角-时间的关系，进而得到波长-偏角的关系。
 
-我在邮件中向程治勋请教后知道了，这些数据基本都没公开。
+我在邮件中向程学长请教后知道了，这些数据基本都没公开。
 
 第三章用到的EVE扫描期间的结论应该只有Chamberlin(2016):
 $$
@@ -17,9 +17,9 @@ $$
 
 # 复现时与论文主要不同
 
-我觉得用这种图，可以同时定性分析“迭代法”与MSE法
+使用这种图定性分析“迭代法”与MSE法
 
-<img src="./README.assets/image-20230313075646933.png" alt="image-20230313075646933" style="zoom:33%;" />
+<img src="./README.assets/image-20230315171347852.png" alt="image-20230315171347852" style="zoom: 25%;" />
 
 ## 谱线轮廓峰值
 
@@ -29,16 +29,9 @@ $$
 
 - 我使用4096^2像素的图片
 
-
-
 <img src="./README.assets/alpha_curves.png" alt="alpha_curves" style="zoom: 50%;" />
 
-  峰值是论文中 7.77/3.25=2.39 倍.
-
-  - gaussian_fwhm_to_sigma^(-1)=2.35
-  - $\sqrt{2\pi}\approx 2.506$
-
-- 论文P43
+ 
 
 <img src="./README.assets/image-20230311160915245.png" alt="image-20230311160915245" style="zoom:25%;" />
 
@@ -60,6 +53,3 @@ $$
 
 <img src="./README.assets/image-20230311161545859.png" alt="image-20230311161545859" style="zoom: 67%;" />
 
-## P48 3.4中的系数21600
-
-我觉得是10800?
