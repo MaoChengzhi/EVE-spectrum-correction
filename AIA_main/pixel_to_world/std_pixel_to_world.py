@@ -1,9 +1,11 @@
 import sunpy.map
 import astropy.units as u
 import math
+from aiapy.calibrate import register, update_pointing, normalize_exposure
 
 AIA_filename = "../data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
 m_aia = sunpy.map.Map(AIA_filename)
+m_normalized = normalize_exposure(register(update_pointing(m_aia)))
 # %%
 
 

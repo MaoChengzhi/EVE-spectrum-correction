@@ -5,6 +5,7 @@ from astropy.stats import gaussian_fwhm_to_sigma
 import sunpy.map
 import sunpy.sun.constants
 
+
 import math
 
 from pixel_to_world.my_pixel_to_world import my_pixel_to_world
@@ -15,14 +16,14 @@ wavelength_list = np.linspace(-0.1, 0.25, wavelength_point_num)
 
 # Cruciformscan in alpha direction
 angle_point_num_alpha = 61
-DN_alpha = np.zeros((angle_point_num_alpha, wavelength_point_num))
+# DN_alpha = np.zeros((angle_point_num_alpha, wavelength_point_num))
 offaxis_angle_x_alpha = np.linspace(-math.pi /
                                     360, math.pi/360, angle_point_num_alpha)
 offaxis_angle_y_alpha = np.zeros(angle_point_num_alpha)
 
 # Cruciformscan in beta direction
 angle_point_num_beta = 61
-DN_beta = np.zeros((angle_point_num_beta, wavelength_point_num))
+# DN_beta = np.zeros((angle_point_num_beta, wavelength_point_num))
 offaxis_angle_x_beta = np.zeros(angle_point_num_beta)
 offaxis_angle_y_beta = np.linspace(-math.pi /
                                    360, math.pi/360, angle_point_num_beta)
@@ -59,11 +60,11 @@ def calculate_DN_beta(j):
 
 
 # %% 4096
-AIA_filename = "data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
-m_aia = sunpy.map.Map(AIA_filename)
-image_data = m_aia.data
-image_shape_x, image_shape_y = m_aia.data.shape
 
+
+normalized_data = np.load("data/AIA/image_data_4096_normalized.npz")
+image_data = normalized_data["image_data"]
+image_shape_x, image_shape_y = image_data.shape
 
 
 # %%
@@ -137,7 +138,8 @@ def calculating_DN(wavelength, offaxis_angle_x, offaxis_angle_y):
             if image_data[pixel_x][pixel_y] <= 0:
                 continue
 
-            Tx, Ty = my_pixel_to_world(pixel_x, pixel_y)  
+            # 4096    no double coeff
+            Tx, Ty = my_pixel_to_world(pixel_x, pixel_y)
             Tx += offaxis_angle_x
             Ty += offaxis_angle_y
 

@@ -5,6 +5,8 @@ from astropy.stats import gaussian_fwhm_to_sigma
 import sunpy.map
 import sunpy.sun.constants
 
+from scipy.io import readsav
+
 import math
 
 from pixel_to_world.my_pixel_to_world import my_pixel_to_world
@@ -12,15 +14,19 @@ from pixel_to_world.my_pixel_to_world import my_pixel_to_world
 # %% Initialize
 wavelength_point_num = 25
 wavelength_list = np.linspace(-0.1, 0.25, wavelength_point_num)
+# P43 图3.3 横坐标波长范围  单位nm
 
 # Cruciformscan in alpha direction
+# P42 步骤四   采用弧度制
 angle_point_num_alpha = 61
 DN_alpha = np.zeros((angle_point_num_alpha, wavelength_point_num))
 offaxis_angle_x_alpha = np.linspace(-math.pi /
                                     360, math.pi/360, angle_point_num_alpha)
 offaxis_angle_y_alpha = np.zeros(angle_point_num_alpha)
 
+
 # Cruciformscan in beta direction
+# P42 步骤四   采用弧度制
 angle_point_num_beta = 61
 DN_beta = np.zeros((angle_point_num_beta, wavelength_point_num))
 offaxis_angle_x_beta = np.zeros(angle_point_num_beta)
@@ -58,21 +64,19 @@ def calculate_DN_beta(j):
                           offaxis_angle_x_beta[j], offaxis_angle_y_beta[j])
 
 
-# =============================================================================
-#
-# # %% 4096
-# AIA_filename = "data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
-# m_aia = sunpy.map.Map(AIA_filename)
-# image_data = m_aia.data
-# image_shape_x, image_shape_y = m_aia.data.shape
-#
-#
-# =============================================================================
 # %% 2048
-AIA_filename = "data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
-m_aia = sunpy.map.Map(AIA_filename)
-image_data = sunpy.image.resample.resample(m_aia.data, dimensions=(2048, 2048))
+normalized_data = np.load("data/AIA/image_data_4096.npz")
+image_data_4096 = normalized_data["image_data"]
+image_data = sunpy.image.resample.resample(
+    image_data_4096, dimensions=(2048, 2048))
 image_shape_x, image_shape_y = image_data.shape
+
+# sav_filename = "data_IDL/IDL_data.sav"
+# sav_data = readsav(sav_filename)
+# image_data_4096 = sav_data['out_data']
+# image_data = sunpy.image.resample.resample(
+#     image_data_4096, dimensions=(2048, 2048))
+# image_shape_x, image_shape_y = image_data.shape
 # %%
 
 
@@ -101,6 +105,7 @@ def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
 
 
     '''
+
     return A * Tx**2 + B * Ty
 
 
@@ -145,8 +150,8 @@ def calculating_DN(wavelength, offaxis_angle_x, offaxis_angle_y):
                 continue
 
             Tx, Ty = my_pixel_to_world(2*pixel_x, 2*pixel_y)  # 使用2048的照片，所以乘以2
-            Tx += offaxis_angle_x
-            Ty += offaxis_angle_y
+            Tx += offaxis_angle_x  # P42 步骤三 四 将卫星整体偏转
+            Ty += offaxis_angle_y  # P42 步骤三 四 将卫星整体偏转
 
             amplitude = image_data[pixel_x][pixel_y] / \
                 (math.sqrt(2*math.pi)*stddev)
@@ -154,7 +159,7 @@ def calculating_DN(wavelength, offaxis_angle_x, offaxis_angle_y):
                      wavelength_shift(Tx, Ty),  # mean
                      stddev)  # stddev
 
-            total_irradiance += my_Gaussian1D(wavelength, *coeff)
+            total_irradiance += my_Gaussian1D(wavelength, *coeff)  # P42 步骤二
     return total_irradiance
 
 # run for 48847s 13h on Feb 2

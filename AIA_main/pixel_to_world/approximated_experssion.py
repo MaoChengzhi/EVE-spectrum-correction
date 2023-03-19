@@ -2,12 +2,14 @@ import sunpy.map
 import numpy as np
 from std_pixel_to_world import std_pixel_to_world
 from scipy import optimize
+from aiapy.calibrate import register, update_pointing, normalize_exposure
 # %%
 
 AIA_filename = "../data/AIA/aia_lev1_304a_2011_01_27t22_58_56_12z_image_lev1.fits"
 m_aia = sunpy.map.Map(AIA_filename)
-image_data = m_aia.data
-image_shape_x, image_shape_y = m_aia.data.shape
+m_normalized = normalize_exposure(register(update_pointing(m_aia)))
+image_data = m_normalized.data
+image_shape_x, image_shape_y = m_normalized.data.shape
 
 
 # =============================================================================
