@@ -51,6 +51,8 @@ https://www.lmsal.com/sdodocs/doc/dcur/SDOD0060.zip/zip/entry/
 ## P40 步骤一
 
 calculating_DN_2048.py
+
+
 $$
 Array \ value=Int\ Area\\
 =\int_{-\infty}^{\infty} A \ e^{-\frac{(x-x_0)^2} {2\sigma^2}} dx =\sqrt{2 \pi} A \sigma
