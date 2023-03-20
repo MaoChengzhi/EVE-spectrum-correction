@@ -52,7 +52,7 @@ https://www.lmsal.com/sdodocs/doc/dcur/SDOD0060.zip/zip/entry/
 
 calculating_DN_2048.py
 
-
+<img src="./readme.assets/image-20230320093616153.png" alt="image-20230320093616153" style="zoom:25%;" />
 $$
 Array \ value=Int\ Area\\
 =\int_{-\infty}^{\infty} A \ e^{-\frac{(x-x_0)^2} {2\sigma^2}} dx =\sqrt{2 \pi} A \sigma
@@ -138,3 +138,10 @@ offaxis_angle_x_beta = np.zeros(angle_point_num_beta)
 
 
 
+均匀日面的结果：
+
+可以现场运行一下。很快 
+
+和我之前的一样，越迭代越小
+
+<img src="./readme.assets/image-20230320120930352.png" alt="image-20230320120930352" style="zoom:25%;" />
