@@ -1,4 +1,17 @@
+# 结果展示
+
+https://github.com/MaoChengzhi/EVE-spectrum-correction/blob/main/AIA_main/output_visualization.ipynb
+
+# 我主要的疑惑
+
+1. 我得到了P46图3.6右侧beta的结论，但是我的结果P46左侧alpha相反。
+2. 不太理解P50上方的理论
+3. 我不知道 P43图3.3 中曲线的峰值应该通过如何处理如何得到
+4. 我换算出来的系数和 P38 3.2式 中的系数不一样
+
 我做了许多尝试，都未能得到A应该小于19.8的结论
+
+# 主要思路
 
 ## P38 3.2
 
@@ -16,6 +29,22 @@ unit_conversion.py
 AIA_basics.ipynb
 
 <img src="./visualization.assets/image-20230319223807271.png" alt="image-20230319223807271" style="zoom:25%;" />
+
+### 使用aiapy对图像进行处理
+
+[Registering and aligning level 1 data — aiapy 0.7.2 documentation](https://aiapy.readthedocs.io/en/stable/generated/gallery/prepping_level_1_data.html)
+
+<img src="./readme.assets/image-20230320091922586.png" alt="image-20230320091922586" style="zoom:25%;" />
+
+### 使用IDL对图像进行处理
+
+根据 Guide to SDO Data Analysis
+
+https://www.lmsal.com/sdodocs/doc/dcur/SDOD0060.zip/zip/entry/
+
+<img src="./readme.assets/image-20230320091953986.png" alt="image-20230320091953986" style="zoom:25%;" />
+
+
 
 ## P40 步骤一
 
@@ -103,7 +132,5 @@ offaxis_angle_x_beta = np.zeros(angle_point_num_beta)
 
 
 
-# 结果展示
 
-output_visualization.ipynb
 
