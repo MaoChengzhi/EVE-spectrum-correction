@@ -13,6 +13,8 @@ https://github.com/MaoChengzhi/EVE-spectrum-correction/blob/main/AIA_main/output
 
 # 主要思路
 
+<img src="./readme.assets/image-20230320093242128.png" alt="image-20230320093242128" style="zoom:33%;" />
+
 ## P38 3.2
 
 unit_conversion.py
