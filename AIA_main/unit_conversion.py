@@ -13,7 +13,7 @@ transunit = ((au/R_sun).value)**2 / 1000
 # au =￼￼￼  1.5 e11 m
 print(19.8 * transunit)
 # 0.0774
-print(4.3 * (au/R_sun)*(math.pi/(180*60)))
+print(4.3 * (au/R_sun)/1000)
 # 0.270
 
 # %% P38 3.2  有问题的系数(?)化为我的弧度制度

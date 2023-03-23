@@ -1,0 +1,232 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      7375,        222]
+NotebookOptionsPosition[      7048,        208]
+NotebookOutlinePosition[      7421,        224]
+CellTagsIndexPosition[      7378,        221]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"equations", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"A_", ",", "mu_", ",", "sigma_"}], "}"}], ",", "testA_", ",", 
+     "testcentral_", ",", "teststddev_", ",", "j_"}], "]"}], ":=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"A", "/", 
+       RowBox[{"(", 
+        RowBox[{"2", "*", 
+         RowBox[{"Sqrt", "[", "Pi", "]"}], "*", "sigma"}], ")"}]}], "-", 
+      RowBox[{"Sum", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"testA", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], "*", 
+         RowBox[{
+          RowBox[{"Exp", "[", 
+           RowBox[{
+            RowBox[{"-", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"testcentral", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}], "-", "mu"}], ")"}], "^", 
+              "2"}]}], "/", 
+            RowBox[{"(", 
+             RowBox[{"2", "*", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"sigma", "^", "2"}], "+", 
+                RowBox[{
+                 RowBox[{"teststddev", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "^", "2"}]}], ")"}]}], 
+             ")"}]}], "]"}], "/", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", 
+             RowBox[{"2", "*", "Pi"}], "]"}], "*", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"sigma", "^", "2"}], "+", 
+              RowBox[{
+               RowBox[{"teststddev", "[", 
+                RowBox[{"[", "i", "]"}], "]"}], "^", "2"}]}], ")"}]}], 
+           ")"}]}]}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "2"}], "}"}]}], "]"}]}], ",", 
+     RowBox[{"0", "-", 
+      RowBox[{"Sum", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"testA", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], "*", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"testcentral", "[", 
+            RowBox[{"[", "i", "]"}], "]"}], "-", "mu"}], ")"}], "*", 
+         RowBox[{"sigma", "^", "2"}], "*", 
+         RowBox[{
+          RowBox[{"Exp", "[", 
+           RowBox[{
+            RowBox[{"-", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{"mu", "-", 
+                RowBox[{"testcentral", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}]}], ")"}], "^", "2"}]}], "/", 
+            RowBox[{"(", 
+             RowBox[{"2", "*", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"sigma", "^", "2"}], "+", 
+                RowBox[{
+                 RowBox[{"teststddev", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "^", "2"}]}], ")"}]}], 
+             ")"}]}], "]"}], "/", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", 
+             RowBox[{"2", "*", "Pi"}], "]"}], "*", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"sigma", "^", "2"}], "+", 
+               RowBox[{
+                RowBox[{"teststddev", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}], "^", "2"}]}], ")"}], "^", 
+             RowBox[{"(", 
+              RowBox[{"3", "/", "2"}], ")"}]}]}], ")"}]}]}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "2"}], "}"}]}], "]"}]}], ",", 
+     RowBox[{
+      RowBox[{"A", "*", 
+       RowBox[{"sigma", "/", 
+        RowBox[{"(", 
+         RowBox[{"4", "*", 
+          RowBox[{"Sqrt", "[", "Pi", "]"}]}], ")"}]}]}], "-", 
+      RowBox[{"Sum", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"testA", "[", 
+          RowBox[{"[", "i", "]"}], "]"}], "*", 
+         RowBox[{"(", 
+          RowBox[{"sigma", "^", "2"}], ")"}], "*", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{"mu", "-", 
+               RowBox[{"testcentral", "[", 
+                RowBox[{"[", "i", "]"}], "]"}]}], ")"}], "^", "2"}], "*", 
+            RowBox[{"sigma", "^", "2"}]}], "+", 
+           RowBox[{
+            RowBox[{"(", 
+             RowBox[{"sigma", "^", "2"}], ")"}], "*", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"teststddev", "[", 
+               RowBox[{"[", "i", "]"}], "]"}], "^", "2"}], ")"}]}], "+", 
+           RowBox[{
+            RowBox[{"teststddev", "[", 
+             RowBox[{"[", "i", "]"}], "]"}], "^", "4"}]}], ")"}], "*", 
+         RowBox[{
+          RowBox[{"Exp", "[", 
+           RowBox[{
+            RowBox[{"-", 
+             RowBox[{
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"testcentral", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}], "-", "mu"}], ")"}], "^", 
+              "2"}]}], "/", 
+            RowBox[{"(", 
+             RowBox[{"2", "*", 
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"sigma", "^", "2"}], "+", 
+                RowBox[{
+                 RowBox[{"teststddev", "[", 
+                  RowBox[{"[", "i", "]"}], "]"}], "^", "2"}]}], ")"}]}], 
+             ")"}]}], "]"}], "/", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"Sqrt", "[", 
+             RowBox[{"2", "*", "Pi"}], "]"}], "*", 
+            RowBox[{
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"sigma", "^", "2"}], "+", 
+               RowBox[{
+                RowBox[{"teststddev", "[", 
+                 RowBox[{"[", "i", "]"}], "]"}], "^", "2"}]}], ")"}], "^", 
+             RowBox[{"(", 
+              RowBox[{"5", "/", "2"}], ")"}]}]}], ")"}]}]}], ",", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "2"}], "}"}]}], "]"}]}]}], "}"}]}], 
+  "\[IndentingNewLine]"}], "\n", 
+ RowBox[{
+  RowBox[{"testA", "=", 
+   RowBox[{"{", 
+    RowBox[{"1", ",", "2"}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{"testcentral", "=", 
+   RowBox[{"{", 
+    RowBox[{"3", ",", "2"}], "}"}]}], ";"}], "\n", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"teststddev", "=", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2"}], "}"}]}], ";"}], "\[IndentingNewLine]"}], "\n", 
+ RowBox[{"NSolve", "[", 
+  RowBox[{
+   RowBox[{"equations", "[", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"A", ",", "mu", ",", "sigma"}], "}"}], ",", "testA", ",", 
+     "testcentral", ",", "teststddev", ",", "i"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"A", ",", "mu", ",", "sigma"}], "}"}]}], "]"}], "\n"}], "Input",
+ CellChangeTimes->{{3.888543364263029*^9, 3.8885433658765335`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"2121a9ae-02b4-4b3f-b27b-e439f0e72338"]
+},
+WindowSize->{1280, 707},
+WindowMargins->{{-8, Automatic}, {Automatic, -8}},
+Magnification:>1.1 Inherited,
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 6486, 186, 363, "Input",ExpressionUUID->"2121a9ae-02b4-4b3f-b27b-e439f0e72338"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
