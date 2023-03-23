@@ -79,8 +79,8 @@ c_fitted
 
 # fig, ax = plt.subplots()
 num=50
-S =np.linspace(0.5,3,num)
-M=np.linspace(1.,4.6,num)
+S =np.linspace(1.5,2.,num)
+M=np.linspace(2.,2.6,num)
 error=np.zeros((num,num))
 point=np.zeros((num,num,2))
 for i in range(len(S)):
