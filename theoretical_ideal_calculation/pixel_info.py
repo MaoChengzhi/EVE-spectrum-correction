@@ -12,7 +12,11 @@ import math
 
 from pixel_to_world.my_pixel_to_world import my_pixel_to_world
 # %%
-
+angle_point_num_alpha = 61
+offaxis_angle_x_alpha = np.linspace(-math.pi /
+                                    360, math.pi/360, angle_point_num_alpha)
+offaxis_angle_y_alpha = np.zeros(angle_point_num_alpha)
+# %%
 normalized_data = np.load("data/AIA/image_data_4096.npz")
 image_data_4096 = normalized_data["image_data"]
 image_data = sunpy.image.resample.resample(
@@ -22,61 +26,41 @@ image_shape_x, image_shape_y = image_data.shape
 
 
 def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
-    '''
-    Parameters
-    ----------
-    Tx : 
-
-    Ty : 
-
-    A : TYPE, optional
-        DESCRIPTION. The default is 915.53.
-    B : TYPE, optional
-        DESCRIPTION. The default is 0.92464.
-
-        The orginal coeff are 19.8 and 4.3, but Tx,Ty here are in radian.
-
-        The unit conversion process is in "unit_conversion.py"
-
-    Returns
-    -------
-        Wavelength shift at a given angle.
-
-
-    '''
-
     return A * Tx**2 + B * Ty
 
 
 # %%
-
-# %%
-amplitude = []
+integral_area = []
 standard_dev = 0.1*gaussian_fwhm_to_sigma
 stddev = []
 central_wavelength = []
-
-
 for pixel_x in range(image_shape_x):
     for pixel_y in range(image_shape_y):
-        
-# for pixel_x in range(2):
-#     for pixel_y in range(2):
+
+        # for pixel_x in range(2):
+        #     for pixel_y in range(2):
+        if(image_data[pixel_x][pixel_y] <= 0):
+            continue
         Tx, Ty = my_pixel_to_world(2*pixel_x, 2*pixel_y)
-        
-        stddev.append(standard_dev)
-        amplitude.append(image_data[pixel_x][pixel_y] /
-                         (math.sqrt(2*math.pi)*standard_dev))
-        
+
+        integral_area.append(image_data[pixel_x][pixel_y] /
+                             (math.sqrt(2*math.pi)*standard_dev))
         central_wavelength.append(wavelength_shift(Tx, Ty))
+        stddev.append(standard_dev)
+
+
+# 使用三个2048*2048的二维数组，最后一起 flatten，放入dataframe?
 # %%
 
 
-
 # create a DataFrame from the arrays
-df = pd.DataFrame({'amplitude': amplitude, 'stddev': stddev, 'central_wavelength': central_wavelength})
+df = pd.DataFrame({'integral_area': integral_area, 'central_wavelength': central_wavelength,
+                   'stddev': stddev,
+                   })
 
 # print the DataFrame
 print(df)
-#%%
+# %%
+df_combined = pd.concat(df)
+# %%
 df.to_csv('pixel_df.csv')
