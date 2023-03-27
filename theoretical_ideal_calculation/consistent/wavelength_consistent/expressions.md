@@ -3,8 +3,16 @@ $$
 g\left(A, \mu, \sigma^2\right)(x)=\int_{-\infty}^{\infty}\left[\frac{A}{\sqrt{2 \pi \sigma^2}} e^{-\frac{\left(x-\mu\right)^2}{2 \sigma^2}}-\sum_{i=1}^n \frac{A_i}{\sqrt{2 \pi \sigma_i^2}} e^{-\frac{\left(x- \mu_i\right)^2}{2 \sigma_i^2}}\right]^2 d x
 $$
 
-
 ## partial difference
+
+$$
+A,\mu,\sigma=argmin(A,\mu,\sigma) g(A,\mu,\sigma)\\
+(A,\mu,\sigma) = \operatorname*{argmin}_{A,\mu,\sigma} g(A,\mu,\sigma^2)\\
+A,\mu,\sigma = \operatorname*{argmin}_{A,\mu,\sigma} g(A,\mu,\sigma)\\
+
+(A,\mu,\sigma) = \operatorname*{argmin}_{(A',\mu',\sigma')} g(A',\mu',\sigma')
+$$
+
 
 $$
 \frac{\partial g}{\partial A}=\int_{-\infty}^{\infty}2\left[\frac{A}{\sqrt{2 \pi \sigma^2}} e^{-\frac{\left(x-\mu\right)^2}{2 \sigma^2}}-\sum_{i=1}^n \frac{A_i}{\sqrt{2 \pi \sigma_i^2}} e^{-\frac{\left(x- \mu\right)^2}{2 \sigma_i^2}}\right] \frac{1}{\sqrt{2 \pi \sigma^2}} e^{-\frac{\left(x-\mu\right)^2}{2 \sigma^2}}d x
@@ -135,3 +143,63 @@ $$
 A \frac{\sigma}{4\sqrt{\pi}}- \sum_{i=1}^n A_i \ \frac{\sigma^2\left[\left(\mu_i-\mu\right)^2 \sigma^2+\sigma^2 \sigma_i^2+\sigma_i^4\right] }{ \sqrt{2\pi}\left[\sigma^2+\sigma_i^2\right]^{5 / 2}}\exp \left[-\frac{\left(\mu_i-\mu\right)^2}{2\left(\sigma_i^2+\sigma^2\right)}\right]=0
 $$
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$
+(A_0,\mu_0,\sigma_0) = \operatorname*{argmin}_{(A',\mu',\sigma')} g(A',\mu',\sigma')
+$$

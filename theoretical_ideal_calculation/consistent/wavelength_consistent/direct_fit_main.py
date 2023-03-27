@@ -58,6 +58,7 @@ if __name__ == '__main__':
         solution = np.array(
             p.map(fit, range(angle_point_num_alpha)))
 
+        np.savez("discrete_DN.npz", solution=solution)
 
 end = time.time()
 totol_time = end - start
