@@ -2,26 +2,8 @@ import astropy.units as u
 from astropy.constants import au, R_sun
 from astropy.stats import gaussian_fwhm_to_sigma
 import math
-import numpy as np
-from astropy.constants import au, R_sun
+
 
 # %%
-transunit = ((au/R_sun).value)**2 / 1000
-# %%  我用的
-
-# R_sun = 7 e8   m
-# au =￼￼￼  1.5 e11 m
-print(19.8 * transunit)
-# 0.0774
-print(4.3 * (au/R_sun)/1000)
-# 0.270
-
-# %% P38 3.2  有问题的系数(?)化为我的弧度制度
-
-print(0.0752 * ((180*60)/math.pi)**2 / 1000)
-# 0.0774
-print(0.265 * ((180*60)/math.pi)**2 / 1000)
-
-# %% P38 3.2  本应的系数
-print(19.8 * ((au/R_sun)**2) * (math.pi/(180*60))**2)
-print(4.3*(au/R_sun)*(math.pi/(180*60)))
+print(19.8 * (180*3600/(974.634085*math.pi))**2 / 1000)
+print(4.3*180*3600/(974.634085*math.pi*1000))

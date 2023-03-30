@@ -65,22 +65,23 @@ def calculate_DN_beta(j):
 
 
 # %% 2048
-normalized_data = np.load("data/AIA/image_data_4096.npz")
-image_data_4096 = normalized_data["image_data"]
-image_data = sunpy.image.resample.resample(
-    image_data_4096, dimensions=(2048, 2048))
-image_shape_x, image_shape_y = image_data.shape
 
-# sav_filename = "data_IDL/IDL_data.sav"
-# sav_data = readsav(sav_filename)
-# image_data_4096 = sav_data['out_data']
+# normalized_data = np.load("data/AIA/image_data_4096.npz")
+# image_data_4096 = normalized_data["image_data"]
 # image_data = sunpy.image.resample.resample(
 #     image_data_4096, dimensions=(2048, 2048))
 # image_shape_x, image_shape_y = image_data.shape
+
+sav_filename = "data_IDL/IDL_data.sav"
+sav_data = readsav(sav_filename)
+image_data_4096 = sav_data['out_data']
+image_data = sunpy.image.resample.resample(
+    image_data_4096, dimensions=(2048, 2048))
+image_shape_x, image_shape_y = image_data.shape
 # %%
 
 
-def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
+def wavelength_shift(Tx, Ty, A=886.81, B=0.91002):
     '''
 
 
@@ -91,9 +92,9 @@ def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
     Ty : 
 
     A : TYPE, optional
-        DESCRIPTION. The default is 915.53.
+        DESCRIPTION. The default is 886.81.
     B : TYPE, optional
-        DESCRIPTION. The default is 0.92464.
+        DESCRIPTION. The default is 0.91002.
 
         The orginal coeff are 19.8 and 4.3, but Tx,Ty here are in radian.
 

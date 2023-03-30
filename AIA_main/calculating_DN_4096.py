@@ -70,7 +70,7 @@ image_shape_x, image_shape_y = image_data.shape
 # %%
 
 
-def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
+def wavelength_shift(Tx, Ty, A=886.81, B=0.91002):
     '''
 
 
@@ -81,9 +81,9 @@ def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
     Ty : 
 
     A : TYPE, optional
-        DESCRIPTION. The default is 915.53.
+        DESCRIPTION. The default is 886.81.
     B : TYPE, optional
-        DESCRIPTION. The default is 0.92464.
+        DESCRIPTION. The default is 0.91002.
 
         The orginal coeff are 19.8 and 4.3, but Tx,Ty here are in radian.
 
@@ -95,6 +95,7 @@ def wavelength_shift(Tx, Ty, A=915.53, B=0.92464):
 
 
     '''
+
     return A * Tx**2 + B * Ty
 
 
