@@ -1,2 +1,6 @@
 *.npz
 *.csv
+*.fit
+*.fit.gz
+*.fits
+eve_l2_*
