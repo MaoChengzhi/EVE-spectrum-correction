@@ -45,4 +45,4 @@ def my_pixel_to_world(pixel_x, pixel_y):
     Tx = coeff_Tx[0]*pixel_x+coeff_Tx[1]*pixel_y+coeff_Tx[2]
     Ty = coeff_Ty[0]*pixel_x+coeff_Ty[1]*pixel_y+coeff_Ty[2]
 
-    return Tx, Ty
+    return np.array([Tx, Ty])
