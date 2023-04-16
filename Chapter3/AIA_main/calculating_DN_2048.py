@@ -14,14 +14,13 @@ from math import sqrt
 from pixel_to_world.my_pixel_to_world import my_pixel_to_world
 
 # %% Initialize
-wavelength_point_num = 25
+wavelength_point_num = 36
 wavelength_list = np.linspace(-0.1, 0.25, wavelength_point_num)
 # P43 图3.3 横坐标波长范围  单位nm
 
 # Cruciformscan in alpha direction
 # P42 步骤四   采用弧度制
 angle_point_num_alpha = 61
-DN_alpha = np.zeros((angle_point_num_alpha, wavelength_point_num))
 offaxis_angle_x_alpha = np.linspace(-math.pi /
                                     360, math.pi/360, angle_point_num_alpha)
 offaxis_angle_y_alpha = np.zeros(angle_point_num_alpha)
@@ -30,7 +29,6 @@ offaxis_angle_y_alpha = np.zeros(angle_point_num_alpha)
 # Cruciformscan in beta direction
 # P42 步骤四   采用弧度制
 angle_point_num_beta = 61
-DN_beta = np.zeros((angle_point_num_beta, wavelength_point_num))
 offaxis_angle_x_beta = np.zeros(angle_point_num_beta)
 offaxis_angle_y_beta = np.linspace(-math.pi /
                                    360, math.pi/360, angle_point_num_beta)
@@ -121,8 +119,8 @@ def my_Gaussian1D(wavelength_list, amplitude, mean, stddev):
     Value of the 1D Gaussian curve at a given point
     '''
 
-#     x shape: (25,)
-# amplitude, mean, stddev shape:(2048,2048)
+    #     x shape: (25,)
+    # amplitude, mean, stddev shape:(2048,2048)
 
     # Use a list comprehension to calculate the Gaussian curve for each wavelength
     results = np.array([amplitude * np.exp(-(x - mean) ** 2 / (2 * stddev ** 2))
@@ -161,11 +159,15 @@ def calculating_DN(wavelength_list, offaxis_angle_x, offaxis_angle_y):
     # Compute Tx and Ty for all pixels in parallel
     Tx, Ty = my_pixel_to_world(2 * Px, 2 * Py)  # 使用2048的照片，所以乘以2
     Tx += offaxis_angle_x  # P42 步骤三 四 将卫星整体偏转
-
     Ty += offaxis_angle_y  # P42 步骤三 四 将卫星整体偏转
 
+    # Select pixels on the solar disk
+    disk = (Tx-offaxis_angle_x)**2+(Ty-offaxis_angle_y)**2 -\
+        (974.634085*math.pi/(3600*180))**2 < 0  # according to 'rsun_obs'
+    image_data_disk = image_data*disk
+
     # Compute amplitude, mean, and stddev for all pixels in parallel
-    amplitude = image_data / (np.sqrt(2 * pi) * stddev)
+    amplitude = image_data_disk / (np.sqrt(2 * pi) * stddev)
     mean = wavelength_shift(Tx, Ty)
     coeff = np.array([amplitude, mean, stddev])
 
@@ -201,32 +203,7 @@ def calculating_DN(wavelength_list, offaxis_angle_x, offaxis_angle_y):
 
 # run for 48847s 13h on Feb 2
 # %%
-# wavelength_list, offaxis_angle_x, offaxis_angle_y = (
-#     np.linspace(-0.1, 0.2, 100), 0, 0)
-# total_irradiance = 0
-# stddev = np.zeros((image_shape_x, image_shape_y))+0.1 * \
-#     gaussian_fwhm_to_sigma  # unit: nm
 
-# # Create NumPy arrays for pixel indices and image data
-# pixel_x = np.arange(image_shape_x)
-# pixel_y = np.arange(image_shape_y)
-# Px, Py = np.meshgrid(pixel_x, pixel_y, indexing='ij')
-
-# # Compute Tx and Ty for all pixels in parallel
-# Tx, Ty = my_pixel_to_world(2 * Px, 2 * Py)  # 使用2048的照片，所以乘以2
-# Tx += offaxis_angle_x  # P42 步骤三 四 将卫星整体偏转
-
-# Ty += offaxis_angle_y  # P42 步骤三 四 将卫星整体偏转
-
-# # Compute amplitude, mean, and stddev for all pixels in parallel
-# amplitude = image_data / (np.sqrt(2 * pi) * stddev)
-# mean = wavelength_shift(Tx, Ty)
-# coeff = np.array([amplitude, mean, stddev])
-
-# # Compute total_irradiance using vectorized NumPy operations
-# b = my_Gaussian1D(wavelength_list, *coeff)
-# s = np.sum(b, axis=(1, 2))
-# s.shape
 # %%
 # a = calculating_DN(np.linspace(-0.1, 0.2, 30), 0, 0)
 # a.shape

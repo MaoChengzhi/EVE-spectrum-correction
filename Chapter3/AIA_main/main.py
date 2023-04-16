@@ -5,7 +5,7 @@ import multiprocessing
 from calculating_DN_2048 import calculate_DN_alpha, calculate_DN_beta
 from calculating_DN_2048 import angle_point_num_alpha, angle_point_num_beta, wavelength_point_num
 # from calculating_DN_4096 import calculate_DN_alpha, calculate_DN_beta
-# from calculating_DN_4096 import angle_point_num_alpha, angle_point_num_beta
+# from calculating_DN_4096 import angle_point_num_alpha, angle_point_num_beta, wavelength_point_num
 
 # =============================================================================
 # # %%
@@ -37,8 +37,7 @@ DN_beta = np.zeros((angle_point_num_beta, wavelength_point_num))
 for i in range(angle_point_num_beta):
     DN_beta[i] = calculate_DN_beta(i)
 
-
-np.savez("output_DN/_2048/vector_test",
+np.savez("output_DN/_2048/disk",
          DN_alpha=DN_alpha, DN_beta=DN_beta)
 
 end = time.time()
