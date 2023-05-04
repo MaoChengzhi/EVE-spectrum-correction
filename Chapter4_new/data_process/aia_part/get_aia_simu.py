@@ -6,8 +6,8 @@ from datetime import datetime
 import time
 import cupy as cp
 
-from constant import wavelength_list_aia
-from gaussian_fit_aia import gaussian_fit_aia
+from .constant import wavelength_list_aia
+from .gaussian_fit_aia import gaussian_fit_aia
 
 # %%
 aia_adjusted_files = sorted(

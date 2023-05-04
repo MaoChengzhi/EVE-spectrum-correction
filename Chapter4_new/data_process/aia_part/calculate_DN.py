@@ -3,7 +3,7 @@ import glob
 import numpy as np
 from astropy.stats import gaussian_fwhm_to_sigma
 from .pixel_to_world.my_pixel_to_world import my_pixel_to_world
-from constant import wavelength_list_aia
+from .constant import wavelength_list_aia
 import cupy as cp
 
 from math import pi

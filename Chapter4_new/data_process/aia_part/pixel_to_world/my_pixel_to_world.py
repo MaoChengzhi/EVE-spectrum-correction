@@ -2,7 +2,7 @@ import numpy as np
 import cupy as cp
 # %%
 # =============================================================================
-# 就这么写的话：
+# 就这么写的话： 因为绝对引用，所以会报错
 # FileNotFoundError: [Errno 2] No such file or directory:
 #     'coeff_of_my_pixel_to_world.npz'
 
@@ -11,7 +11,7 @@ import cupy as cp
 # coeff_Ty = coeff['coeff_Ty']
 #
 # =============================================================================
-# %%
+# %% 所以我直接把这两个系数写在这里了
 
 coeff_Tx = cp.array([2.90886103e-06,  1.63902286e-20, -5.95589296e-03])
 coeff_Ty = cp.array([-6.16013032e-18,  2.90884347e-06, -5.95585702e-03])
