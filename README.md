@@ -58,3 +58,8 @@ beta方向扫描期间，根据STEREO，EUVI 30.4nm 波段 计算SDO视野内亮
 
 期望虚线：修正后的线 为水平直线？
 
+<img src="./README.assets/image-20230504222649846.png" alt="image-20230504222649846" style="zoom:33%;" />
+
+<img src="./README.assets/newplot.png" alt="newplot" style="zoom:67%;" />
+
+<img src="./README.assets/newplot (1).png" alt="newplot (1)" style="zoom:67%;" />

@@ -1,23 +1,39 @@
-import json
-from .aia_part import get_aia_simu
-# %%
+import pandas as pd
+import datetime
+from .aia_part.get_aia_simu import get_aia_simu
+import os
 
-with open('mean_dict.json', 'r') as f:
-    # Load the JSON data into a Python dictionary
-    eve_data = json.load(f)
-
-eve_obs = {}
-for key, value in eve_data.items():
-    eve_obs[int(key)] = float(value)
-
-
-def error_function(x):
-
-    a, b, c, d, e = x
-    error = 0
-    aia_simu = get_aia_simu(a, b, c, d, e)
-    for key in aia_simu.keys():
-        if key in eve_obs.keys():
-            error += (aia_simu[key]-eve_obs[key])**2
-    print("fuck")
-    return float(error)
+def error_function(temp_array):
+    a,d,e=temp_array
+    #%%
+    module_dir = os.path.dirname(os.path.abspath(__file__))
+    eve_file=os.path.join(module_dir,'eve_part','data','daily_date.csv')
+    
+    eve_frame=pd.read_csv(eve_file)
+    
+    date=[]
+    for i in eve_frame['date']:
+        date.append(datetime.datetime.strptime(i, '%Y-%m-%d'))
+        
+    eve_frame['date']=date
+    eve_frame=eve_frame.set_index('date')
+    
+    #%%
+    print(a,d,e)
+    temp=get_aia_simu(a,d,e)
+    
+    aia_simu_data={
+                   'date':list(temp.keys()),
+                   'daily_mean':list(temp.values()),
+                    }
+    
+    aia_frame=pd.DataFrame(aia_simu_data)
+    aia_frame=aia_frame.set_index('date')
+    #%%
+    
+    error=0
+    for index in aia_frame.index:
+        if index in eve_frame.index:
+            error+=(aia_frame.loc[index]['daily_mean']-
+                    eve_frame.loc[index]['daily_mean']- 30.3781)**2
+    return error

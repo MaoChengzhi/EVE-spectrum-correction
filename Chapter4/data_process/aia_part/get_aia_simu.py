@@ -2,16 +2,19 @@ import glob
 import sunpy.map
 import numpy as np
 from .calculate_DN import calculate_DN_4096
-from datetime import datetime
+import datetime
 import time
 import cupy as cp
+import os
 
-from .constant import wavelength_list_aia
+from .data.constant import wavelength_list_aia
 from .gaussian_fit_aia import gaussian_fit_aia
 
 # %%
-aia_adjusted_files = sorted(
-    glob.glob('data/AIA/*adjusted.fits'))
+module_dir = os.path.dirname(os.path.abspath(__file__))
+data_dir = os.path.join(module_dir, 'data', 'AIA')
+
+aia_adjusted_files = sorted(glob.glob(os.path.join(data_dir, '*adjusted.fits')))
 
 if not aia_adjusted_files:
     raise ValueError(
@@ -24,36 +27,30 @@ wavelength_correction = cp.zeros(len(aia_adjusted_maps))
 # %%
 
 
-def get_aia_simu(a, b, c, d, e):
-
+def get_aia_simu(a,d,e):
+    
+    '''
+    
+    a * Tx**2 + b * Tx + c*Ty**2 + d * Ty+e
+    
+    '''
     # work out wavelength_correction
     for i in range(len(aia_adjusted_maps)):
-        irradiance[i] = calculate_DN_4096(aia_adjusted_maps[i], a, b, c, d, e)
-        wavelength_correction[i] = gaussian_fit_aia(wavelength_list_aia.get(),
+        irradiance[i] = calculate_DN_4096(aia_adjusted_maps[i], a, d,  e)
+        wavelength_correction[i] = gaussian_fit_aia(wavelength_list_aia,
                                                     irradiance[i].get())
 
     # work out time_list
     time_list = []
     for aia_adjusted_map in aia_adjusted_maps:
-        dt = datetime.strptime(aia_adjusted_map.meta['t_obs'],
+        dt = datetime.datetime.strptime(aia_adjusted_map.meta['t_obs'],
                                '%Y-%m-%dT%H:%M:%S.%fZ')
 
-        # Extract the day of the year from the datetime object
-        day_of_year = dt.timetuple().tm_yday
-        time_list.append(day_of_year)
+        time_list.append(datetime.datetime.combine(dt.date(), datetime.time.min))
 
     # Combine time_list and wavelength_correction
-    aia_simu = dict(zip(time_list, wavelength_correction))
+    aia_simu = dict(zip(time_list, wavelength_correction.get()))
 
     return aia_simu
 
-    # %%
-# =============================================================================
-# start = time.time()
-#
-# m = get_aia_simu(a=886.81, b=0.91002, c=0)
-#
-# end = time.time()
-#
-# print(end-start)
-# =============================================================================
+
