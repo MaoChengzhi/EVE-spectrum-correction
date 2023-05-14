@@ -19,7 +19,6 @@ def error_function(temp_array):
     eve_frame=eve_frame.set_index('date')
     
     #%%
-    print(a,d,e)
     temp=get_aia_simu(a,d,e)
     
     aia_simu_data={
@@ -35,5 +34,7 @@ def error_function(temp_array):
     for index in aia_frame.index:
         if index in eve_frame.index:
             error+=(aia_frame.loc[index]['daily_mean']-
-                    eve_frame.loc[index]['daily_mean']- 30.3781)**2
+                    eve_frame.loc[index]['daily_mean']+ 30.3781)**2
+            
+
     return error

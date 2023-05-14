@@ -1,19 +1,16 @@
-import sunpy.map
-import glob
-import numpy as np
+
 from astropy.stats import gaussian_fwhm_to_sigma
 from .pixel_to_world.my_pixel_to_world import my_pixel_to_world
-from .constant import wavelength_list_aia
+from .data.constant import wavelength_list_aia
 import cupy as cp
 
 from math import pi
-from math import sqrt
 # %%
 
 
-def calculate_DN_4096(aia_adjusted_map, a, b, c, d, e):
+def calculate_DN_4096(aia_adjusted_map, a,  d,  e):
     '''
-
+    a * Tx**2 + b * Tx + c*Ty**2 + d * Ty+e
 
     Parameters
     ----------
@@ -47,7 +44,7 @@ def calculate_DN_4096(aia_adjusted_map, a, b, c, d, e):
 
     # Compute amplitude, mean, and stddev for all pixels in parallel
     amplitude = image_data / (cp.sqrt(2 * pi) * stddev)
-    mean = wavelength_shift(Tx, Ty, a, b, c, d, e)
+    mean = wavelength_shift(Tx, Ty, a, d, e)
     coeff = cp.array([amplitude, mean, stddev])
 
     # Compute total_irradiance using vectorized NumPy operations
@@ -59,7 +56,7 @@ def calculate_DN_4096(aia_adjusted_map, a, b, c, d, e):
 # %%
 
 
-def wavelength_shift(Tx, Ty, a, b, c, d, e):
+def wavelength_shift(Tx, Ty, a, d, e):
     '''
 
 
@@ -78,7 +75,7 @@ def wavelength_shift(Tx, Ty, a, b, c, d, e):
 
     '''
 
-    return a * Tx**2 + b * Tx + c*Ty**2 + d * Ty+e
+    return a * Tx**2 + d * Ty+e
 
 
 def my_Gaussian1D(wavelength_list, amplitude, mean, stddev):
