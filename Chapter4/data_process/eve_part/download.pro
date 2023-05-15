@@ -1,5 +1,4 @@
-result=vso_search('2012-03-26','2013-03-26 0:00',inst='eve',level=2)
-;result=vso_search('2010-10-29 0:00','2011-03-03 0:00',inst='eve',level=2)
+result=vso_search('2011-01-01','2011-01-02 0:00',inst='eve',level=2)
 log=vso_get(result,out_dir='data/EVE',filenames=fnames)
 
 end
