@@ -5,3 +5,5 @@
 *.fits
 eve_l2_*
 *.sav
+*.html
+/.metadata/
