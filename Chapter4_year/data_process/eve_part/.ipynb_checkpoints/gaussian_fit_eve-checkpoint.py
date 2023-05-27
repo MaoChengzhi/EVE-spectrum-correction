@@ -36,8 +36,19 @@ def gaussian_fit_eve(wavelength_list, irradiance):
     0.0
     '''
     
-    if(np.sum(np.isnan(irradiance))>0 or (irradiance <= 0).any()):
-        return np.nan
+    # if(np.sum(np.isnan(irradiance))>0):
+    #     print('nan error')
+    # if((irradiance <= 0).any()):
+    #     print('minus')
+    # if(np.max(irradiance)<1e-4):
+    #     print('peak')
+        
+    if(np.sum(np.isnan(irradiance))>0 
+       or (irradiance <= 0).any()  
+       or np.max(irradiance)<1e-4
+      ):
+        print("error 1")
+        return np.nan,np.nan,np.nan
     
     
     
@@ -48,7 +59,8 @@ def gaussian_fit_eve(wavelength_list, irradiance):
     g = fit_g(g_init, wavelength_list, irradiance)
     if(g.stddev>0.1):
         print("unsuccessful fitting")
-        return np.nan
+        return np.nan,np.nan,np.nan
     mean = g.mean.value
-
-    return mean
+    stddev=g.stddev.value
+    amplitude=g.amplitude.value
+    return amplitude,mean,stddev

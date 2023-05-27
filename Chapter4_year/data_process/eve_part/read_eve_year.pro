@@ -5,21 +5,36 @@ pattern = 'EVS_L2_*.fit.gz'
 files_list = file_search(dir + pattern)
 print,'good search: '
 for i = 0, N_ELEMENTS(files_list) - 1 do begin
-  file = files_list[i]  ;file   is like     'data\EVE\EVS_L2_2011062_00_007_02.fit.gz'
+  ;file   is like     'data\EVE\EVS_L2_2011062_00_007_02.fit.gz'
+  file = files_list[i]  
   
-  print,i
-  ; Attempt to read the file and handle any errors
-  ;catch, error
-  ;begin
-    eve_data = eve_read_whole_fits(file, /SILENT, /CONTINUE_ON_ERROR)
-    ;catch, error_message
-  ;end 
-  
+  ; i expect new file to be 'data/EVE_sav/EVS_L2_*.sav'
+  new_filename = 'data/EVE_sav/' + strmid(file, strlen(dir), strlen(file)-strlen(dir)-7) + '.sav'
+
+  ; Check if the file exists
    
+   
+  exists = FILE_TEST(new_filename, /regular)
+  IF exists THEN BEGIN
+    print,'File already exists:',new_filename
+    
+      continue
+  endif
+  
+  
+  catch, error
+  IF error NE 0 THEN BEGIN
+    PRINT, 'Error while processing:', file
+    PRINT, 'Error message:', !ERROR_STATE.MSG
+    ; Log the error to a file or designated location if desired
+    continue
+  ENDIF
+  eve_data = eve_read_whole_fits(file)
   print,'good: ',file
+  
+  ;save the data needed into sav
   meta = eve_data.SPECTRUMMETA
   wavelength = meta.wavelength
-  
   data = eve_data.SPECTRUM
   sod_time = data.sod           ; seconds UT day
   irradiance = data.irradiance[1363:1374]
@@ -27,9 +42,8 @@ for i = 0, N_ELEMENTS(files_list) - 1 do begin
   flags = data.flags
   yyyydoy = data.yyyydoy
 
-  new_filename = 'data/EVE_sav/' + strmid(file, strlen(dir), strlen(file)-strlen(dir)-7) + '.sav'
-  ; i expect new file to be 'data/EVE_sav/EVS_L2_*.sav'
   SAVE, wavelength, sod_time, irradiance, sc_flags, flags, yyyydoy, FILENAME=new_filename
+  
   
 endfor
 end
