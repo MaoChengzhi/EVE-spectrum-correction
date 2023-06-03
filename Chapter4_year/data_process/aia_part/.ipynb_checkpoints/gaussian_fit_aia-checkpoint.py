@@ -37,7 +37,7 @@ def gaussian_fit_aia(wavelength_list, irradiance):
     0.0
     '''
 
-    g_init = models.Gaussian1D(amplitude=1E9, mean=0.05, stddev=0.0424)
+    g_init = models.Gaussian1D(amplitude=1E9, mean=30.3783, stddev=0.0424)
     #
     # initial value for fitting
     fit_g = fitting.LevMarLSQFitter()

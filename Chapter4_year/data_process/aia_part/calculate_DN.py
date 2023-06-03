@@ -1,7 +1,7 @@
 
 from astropy.stats import gaussian_fwhm_to_sigma
 from .pixel_to_world.my_pixel_to_world import my_pixel_to_world
-from .data.constant import wavelength_list_aia
+from .data.constant import wavelength_list_aia_relative
 import cupy as cp
 
 from math import pi
@@ -49,9 +49,9 @@ def calculate_DN_4096(aia_adjusted_map, a,  d,  e):
 
     # Compute total_irradiance using vectorized NumPy operations
     total_irradiance = cp.sum(my_Gaussian1D(
-        wavelength_list_aia, *coeff), axis=(1, 2))  # size:(12,4096,4096)
+        wavelength_list_aia_relative, *coeff), axis=(1, 2))  # size:(12,4096,4096)
 
-    return total_irradiance
+    return total_irradiance.get()
 
 # %%
 
