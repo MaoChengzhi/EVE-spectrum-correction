@@ -5,8 +5,6 @@ from astropy.modeling import models, fitting
 import math
 
 # %%
-
-
 def gaussian_fit_aia(wavelength_list, irradiance):
     '''
     Fit a Gaussian function to the given irradiance data.
@@ -36,12 +34,19 @@ def gaussian_fit_aia(wavelength_list, irradiance):
     >>> print(mean)
     0.0
     '''
+    
+    if(np.sum(np.isnan(irradiance))!=0):
+        return np.nan,np.nan,np.nan
 
-    g_init = models.Gaussian1D(amplitude=1E9, mean=30.3783, stddev=0.0424)
-    #
-    # initial value for fitting
-    fit_g = fitting.LevMarLSQFitter()
-    g = fit_g(g_init, wavelength_list, irradiance)
-    mean = g.mean.value
-
-    return mean
+    try:
+        g_init = models.Gaussian1D(amplitude=1E9, mean=30.3783, stddev=0.03)
+        #
+        # initial value for fitting
+        fit_g = fitting.LevMarLSQFitter()
+        g = fit_g(g_init, wavelength_list, irradiance)
+        mean = g.mean.value
+        stddev=g.stddev.value
+        amplitude=g.amplitude.value
+        return mean,stddev,amplitude
+    except:
+        return np.nan,np.nan,np.nan

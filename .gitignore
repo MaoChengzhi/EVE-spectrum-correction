@@ -3,6 +3,7 @@
 *.fit
 *.fit.gz
 *.fits
+*.pdf
 eve_l2_*
 *.sav
 *.html
@@ -10,5 +11,5 @@ eve_l2_*
 *.xlsx
 *.csv
 *.pkl
-*.pdf
+
 /.metadata/
