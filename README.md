@@ -76,8 +76,18 @@ beta方向扫描期间，根据STEREO，EUVI 30.4nm 波段 计算SDO视野内亮
 
 
 
-<img src="./README.assets/image-20230602120455220.png" alt="image-20230602120455220" style="zoom: 67%;" />
+![newplot](./README.assets/newplot-1686219087659-1.png)
+
+shadow: 3*stddev region of mean/amplitude/stddev  of 8640 data per day
 
 ## AIA数据概览
 
-还没做
+把4年，每天一张的AIA图片输出到一个pdf里面了
+
+
+
+![newplot (1)](./README.assets/newplot (1)-1686219585220-3.png)
+
+
+
+![newplot (2)](./README.assets/newplot (2).png)
