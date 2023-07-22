@@ -7,7 +7,6 @@
 eve_l2_*
 *.sav
 *.html
-*.png
 *.xlsx
 *.csv
 *.pkl

@@ -33,6 +33,7 @@ def calculate_DN(aia_adjusted_map, a=0, b=0,c=0, d=0,  e=0):
 
     '''
     time=datetime.datetime.strptime(aia_adjusted_map.meta['t_rec'],'%Y-%m-%dT%H:%M:%SZ')
+    date=time.date()
     radial_doppler=(calculate_relative_radial_velocity(time) ).to(u.nm,
                                 equivalencies=u.doppler_optical(30.3783 * u.nm)).value-30.3783
     
@@ -40,26 +41,29 @@ def calculate_DN(aia_adjusted_map, a=0, b=0,c=0, d=0,  e=0):
     image_data = cp.array(aia_adjusted_map.data)
     image_shape_x, image_shape_y = image_data.shape
 
-    #read the eve stddev:
-    module_dir = os.path.dirname(os.path.abspath(__file__))
-    eve_file=os.path.join(module_dir,'data','EVE_daily','daily_data.csv')
     
-    try:
-        daily_fit_df=pd.read_csv(eve_file)
-        daily_fit_df=daily_fit_df.set_index('time')
-        daily_fit_df.index = pd.to_datetime(daily_fit_df.index)
+    
+#     #read the eve stddev:
+#       #directly read FWHM of the day is incorrect. it does not make sense..
+#     module_dir = os.path.dirname(os.path.abspath(__file__))
+#     eve_file=os.path.join(module_dir,'data','EVE_daily','daily_data.csv')
+    
+#     try:
+#         daily_fit_df=pd.read_csv(eve_file)
+#         daily_fit_df=daily_fit_df.set_index('time')
+#         daily_fit_df.index = pd.to_datetime(daily_fit_df.index)
 
-        date_obj = time.date()
-        time_obj = datetime.time(0, 0)
-        date=datetime.datetime.combine(date_obj, time_obj)
-        stddev_eve=daily_fit_df.loc[date]['stddev']*0.981
-    except:
-        stddev_eve=0.03
-        print('EVE daily data not found, use default value 0.03')
+#         date_obj = time.date()
+#         time_obj = datetime.time(0, 0)
+#         date=datetime.datetime.combine(date_obj, time_obj)
+#         stddev_eve=daily_fit_df.loc[date]['stddev']*0.981
+#     except:
+#         stddev_eve=0.03
+#         print('EVE daily data not found, use default value 0.03')
 
     # fixed stddev for all
-    # stddev_eve=0.03
-    # stddev = cp.full((image_shape_x, image_shape_y),stddev_eve )# unit: nm
+    stddev_eve=0.03
+    stddev = cp.full((image_shape_x, image_shape_y),stddev_eve )# unit: nm
     
     # Create NumPy arrays for pixel indices and image data
     pixel_x = cp.arange(image_shape_x)
@@ -72,7 +76,7 @@ def calculate_DN(aia_adjusted_map, a=0, b=0,c=0, d=0,  e=0):
     # only use pixels with value>0
     image_data = image_data*(image_data > 0)
 
-    stddev =get_stddev(image_data)
+    # stddev =get_stddev(image_data)
     # Compute amplitude, mean, and stddev for all pixels in parallel
     amplitude = image_data / (cp.sqrt(2 * pi) * stddev)
     mean = wavelength_shift(Tx, Ty, a,b,c, d, e)+radial_doppler
@@ -89,8 +93,6 @@ def calculate_DN(aia_adjusted_map, a=0, b=0,c=0, d=0,  e=0):
 
 def wavelength_shift(Tx, Ty, a,b,c ,d, e):
     '''
-
-
     Parameters
     ----------
     Tx : 
@@ -129,6 +131,27 @@ def my_Gaussian1D(wavelength_list, amplitude, mean, stddev):
 
 
 def calculate_relative_radial_velocity(time):
+        
+
+    '''
+    Calculate the relative radial velocity of the Earth with respect to the Sun at a given time.
+
+    Parameters
+    ----------
+    time : datetime object
+
+
+    Returns
+    -------
+    astropy.Quantity
+        The relative radial velocity of the Earth with respect to the Sun at the given time (given day), 
+        expressed in kilometers per second (km/s).
+    '''
+        
+
+
+
+
     # Convert the input time to an Astropy Time object
 
     t = Time(time)
@@ -152,6 +175,10 @@ def calculate_relative_radial_velocity(time):
     return radial_velocity
 
 def get_stddev(input_array):
+    '''
+    a rough estimation of the FWHM of the profile based on the intensity of the profile (not so reliable)
+    
+    '''
     lower_threshold = 8
     upper_threshold = 150
     lower_value = 0.028

@@ -33,7 +33,7 @@ def std_pixel_to_world(pixel_x, pixel_y):
         with positive values in the direction of the Sun’s north pole.
 
     """
-    point = m_aia.pixel_to_world(pixel_x * u.pixel, pixel_y * u.pixel)
+    point = m_normalized.pixel_to_world(pixel_x * u.pixel, pixel_y * u.pixel)
 
 # =============================================================================
 #     # This step takes up 80% of the time
