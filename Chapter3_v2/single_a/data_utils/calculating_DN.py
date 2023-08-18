@@ -43,7 +43,10 @@ Tx_2048=cp.array(coeff['Tx_2048'])
 Ty_2048=cp.array(coeff['Ty_2048'])
 Tx_1024=cp.array(coeff['Tx_1024'])
 Ty_1024=cp.array(coeff['Ty_1024'])
-
+Tx_512=cp.array(coeff['Tx_512'])
+Ty_512=cp.array(coeff['Ty_512'])
+Tx_256=cp.array(coeff['Tx_256'])
+Ty_256=cp.array(coeff['Ty_256'])
 
 # %%
 
@@ -58,7 +61,7 @@ def calculate_DN_alpha(i):
         DN_alpha 
 
     '''
-    return calculating_DN_4096(wavelength_list,
+    return calculating_DN(wavelength_list,
                           offaxis_angle_x_alpha[i], offaxis_angle_y_alpha[i])
 
 
@@ -72,7 +75,7 @@ def calculate_DN_beta(j):
         DN_beta 
 
     '''
-    return calculating_DN_4096(wavelength_list,
+    return calculating_DN(wavelength_list,
                           offaxis_angle_x_beta[j], offaxis_angle_y_beta[j])
 
 
@@ -112,7 +115,44 @@ def wavelength_shift(Tx, Ty, A=886.81, B=0.91002):
 
     return A * Tx**2 + B * Ty
 
+#define a function to select Tx, Ty according to the shape of image
+def select_Tx_Ty(image_shape_x, image_shape_y):
+    '''
+    Parameters
+    ----------
+    image_shape_x : TYPE
+        DESCRIPTION.
+    image_shape_y : TYPE
+        DESCRIPTION.
 
+    Returns
+    -------
+    None.    
+
+    '''
+
+    # choose Tx, Ty according to the shape of image
+    if [image_shape_x, image_shape_y]==[4096,4096]:
+        Tx0=Tx_4096
+        Ty0=Ty_4096
+    elif [image_shape_x, image_shape_y]==[2048,2048]:
+        Tx0=Tx_2048
+        Ty0=Ty_2048
+    elif [image_shape_x, image_shape_y]==[1024,1024]:
+        Tx0=Tx_1024
+        Ty0=Ty_1024
+    elif [image_shape_x, image_shape_y]==[512,512]:
+        Tx0=Tx_512
+        Ty0=Ty_512
+    elif [image_shape_x, image_shape_y]==[256,256]:
+        Tx0=Tx_256
+        Ty0=Ty_256
+    else:
+        raise ValueError('The shape of image is not 4096*4096, 2048*2048 or 1024*1024')
+    
+    return Tx0,Ty0
+
+    
 
 def my_Gaussian1D(wavelength_list, amplitude, mean, stddev):
 
@@ -125,12 +165,12 @@ def my_Gaussian1D(wavelength_list, amplitude, mean, stddev):
     return results
 
 
-def calculating_DN_4096(image,wavelength_list, offaxis_angle_x, offaxis_angle_y,dtype=cp.float64):
+def calculating_DN(image,wavelength_list, offaxis_angle_x, offaxis_angle_y,dtype=cp.float64):
     '''
     Add up each the DN of each pixel 
 
     Parameters   
-    ----------
+    ----------.plkj; 
     image : numpy.ndarray shape:(4096,4096)
                 or cupy array shape:(4096,4096)
                 
@@ -147,18 +187,8 @@ def calculating_DN_4096(image,wavelength_list, offaxis_angle_x, offaxis_angle_y,
     '''
 
     [image_shape_x, image_shape_y]=image.shape
-    # choose Tx, Ty according to the shape of image
-    if [image_shape_x, image_shape_y]==[4096,4096]:
-        Tx0=Tx_4096
-        Ty0=Ty_4096
-    elif [image_shape_x, image_shape_y]==[2048,2048]:
-        Tx0=Tx_2048
-        Ty0=Ty_2048
-    elif [image_shape_x, image_shape_y]==[1024,1024]:
-        Tx0=Tx_1024
-        Ty0=Ty_1024
-    else:
-        raise ValueError('The shape of image is not 4096*4096, 2048*2048 or 1024*1024')
+    Tx0,Ty0=select_Tx_Ty(image_shape_x, image_shape_y)
+
     
 
     # turn numpy array into cupy array

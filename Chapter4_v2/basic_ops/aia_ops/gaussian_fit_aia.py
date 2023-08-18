@@ -35,9 +35,9 @@ def gaussian_fit_aia(wavelength_list, irradiance):
         # initial value for fitting
         fit_g = fitting.LevMarLSQFitter()
         g = fit_g(g_init, wavelength_list, irradiance)
+        amplitude=g.amplitude.value
         mean = g.mean.value
         stddev=g.stddev.value
-        amplitude=g.amplitude.value
-        return mean,stddev,amplitude
+        return amplitude,mean,stddev
     except:
         return np.nan,np.nan,np.nan

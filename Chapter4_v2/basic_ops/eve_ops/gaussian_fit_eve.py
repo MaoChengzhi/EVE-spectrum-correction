@@ -35,7 +35,7 @@ def gaussian_fit_eve(wavelength_list, irradiance):
         if np.any(np.isnan(irradiance)):
             raise ValueError("Input data contains NaN values.")
 
-        p0 = [0.005, 30.3, 0.0424]  # Initial guess for the parameters [amplitude, mean, stddev]
+        p0 = [0.005, 30.3, 0.03]  # Initial guess for the parameters [amplitude, mean, stddev]
         popt, pcov = curve_fit(gaussian_function, wavelength_list, irradiance, p0=p0)
 
         return popt, pcov
@@ -46,4 +46,5 @@ def gaussian_fit_eve(wavelength_list, irradiance):
 
 
 def gaussian_function(x, amplitude, mean, stddev):
+    # A refers to Amplitude, the peak value!   not the integrated area!
     return amplitude * np.exp(-(x - mean)**2 / (2 * stddev**2))
