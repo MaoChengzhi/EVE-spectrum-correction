@@ -11,5 +11,5 @@ eve_l2_*
 *.csv
 *.pkl
 *.png
-
+*.eps
 /.metadata/
