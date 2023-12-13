@@ -1,0 +1,1289 @@
+% SOCK_GET_MAIN: 6767495 bytes of EVS_L2_2011035_05_007_02.fit.gz copied in 132.77 seconds.
+704 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6767359 bytes of EVS_L2_2011035_06_007_02.fit.gz copied in 243.65 seconds.
+705 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6768049 bytes of EVS_L2_2011035_07_007_02.fit.gz copied in 235.59 seconds.
+706 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6807569 bytes of EVS_L2_2011035_08_007_02.fit.gz copied in 218.29 seconds.
+707 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6766729 bytes of EVS_L2_2011035_09_007_02.fit.gz copied in 193.05 seconds.
+708 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6807846 bytes of EVS_L2_2011035_10_007_02.fit.gz copied in 186.58 seconds.
+709 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6768163 bytes of EVS_L2_2011035_11_007_02.fit.gz copied in 189.74 seconds.
+710 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808231 bytes of EVS_L2_2011035_12_007_02.fit.gz copied in 192.17 seconds.
+711 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_13_007_02.fit.gz
+% SOCK_GET_MAIN: 8035558 bytes of EVS_L2_2011035_13_007_02.fit.gz copied in 338.09 seconds.
+712 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_14_007_02.fit.gz
+% SOCK_GET_MAIN: Response code = 18. Network transfer interrupted.
+713 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_15_007_02.fit.gz
+% SOCK_GET_MAIN: Response code = 18. Network transfer interrupted.
+714 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_16_007_02.fit.gz
+% SOCK_GET_MAIN: Response code = 18. Network transfer interrupted.
+715 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6767547 bytes of EVS_L2_2011035_17_007_02.fit.gz copied in 273.28 seconds.
+716 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6808630 bytes of EVS_L2_2011035_18_007_02.fit.gz copied in 274.41 seconds.
+717 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6767564 bytes of EVS_L2_2011035_19_007_02.fit.gz copied in 280.76 seconds.
+718 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6808251 bytes of EVS_L2_2011035_20_007_02.fit.gz copied in 254.64 seconds.
+719 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_21_007_02.fit.gz
+% SOCK_GET_MAIN: 5890988 bytes of EVS_L2_2011035_21_007_02.fit.gz copied in 213.84 seconds.
+720 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808857 bytes of EVS_L2_2011035_22_007_02.fit.gz copied in 160.71 seconds.
+721 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/035/EVS_L2_2011035_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6768613 bytes of EVS_L2_2011035_23_007_02.fit.gz copied in 210.90 seconds.
+722 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6809220 bytes of EVS_L2_2011036_00_007_02.fit.gz copied in 217.44 seconds.
+723 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_01_007_02.fit.gz
+% SOCK_GET_MAIN: Response code = 56. Receiving network data failed.
+724 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808566 bytes of EVS_L2_2011036_02_007_02.fit.gz copied in 293.70 seconds.
+725 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6767048 bytes of EVS_L2_2011036_03_007_02.fit.gz copied in 336.94 seconds.
+726 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6808423 bytes of EVS_L2_2011036_04_007_02.fit.gz copied in 370.49 seconds.
+727 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6768817 bytes of EVS_L2_2011036_05_007_02.fit.gz copied in 432.22 seconds.
+728 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808287 bytes of EVS_L2_2011036_06_007_02.fit.gz copied in 371.75 seconds.
+729 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6768287 bytes of EVS_L2_2011036_07_007_02.fit.gz copied in 226.86 seconds.
+730 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6808617 bytes of EVS_L2_2011036_08_007_02.fit.gz copied in 191.43 seconds.
+731 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6766819 bytes of EVS_L2_2011036_09_007_02.fit.gz copied in 193.50 seconds.
+732 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6807956 bytes of EVS_L2_2011036_10_007_02.fit.gz copied in 192.27 seconds.
+733 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6768038 bytes of EVS_L2_2011036_11_007_02.fit.gz copied in 162.96 seconds.
+734 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808676 bytes of EVS_L2_2011036_12_007_02.fit.gz copied in 146.55 seconds.
+735 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_13_007_02.fit.gz
+% SOCK_GET_MAIN: 7996006 bytes of EVS_L2_2011036_13_007_02.fit.gz copied in 242.65 seconds.
+736 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20341120 bytes of EVS_L2_2011036_14_007_02.fit.gz copied in 632.74 seconds.
+737 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20340387 bytes of EVS_L2_2011036_15_007_02.fit.gz copied in 429.40 seconds.
+738 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19112656 bytes of EVS_L2_2011036_16_007_02.fit.gz copied in 450.09 seconds.
+739 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6767587 bytes of EVS_L2_2011036_17_007_02.fit.gz copied in 80.89 seconds.
+740 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6808095 bytes of EVS_L2_2011036_18_007_02.fit.gz copied in 79.62 seconds.
+741 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6768161 bytes of EVS_L2_2011036_19_007_02.fit.gz copied in 99.09 seconds.
+742 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807990 bytes of EVS_L2_2011036_20_007_02.fit.gz copied in 73.21 seconds.
+743 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6766369 bytes of EVS_L2_2011036_21_007_02.fit.gz copied in 47.90 seconds.
+744 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806780 bytes of EVS_L2_2011036_22_007_02.fit.gz copied in 7.91 seconds.
+745 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/036/EVS_L2_2011036_23_007_02.fit.gz
+% SOCK_GET_MAIN: 5889638 bytes of EVS_L2_2011036_23_007_02.fit.gz copied in 46.78 seconds.
+746 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807288 bytes of EVS_L2_2011037_00_007_02.fit.gz copied in 3.56 seconds.
+747 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6767383 bytes of EVS_L2_2011037_01_007_02.fit.gz copied in 6.68 seconds.
+748 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809153 bytes of EVS_L2_2011037_02_007_02.fit.gz copied in 4.46 seconds.
+749 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6768618 bytes of EVS_L2_2011037_03_007_02.fit.gz copied in 3.90 seconds.
+750 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809409 bytes of EVS_L2_2011037_04_007_02.fit.gz copied in 3.81 seconds.
+751 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6768219 bytes of EVS_L2_2011037_05_007_02.fit.gz copied in 3.63 seconds.
+752 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808981 bytes of EVS_L2_2011037_06_007_02.fit.gz copied in 3.56 seconds.
+753 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6767265 bytes of EVS_L2_2011037_07_007_02.fit.gz copied in 7.25 seconds.
+754 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6807678 bytes of EVS_L2_2011037_08_007_02.fit.gz copied in 18.13 seconds.
+755 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6766051 bytes of EVS_L2_2011037_09_007_02.fit.gz copied in 3.55 seconds.
+756 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6806281 bytes of EVS_L2_2011037_10_007_02.fit.gz copied in 3.54 seconds.
+757 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6767658 bytes of EVS_L2_2011037_11_007_02.fit.gz copied in 3.59 seconds.
+758 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809401 bytes of EVS_L2_2011037_12_007_02.fit.gz copied in 3.60 seconds.
+759 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6066474 bytes of EVS_L2_2011037_13_007_02.fit.gz copied in 30.81 seconds.
+760 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20344126 bytes of EVS_L2_2011037_14_007_02.fit.gz copied in 44.50 seconds.
+761 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20342297 bytes of EVS_L2_2011037_15_007_02.fit.gz copied in 7.76 seconds.
+762 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19117011 bytes of EVS_L2_2011037_16_007_02.fit.gz copied in 4.32 seconds.
+763 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6768312 bytes of EVS_L2_2011037_17_007_02.fit.gz copied in 3.59 seconds.
+764 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6810307 bytes of EVS_L2_2011037_18_007_02.fit.gz copied in 4.95 seconds.
+765 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6767519 bytes of EVS_L2_2011037_19_007_02.fit.gz copied in 3.63 seconds.
+766 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807661 bytes of EVS_L2_2011037_20_007_02.fit.gz copied in 3.38 seconds.
+767 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6764522 bytes of EVS_L2_2011037_21_007_02.fit.gz copied in 3.59 seconds.
+768 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6804497 bytes of EVS_L2_2011037_22_007_02.fit.gz copied in 3.66 seconds.
+769 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/037/EVS_L2_2011037_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6763643 bytes of EVS_L2_2011037_23_007_02.fit.gz copied in 30.36 seconds.
+770 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807054 bytes of EVS_L2_2011038_00_007_02.fit.gz copied in 33.78 seconds.
+771 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_01_007_02.fit.gz
+% SOCK_GET_MAIN: 5890657 bytes of EVS_L2_2011038_01_007_02.fit.gz copied in 3.43 seconds.
+772 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6807620 bytes of EVS_L2_2011038_02_007_02.fit.gz copied in 4.62 seconds.
+773 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6767502 bytes of EVS_L2_2011038_03_007_02.fit.gz copied in 7.63 seconds.
+774 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809138 bytes of EVS_L2_2011038_04_007_02.fit.gz copied in 3.52 seconds.
+775 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6767729 bytes of EVS_L2_2011038_05_007_02.fit.gz copied in 45.63 seconds.
+776 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808349 bytes of EVS_L2_2011038_06_007_02.fit.gz copied in 3.55 seconds.
+777 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6767102 bytes of EVS_L2_2011038_07_007_02.fit.gz copied in 3.84 seconds.
+778 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6805941 bytes of EVS_L2_2011038_08_007_02.fit.gz copied in 3.60 seconds.
+779 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6765640 bytes of EVS_L2_2011038_09_007_02.fit.gz copied in 6.15 seconds.
+780 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808644 bytes of EVS_L2_2011038_10_007_02.fit.gz copied in 15.53 seconds.
+781 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6768750 bytes of EVS_L2_2011038_11_007_02.fit.gz copied in 3.88 seconds.
+782 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6810145 bytes of EVS_L2_2011038_12_007_02.fit.gz copied in 3.64 seconds.
+783 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_13_007_02.fit.gz
+% SOCK_GET_MAIN: 7994443 bytes of EVS_L2_2011038_13_007_02.fit.gz copied in 3.75 seconds.
+784 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20345991 bytes of EVS_L2_2011038_14_007_02.fit.gz copied in 181.81 seconds.
+785 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20345608 bytes of EVS_L2_2011038_15_007_02.fit.gz copied in 6.48 seconds.
+786 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19117517 bytes of EVS_L2_2011038_16_007_02.fit.gz copied in 4.24 seconds.
+787 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6768489 bytes of EVS_L2_2011038_17_007_02.fit.gz copied in 19.53 seconds.
+788 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6809268 bytes of EVS_L2_2011038_18_007_02.fit.gz copied in 3.58 seconds.
+789 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6767946 bytes of EVS_L2_2011038_19_007_02.fit.gz copied in 3.60 seconds.
+790 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807468 bytes of EVS_L2_2011038_20_007_02.fit.gz copied in 25.56 seconds.
+791 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6765469 bytes of EVS_L2_2011038_21_007_02.fit.gz copied in 18.31 seconds.
+792 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6804787 bytes of EVS_L2_2011038_22_007_02.fit.gz copied in 29.39 seconds.
+793 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/038/EVS_L2_2011038_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6764970 bytes of EVS_L2_2011038_23_007_02.fit.gz copied in 129.07 seconds.
+794 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6806022 bytes of EVS_L2_2011039_00_007_02.fit.gz copied in 71.71 seconds.
+795 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6767154 bytes of EVS_L2_2011039_01_007_02.fit.gz copied in 3.55 seconds.
+796 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808181 bytes of EVS_L2_2011039_02_007_02.fit.gz copied in 16.63 seconds.
+797 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_03_007_02.fit.gz
+% SOCK_GET_MAIN: 5907069 bytes of EVS_L2_2011039_03_007_02.fit.gz copied in 24.72 seconds.
+798 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809397 bytes of EVS_L2_2011039_04_007_02.fit.gz copied in 45.56 seconds.
+799 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6768173 bytes of EVS_L2_2011039_05_007_02.fit.gz copied in 3.70 seconds.
+800 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808276 bytes of EVS_L2_2011039_06_007_02.fit.gz copied in 3.81 seconds.
+801 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6767156 bytes of EVS_L2_2011039_07_007_02.fit.gz copied in 4.07 seconds.
+802 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6807616 bytes of EVS_L2_2011039_08_007_02.fit.gz copied in 8.95 seconds.
+803 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6767160 bytes of EVS_L2_2011039_09_007_02.fit.gz copied in 29.52 seconds.
+804 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808227 bytes of EVS_L2_2011039_10_007_02.fit.gz copied in 3.52 seconds.
+805 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6768450 bytes of EVS_L2_2011039_11_007_02.fit.gz copied in 6.46 seconds.
+806 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809557 bytes of EVS_L2_2011039_12_007_02.fit.gz copied in 6.35 seconds.
+807 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_13_007_02.fit.gz
+% SOCK_GET_MAIN: 7996212 bytes of EVS_L2_2011039_13_007_02.fit.gz copied in 3.61 seconds.
+808 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20350134 bytes of EVS_L2_2011039_14_007_02.fit.gz copied in 33.41 seconds.
+809 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20348623 bytes of EVS_L2_2011039_15_007_02.fit.gz copied in 126.69 seconds.
+810 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19120903 bytes of EVS_L2_2011039_16_007_02.fit.gz copied in 4.33 seconds.
+811 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6769386 bytes of EVS_L2_2011039_17_007_02.fit.gz copied in 4.59 seconds.
+812 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6808882 bytes of EVS_L2_2011039_18_007_02.fit.gz copied in 3.58 seconds.
+813 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6768002 bytes of EVS_L2_2011039_19_007_02.fit.gz copied in 26.15 seconds.
+814 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807139 bytes of EVS_L2_2011039_20_007_02.fit.gz copied in 3.96 seconds.
+815 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6764950 bytes of EVS_L2_2011039_21_007_02.fit.gz copied in 3.68 seconds.
+816 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6804277 bytes of EVS_L2_2011039_22_007_02.fit.gz copied in 29.12 seconds.
+817 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/039/EVS_L2_2011039_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6764476 bytes of EVS_L2_2011039_23_007_02.fit.gz copied in 3.41 seconds.
+818 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_00_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_00_006_02.fit.gz
+819 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_01_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_01_006_02.fit.gz
+820 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_02_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_02_006_02.fit.gz
+821 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_03_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_03_006_02.fit.gz
+822 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_04_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_04_006_02.fit.gz
+823 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_05_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_05_006_02.fit.gz
+824 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_06_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_06_006_02.fit.gz
+825 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_07_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_07_006_02.fit.gz
+826 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_08_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_08_006_02.fit.gz
+827 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_09_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_09_006_02.fit.gz
+828 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_10_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_10_006_02.fit.gz
+829 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_11_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_11_006_02.fit.gz
+830 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_12_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_12_006_02.fit.gz
+831 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_13_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_13_006_02.fit.gz
+832 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_14_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_14_006_02.fit.gz
+833 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_15_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_15_006_02.fit.gz
+834 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_16_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_16_006_02.fit.gz
+835 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_17_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_17_006_02.fit.gz
+836 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_18_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_18_006_02.fit.gz
+837 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_19_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_19_006_02.fit.gz
+838 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_20_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_20_006_02.fit.gz
+839 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_21_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_21_006_02.fit.gz
+840 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_22_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_22_006_02.fit.gz
+841 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_23_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/040/EVS_L2_2011040_23_006_02.fit.gz
+842 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807419 bytes of EVS_L2_2011041_00_007_02.fit.gz copied in 3.48 seconds.
+843 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6767810 bytes of EVS_L2_2011041_01_007_02.fit.gz copied in 40.75 seconds.
+844 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6807760 bytes of EVS_L2_2011041_02_007_02.fit.gz copied in 3.58 seconds.
+845 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6768519 bytes of EVS_L2_2011041_03_007_02.fit.gz copied in 3.72 seconds.
+846 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6808684 bytes of EVS_L2_2011041_04_007_02.fit.gz copied in 7.62 seconds.
+847 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6768121 bytes of EVS_L2_2011041_05_007_02.fit.gz copied in 3.74 seconds.
+848 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6809236 bytes of EVS_L2_2011041_06_007_02.fit.gz copied in 3.53 seconds.
+849 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_07_007_02.fit.gz
+% SOCK_GET_MAIN: 5889878 bytes of EVS_L2_2011041_07_007_02.fit.gz copied in 3.47 seconds.
+850 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6806649 bytes of EVS_L2_2011041_08_007_02.fit.gz copied in 20.01 seconds.
+851 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6808543 bytes of EVS_L2_2011041_09_007_02.fit.gz copied in 3.61 seconds.
+852 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809142 bytes of EVS_L2_2011041_10_007_02.fit.gz copied in 4.27 seconds.
+853 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6809547 bytes of EVS_L2_2011041_11_007_02.fit.gz copied in 33.15 seconds.
+854 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809029 bytes of EVS_L2_2011041_12_007_02.fit.gz copied in 34.16 seconds.
+855 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_13_007_02.fit.gz
+% SOCK_GET_MAIN: 8036845 bytes of EVS_L2_2011041_13_007_02.fit.gz copied in 3.65 seconds.
+856 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20354314 bytes of EVS_L2_2011041_14_007_02.fit.gz copied in 4.47 seconds.
+857 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20350491 bytes of EVS_L2_2011041_15_007_02.fit.gz copied in 4.57 seconds.
+858 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19125774 bytes of EVS_L2_2011041_16_007_02.fit.gz copied in 4.36 seconds.
+859 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6809045 bytes of EVS_L2_2011041_17_007_02.fit.gz copied in 3.56 seconds.
+860 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6809030 bytes of EVS_L2_2011041_18_007_02.fit.gz copied in 3.67 seconds.
+861 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6809769 bytes of EVS_L2_2011041_19_007_02.fit.gz copied in 3.59 seconds.
+862 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6809576 bytes of EVS_L2_2011041_20_007_02.fit.gz copied in 3.55 seconds.
+863 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6808240 bytes of EVS_L2_2011041_21_007_02.fit.gz copied in 3.62 seconds.
+864 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806415 bytes of EVS_L2_2011041_22_007_02.fit.gz copied in 3.55 seconds.
+865 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/041/EVS_L2_2011041_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6808717 bytes of EVS_L2_2011041_23_007_02.fit.gz copied in 3.59 seconds.
+866 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6809098 bytes of EVS_L2_2011042_00_007_02.fit.gz copied in 3.57 seconds.
+867 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6809310 bytes of EVS_L2_2011042_01_007_02.fit.gz copied in 3.78 seconds.
+868 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808956 bytes of EVS_L2_2011042_02_007_02.fit.gz copied in 3.53 seconds.
+869 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6810085 bytes of EVS_L2_2011042_03_007_02.fit.gz copied in 3.59 seconds.
+870 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809286 bytes of EVS_L2_2011042_04_007_02.fit.gz copied in 3.77 seconds.
+871 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6809972 bytes of EVS_L2_2011042_05_007_02.fit.gz copied in 3.78 seconds.
+872 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6806841 bytes of EVS_L2_2011042_06_007_02.fit.gz copied in 5.94 seconds.
+873 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6808385 bytes of EVS_L2_2011042_07_007_02.fit.gz copied in 3.72 seconds.
+874 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6808295 bytes of EVS_L2_2011042_08_007_02.fit.gz copied in 3.84 seconds.
+875 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_09_007_02.fit.gz
+% SOCK_GET_MAIN: 5892004 bytes of EVS_L2_2011042_09_007_02.fit.gz copied in 3.57 seconds.
+876 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809181 bytes of EVS_L2_2011042_10_007_02.fit.gz copied in 3.60 seconds.
+877 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6769295 bytes of EVS_L2_2011042_11_007_02.fit.gz copied in 3.51 seconds.
+878 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6810930 bytes of EVS_L2_2011042_12_007_02.fit.gz copied in 4.76 seconds.
+879 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_13_007_02.fit.gz
+% SOCK_GET_MAIN: 7996001 bytes of EVS_L2_2011042_13_007_02.fit.gz copied in 3.78 seconds.
+880 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20351706 bytes of EVS_L2_2011042_14_007_02.fit.gz copied in 15.81 seconds.
+881 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20352931 bytes of EVS_L2_2011042_15_007_02.fit.gz copied in 4.63 seconds.
+882 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19122159 bytes of EVS_L2_2011042_16_007_02.fit.gz copied in 4.63 seconds.
+883 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6809718 bytes of EVS_L2_2011042_17_007_02.fit.gz copied in 3.54 seconds.
+884 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6809616 bytes of EVS_L2_2011042_18_007_02.fit.gz copied in 3.62 seconds.
+885 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6809563 bytes of EVS_L2_2011042_19_007_02.fit.gz copied in 3.53 seconds.
+886 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6808837 bytes of EVS_L2_2011042_20_007_02.fit.gz copied in 3.62 seconds.
+887 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6809691 bytes of EVS_L2_2011042_21_007_02.fit.gz copied in 3.52 seconds.
+888 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6809342 bytes of EVS_L2_2011042_22_007_02.fit.gz copied in 3.52 seconds.
+889 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/042/EVS_L2_2011042_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6810023 bytes of EVS_L2_2011042_23_007_02.fit.gz copied in 3.76 seconds.
+890 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6808098 bytes of EVS_L2_2011043_00_007_02.fit.gz copied in 3.59 seconds.
+891 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6809736 bytes of EVS_L2_2011043_01_007_02.fit.gz copied in 3.73 seconds.
+892 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808816 bytes of EVS_L2_2011043_02_007_02.fit.gz copied in 3.73 seconds.
+893 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6810122 bytes of EVS_L2_2011043_03_007_02.fit.gz copied in 3.64 seconds.
+894 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6810807 bytes of EVS_L2_2011043_04_007_02.fit.gz copied in 3.97 seconds.
+895 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6808895 bytes of EVS_L2_2011043_05_007_02.fit.gz copied in 10.53 seconds.
+896 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6809544 bytes of EVS_L2_2011043_06_007_02.fit.gz copied in 3.57 seconds.
+897 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6809910 bytes of EVS_L2_2011043_07_007_02.fit.gz copied in 4.47 seconds.
+898 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6809248 bytes of EVS_L2_2011043_08_007_02.fit.gz copied in 3.50 seconds.
+899 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6810692 bytes of EVS_L2_2011043_09_007_02.fit.gz copied in 29.31 seconds.
+900 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809981 bytes of EVS_L2_2011043_10_007_02.fit.gz copied in 3.68 seconds.
+901 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_11_007_02.fit.gz
+% SOCK_GET_MAIN: 5933195 bytes of EVS_L2_2011043_11_007_02.fit.gz copied in 3.48 seconds.
+902 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809780 bytes of EVS_L2_2011043_12_007_02.fit.gz copied in 3.78 seconds.
+903 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_13_007_02.fit.gz
+% SOCK_GET_MAIN: 8037982 bytes of EVS_L2_2011043_13_007_02.fit.gz copied in 3.64 seconds.
+904 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20356835 bytes of EVS_L2_2011043_14_007_02.fit.gz copied in 40.88 seconds.
+905 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20357178 bytes of EVS_L2_2011043_15_007_02.fit.gz copied in 4.62 seconds.
+906 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19128646 bytes of EVS_L2_2011043_16_007_02.fit.gz copied in 4.59 seconds.
+907 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6809725 bytes of EVS_L2_2011043_17_007_02.fit.gz copied in 3.55 seconds.
+908 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6809649 bytes of EVS_L2_2011043_18_007_02.fit.gz copied in 3.51 seconds.
+909 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6809180 bytes of EVS_L2_2011043_19_007_02.fit.gz copied in 3.55 seconds.
+910 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6809517 bytes of EVS_L2_2011043_20_007_02.fit.gz copied in 3.58 seconds.
+911 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6808698 bytes of EVS_L2_2011043_21_007_02.fit.gz copied in 4.22 seconds.
+912 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808829 bytes of EVS_L2_2011043_22_007_02.fit.gz copied in 3.80 seconds.
+913 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/043/EVS_L2_2011043_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6808687 bytes of EVS_L2_2011043_23_007_02.fit.gz copied in 3.61 seconds.
+914 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6808480 bytes of EVS_L2_2011044_00_007_02.fit.gz copied in 3.46 seconds.
+915 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6808091 bytes of EVS_L2_2011044_01_007_02.fit.gz copied in 3.61 seconds.
+916 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809077 bytes of EVS_L2_2011044_02_007_02.fit.gz copied in 3.62 seconds.
+917 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6809248 bytes of EVS_L2_2011044_03_007_02.fit.gz copied in 19.48 seconds.
+918 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809059 bytes of EVS_L2_2011044_04_007_02.fit.gz copied in 7.69 seconds.
+919 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6809570 bytes of EVS_L2_2011044_05_007_02.fit.gz copied in 3.75 seconds.
+920 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808042 bytes of EVS_L2_2011044_06_007_02.fit.gz copied in 3.62 seconds.
+921 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6807971 bytes of EVS_L2_2011044_07_007_02.fit.gz copied in 3.58 seconds.
+922 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6809076 bytes of EVS_L2_2011044_08_007_02.fit.gz copied in 3.59 seconds.
+923 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6807978 bytes of EVS_L2_2011044_09_007_02.fit.gz copied in 3.55 seconds.
+924 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808431 bytes of EVS_L2_2011044_10_007_02.fit.gz copied in 33.29 seconds.
+925 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6809218 bytes of EVS_L2_2011044_11_007_02.fit.gz copied in 3.77 seconds.
+926 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808832 bytes of EVS_L2_2011044_12_007_02.fit.gz copied in 19.95 seconds.
+927 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6125701 bytes of EVS_L2_2011044_13_007_02.fit.gz copied in 3.53 seconds.
+928 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20356096 bytes of EVS_L2_2011044_14_007_02.fit.gz copied in 4.38 seconds.
+929 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20354715 bytes of EVS_L2_2011044_15_007_02.fit.gz copied in 7.08 seconds.
+930 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19129176 bytes of EVS_L2_2011044_16_007_02.fit.gz copied in 4.54 seconds.
+931 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6807808 bytes of EVS_L2_2011044_17_007_02.fit.gz copied in 3.62 seconds.
+932 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6805465 bytes of EVS_L2_2011044_18_007_02.fit.gz copied in 3.72 seconds.
+933 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6808079 bytes of EVS_L2_2011044_19_007_02.fit.gz copied in 19.28 seconds.
+934 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807787 bytes of EVS_L2_2011044_20_007_02.fit.gz copied in 3.55 seconds.
+935 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6806873 bytes of EVS_L2_2011044_21_007_02.fit.gz copied in 5.58 seconds.
+936 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808183 bytes of EVS_L2_2011044_22_007_02.fit.gz copied in 3.48 seconds.
+937 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/044/EVS_L2_2011044_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6808848 bytes of EVS_L2_2011044_23_007_02.fit.gz copied in 3.92 seconds.
+938 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6808656 bytes of EVS_L2_2011045_00_007_02.fit.gz copied in 3.56 seconds.
+939 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6808222 bytes of EVS_L2_2011045_01_007_02.fit.gz copied in 3.84 seconds.
+940 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808152 bytes of EVS_L2_2011045_02_007_02.fit.gz copied in 3.58 seconds.
+941 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808769 bytes of EVS_L2_2011045_03_007_02.fit.gz copied in 3.58 seconds.
+942 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6807099 bytes of EVS_L2_2011045_04_007_02.fit.gz copied in 3.54 seconds.
+943 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6806030 bytes of EVS_L2_2011045_05_007_02.fit.gz copied in 3.72 seconds.
+944 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6806214 bytes of EVS_L2_2011045_06_007_02.fit.gz copied in 3.85 seconds.
+945 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6807353 bytes of EVS_L2_2011045_07_007_02.fit.gz copied in 4.33 seconds.
+946 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6807763 bytes of EVS_L2_2011045_08_007_02.fit.gz copied in 3.64 seconds.
+947 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6807561 bytes of EVS_L2_2011045_09_007_02.fit.gz copied in 3.68 seconds.
+948 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808306 bytes of EVS_L2_2011045_10_007_02.fit.gz copied in 21.96 seconds.
+949 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6807730 bytes of EVS_L2_2011045_11_007_02.fit.gz copied in 4.51 seconds.
+950 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6807178 bytes of EVS_L2_2011045_12_007_02.fit.gz copied in 6.37 seconds.
+951 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_13_007_02.fit.gz
+% SOCK_GET_MAIN: 7159000 bytes of EVS_L2_2011045_13_007_02.fit.gz copied in 3.48 seconds.
+952 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20350133 bytes of EVS_L2_2011045_14_007_02.fit.gz copied in 13.75 seconds.
+953 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20354062 bytes of EVS_L2_2011045_15_007_02.fit.gz copied in 4.78 seconds.
+954 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_16_007_02.fit.gz
+% SOCK_GET_MAIN: 20265998 bytes of EVS_L2_2011045_16_007_02.fit.gz copied in 7.73 seconds.
+955 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_17_007_02.fit.gz
+% SOCK_GET_MAIN: 20345468 bytes of EVS_L2_2011045_17_007_02.fit.gz copied in 4.43 seconds.
+956 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20352453 bytes of EVS_L2_2011045_18_007_02.fit.gz copied in 4.30 seconds.
+957 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20355143 bytes of EVS_L2_2011045_19_007_02.fit.gz copied in 4.30 seconds.
+958 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_20_007_02.fit.gz
+% SOCK_GET_MAIN: 20355581 bytes of EVS_L2_2011045_20_007_02.fit.gz copied in 4.29 seconds.
+959 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_21_007_02.fit.gz
+% SOCK_GET_MAIN: 20355323 bytes of EVS_L2_2011045_21_007_02.fit.gz copied in 7.26 seconds.
+960 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_22_007_02.fit.gz
+% SOCK_GET_MAIN: 20355593 bytes of EVS_L2_2011045_22_007_02.fit.gz copied in 4.19 seconds.
+961 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/045/EVS_L2_2011045_23_007_02.fit.gz
+% SOCK_GET_MAIN: 20356053 bytes of EVS_L2_2011045_23_007_02.fit.gz copied in 8.76 seconds.
+962 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_00_007_02.fit.gz
+% SOCK_GET_MAIN: 20358473 bytes of EVS_L2_2011046_00_007_02.fit.gz copied in 21.67 seconds.
+963 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_01_007_02.fit.gz
+% SOCK_GET_MAIN: 20352851 bytes of EVS_L2_2011046_01_007_02.fit.gz copied in 7.09 seconds.
+964 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_02_007_02.fit.gz
+% SOCK_GET_MAIN: 20356130 bytes of EVS_L2_2011046_02_007_02.fit.gz copied in 4.32 seconds.
+965 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_03_007_02.fit.gz
+% SOCK_GET_MAIN: 20354965 bytes of EVS_L2_2011046_03_007_02.fit.gz copied in 4.32 seconds.
+966 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_04_007_02.fit.gz
+% SOCK_GET_MAIN: 20354994 bytes of EVS_L2_2011046_04_007_02.fit.gz copied in 4.34 seconds.
+967 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_05_007_02.fit.gz
+% SOCK_GET_MAIN: 20356039 bytes of EVS_L2_2011046_05_007_02.fit.gz copied in 4.47 seconds.
+968 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_06_007_02.fit.gz
+% SOCK_GET_MAIN: 20356297 bytes of EVS_L2_2011046_06_007_02.fit.gz copied in 4.44 seconds.
+969 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_07_007_02.fit.gz
+% SOCK_GET_MAIN: 20356868 bytes of EVS_L2_2011046_07_007_02.fit.gz copied in 4.53 seconds.
+970 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_08_007_02.fit.gz
+% SOCK_GET_MAIN: 20356367 bytes of EVS_L2_2011046_08_007_02.fit.gz copied in 5.02 seconds.
+971 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_09_007_02.fit.gz
+% SOCK_GET_MAIN: 20357022 bytes of EVS_L2_2011046_09_007_02.fit.gz copied in 4.41 seconds.
+972 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_10_007_02.fit.gz
+% SOCK_GET_MAIN: 20354338 bytes of EVS_L2_2011046_10_007_02.fit.gz copied in 4.48 seconds.
+973 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_11_007_02.fit.gz
+% SOCK_GET_MAIN: 20352716 bytes of EVS_L2_2011046_11_007_02.fit.gz copied in 4.48 seconds.
+974 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_12_007_02.fit.gz
+% SOCK_GET_MAIN: 20352974 bytes of EVS_L2_2011046_12_007_02.fit.gz copied in 4.48 seconds.
+975 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_13_007_02.fit.gz
+% SOCK_GET_MAIN: 20356922 bytes of EVS_L2_2011046_13_007_02.fit.gz copied in 4.62 seconds.
+976 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20356481 bytes of EVS_L2_2011046_14_007_02.fit.gz copied in 4.60 seconds.
+977 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20353557 bytes of EVS_L2_2011046_15_007_02.fit.gz copied in 10.60 seconds.
+978 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_16_007_02.fit.gz
+% SOCK_GET_MAIN: 20354241 bytes of EVS_L2_2011046_16_007_02.fit.gz copied in 4.79 seconds.
+979 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_17_007_02.fit.gz
+% SOCK_GET_MAIN: 20354300 bytes of EVS_L2_2011046_17_007_02.fit.gz copied in 4.38 seconds.
+980 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20350770 bytes of EVS_L2_2011046_18_007_02.fit.gz copied in 4.44 seconds.
+981 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20354291 bytes of EVS_L2_2011046_19_007_02.fit.gz copied in 36.85 seconds.
+982 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_20_007_02.fit.gz
+% SOCK_GET_MAIN: 20352449 bytes of EVS_L2_2011046_20_007_02.fit.gz copied in 7.18 seconds.
+983 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_21_007_02.fit.gz
+% SOCK_GET_MAIN: 20354449 bytes of EVS_L2_2011046_21_007_02.fit.gz copied in 4.30 seconds.
+984 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_22_007_02.fit.gz
+% SOCK_GET_MAIN: 20351397 bytes of EVS_L2_2011046_22_007_02.fit.gz copied in 4.86 seconds.
+985 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/046/EVS_L2_2011046_23_007_02.fit.gz
+% SOCK_GET_MAIN: 20351967 bytes of EVS_L2_2011046_23_007_02.fit.gz copied in 4.29 seconds.
+986 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_00_007_02.fit.gz
+% SOCK_GET_MAIN: 20353667 bytes of EVS_L2_2011047_00_007_02.fit.gz copied in 4.38 seconds.
+987 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_01_007_02.fit.gz
+% SOCK_GET_MAIN: 20354433 bytes of EVS_L2_2011047_01_007_02.fit.gz copied in 4.28 seconds.
+988 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_02_007_02.fit.gz
+% SOCK_GET_MAIN: 20351235 bytes of EVS_L2_2011047_02_007_02.fit.gz copied in 4.57 seconds.
+989 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_03_007_02.fit.gz
+% SOCK_GET_MAIN: 20351821 bytes of EVS_L2_2011047_03_007_02.fit.gz copied in 4.62 seconds.
+990 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_04_007_02.fit.gz
+% SOCK_GET_MAIN: 20350239 bytes of EVS_L2_2011047_04_007_02.fit.gz copied in 4.52 seconds.
+991 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_05_007_02.fit.gz
+% SOCK_GET_MAIN: 20351163 bytes of EVS_L2_2011047_05_007_02.fit.gz copied in 4.85 seconds.
+992 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_06_007_02.fit.gz
+% SOCK_GET_MAIN: 20349127 bytes of EVS_L2_2011047_06_007_02.fit.gz copied in 4.33 seconds.
+993 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_07_007_02.fit.gz
+% SOCK_GET_MAIN: 20349881 bytes of EVS_L2_2011047_07_007_02.fit.gz copied in 4.75 seconds.
+994 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_08_007_02.fit.gz
+% SOCK_GET_MAIN: 20350783 bytes of EVS_L2_2011047_08_007_02.fit.gz copied in 4.19 seconds.
+995 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_09_007_02.fit.gz
+% SOCK_GET_MAIN: 20348015 bytes of EVS_L2_2011047_09_007_02.fit.gz copied in 4.38 seconds.
+996 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_10_007_02.fit.gz
+% SOCK_GET_MAIN: 20348627 bytes of EVS_L2_2011047_10_007_02.fit.gz copied in 4.48 seconds.
+997 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_11_007_02.fit.gz
+% SOCK_GET_MAIN: 20354973 bytes of EVS_L2_2011047_11_007_02.fit.gz copied in 4.55 seconds.
+998 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_12_007_02.fit.gz
+% SOCK_GET_MAIN: 20351011 bytes of EVS_L2_2011047_12_007_02.fit.gz copied in 4.60 seconds.
+999 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_13_007_02.fit.gz
+% SOCK_GET_MAIN: 20354423 bytes of EVS_L2_2011047_13_007_02.fit.gz copied in 4.52 seconds.
+1000 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20350553 bytes of EVS_L2_2011047_14_007_02.fit.gz copied in 4.44 seconds.
+1001 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20354220 bytes of EVS_L2_2011047_15_007_02.fit.gz copied in 4.38 seconds.
+1002 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_16_007_02.fit.gz
+% SOCK_GET_MAIN: 20353719 bytes of EVS_L2_2011047_16_007_02.fit.gz copied in 4.34 seconds.
+1003 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_17_007_02.fit.gz
+% SOCK_GET_MAIN: 20353529 bytes of EVS_L2_2011047_17_007_02.fit.gz copied in 4.53 seconds.
+1004 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20337144 bytes of EVS_L2_2011047_18_007_02.fit.gz copied in 4.50 seconds.
+1005 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_19_007_02.fit.gz
+% SOCK_GET_MAIN: 5915871 bytes of EVS_L2_2011047_19_007_02.fit.gz copied in 3.49 seconds.
+1006 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807991 bytes of EVS_L2_2011047_20_007_02.fit.gz copied in 3.58 seconds.
+1007 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6806872 bytes of EVS_L2_2011047_21_007_02.fit.gz copied in 3.53 seconds.
+1008 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6807827 bytes of EVS_L2_2011047_22_007_02.fit.gz copied in 3.57 seconds.
+1009 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/047/EVS_L2_2011047_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6806786 bytes of EVS_L2_2011047_23_007_02.fit.gz copied in 3.45 seconds.
+1010 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6805227 bytes of EVS_L2_2011048_00_007_02.fit.gz copied in 3.61 seconds.
+1011 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6807349 bytes of EVS_L2_2011048_01_007_02.fit.gz copied in 3.55 seconds.
+1012 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6807667 bytes of EVS_L2_2011048_02_007_02.fit.gz copied in 3.66 seconds.
+1013 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6806459 bytes of EVS_L2_2011048_03_007_02.fit.gz copied in 3.82 seconds.
+1014 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6806931 bytes of EVS_L2_2011048_04_007_02.fit.gz copied in 3.53 seconds.
+1015 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6805960 bytes of EVS_L2_2011048_05_007_02.fit.gz copied in 3.91 seconds.
+1016 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6806224 bytes of EVS_L2_2011048_06_007_02.fit.gz copied in 3.74 seconds.
+1017 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6806950 bytes of EVS_L2_2011048_07_007_02.fit.gz copied in 3.60 seconds.
+1018 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6806588 bytes of EVS_L2_2011048_08_007_02.fit.gz copied in 4.14 seconds.
+1019 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6805273 bytes of EVS_L2_2011048_09_007_02.fit.gz copied in 3.56 seconds.
+1020 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6807191 bytes of EVS_L2_2011048_10_007_02.fit.gz copied in 3.64 seconds.
+1021 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6807655 bytes of EVS_L2_2011048_11_007_02.fit.gz copied in 3.56 seconds.
+1022 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6807425 bytes of EVS_L2_2011048_12_007_02.fit.gz copied in 3.77 seconds.
+1023 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_13_007_02.fit.gz
+% SOCK_GET_MAIN: 8035647 bytes of EVS_L2_2011048_13_007_02.fit.gz copied in 3.89 seconds.
+1024 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20356709 bytes of EVS_L2_2011048_14_007_02.fit.gz copied in 4.34 seconds.
+1025 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20356268 bytes of EVS_L2_2011048_15_007_02.fit.gz copied in 4.18 seconds.
+1026 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19130030 bytes of EVS_L2_2011048_16_007_02.fit.gz copied in 4.52 seconds.
+1027 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6807806 bytes of EVS_L2_2011048_17_007_02.fit.gz copied in 13.11 seconds.
+1028 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6807382 bytes of EVS_L2_2011048_18_007_02.fit.gz copied in 3.88 seconds.
+1029 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_19_007_02.fit.gz
+% SOCK_GET_MAIN: 5916534 bytes of EVS_L2_2011048_19_007_02.fit.gz copied in 3.48 seconds.
+1030 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6806775 bytes of EVS_L2_2011048_20_007_02.fit.gz copied in 3.55 seconds.
+1031 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6806718 bytes of EVS_L2_2011048_21_007_02.fit.gz copied in 3.55 seconds.
+1032 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806544 bytes of EVS_L2_2011048_22_007_02.fit.gz copied in 3.56 seconds.
+1033 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/048/EVS_L2_2011048_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6807079 bytes of EVS_L2_2011048_23_007_02.fit.gz copied in 3.50 seconds.
+1034 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6804336 bytes of EVS_L2_2011049_00_007_02.fit.gz copied in 13.03 seconds.
+1035 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6807669 bytes of EVS_L2_2011049_01_007_02.fit.gz copied in 3.50 seconds.
+1036 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6807795 bytes of EVS_L2_2011049_02_007_02.fit.gz copied in 3.87 seconds.
+1037 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6807827 bytes of EVS_L2_2011049_03_007_02.fit.gz copied in 3.73 seconds.
+1038 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6808178 bytes of EVS_L2_2011049_04_007_02.fit.gz copied in 3.67 seconds.
+1039 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6808425 bytes of EVS_L2_2011049_05_007_02.fit.gz copied in 4.02 seconds.
+1040 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6806258 bytes of EVS_L2_2011049_06_007_02.fit.gz copied in 3.99 seconds.
+1041 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6805531 bytes of EVS_L2_2011049_07_007_02.fit.gz copied in 3.81 seconds.
+1042 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6806939 bytes of EVS_L2_2011049_08_007_02.fit.gz copied in 19.85 seconds.
+1043 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6806202 bytes of EVS_L2_2011049_09_007_02.fit.gz copied in 3.80 seconds.
+1044 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6803415 bytes of EVS_L2_2011049_10_007_02.fit.gz copied in 3.56 seconds.
+1045 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6805280 bytes of EVS_L2_2011049_11_007_02.fit.gz copied in 3.74 seconds.
+1046 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6805599 bytes of EVS_L2_2011049_12_007_02.fit.gz copied in 4.23 seconds.
+1047 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_13_007_02.fit.gz
+% SOCK_GET_MAIN: 8034583 bytes of EVS_L2_2011049_13_007_02.fit.gz copied in 3.80 seconds.
+1048 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20355479 bytes of EVS_L2_2011049_14_007_02.fit.gz copied in 4.47 seconds.
+1049 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20353564 bytes of EVS_L2_2011049_15_007_02.fit.gz copied in 7.83 seconds.
+1050 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19126532 bytes of EVS_L2_2011049_16_007_02.fit.gz copied in 4.68 seconds.
+1051 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6805350 bytes of EVS_L2_2011049_17_007_02.fit.gz copied in 3.54 seconds.
+1052 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6803375 bytes of EVS_L2_2011049_18_007_02.fit.gz copied in 3.67 seconds.
+1053 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6805648 bytes of EVS_L2_2011049_19_007_02.fit.gz copied in 3.49 seconds.
+1054 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807868 bytes of EVS_L2_2011049_20_007_02.fit.gz copied in 3.59 seconds.
+1055 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_21_007_02.fit.gz
+% SOCK_GET_MAIN: 5914038 bytes of EVS_L2_2011049_21_007_02.fit.gz copied in 3.49 seconds.
+1056 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806888 bytes of EVS_L2_2011049_22_007_02.fit.gz copied in 3.57 seconds.
+1057 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/049/EVS_L2_2011049_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6807385 bytes of EVS_L2_2011049_23_007_02.fit.gz copied in 3.81 seconds.
+1058 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_00_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_00_006_02.fit.gz
+1059 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_01_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_01_006_02.fit.gz
+1060 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_02_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_02_006_02.fit.gz
+1061 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_03_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_03_006_02.fit.gz
+1062 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_04_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_04_006_02.fit.gz
+1063 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_05_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_05_006_02.fit.gz
+1064 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_06_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_06_006_02.fit.gz
+1065 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_07_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_07_006_02.fit.gz
+1066 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_08_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_08_006_02.fit.gz
+1067 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_09_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_09_006_02.fit.gz
+1068 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_10_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_10_006_02.fit.gz
+1069 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_11_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_11_006_02.fit.gz
+1070 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_12_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_12_006_02.fit.gz
+1071 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_13_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_13_006_02.fit.gz
+1072 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_14_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_14_006_02.fit.gz
+1073 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_15_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_15_006_02.fit.gz
+1074 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_16_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_16_006_02.fit.gz
+1075 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_17_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_17_006_02.fit.gz
+1076 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_18_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_18_006_02.fit.gz
+1077 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_19_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_19_006_02.fit.gz
+1078 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_20_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_20_006_02.fit.gz
+1079 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_21_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_21_006_02.fit.gz
+1080 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_22_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_22_006_02.fit.gz
+1081 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_23_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/050/EVS_L2_2011050_23_006_02.fit.gz
+1082 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6806785 bytes of EVS_L2_2011051_00_007_02.fit.gz copied in 3.63 seconds.
+1083 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6807573 bytes of EVS_L2_2011051_01_007_02.fit.gz copied in 3.50 seconds.
+1084 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6807985 bytes of EVS_L2_2011051_02_007_02.fit.gz copied in 3.63 seconds.
+1085 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6807626 bytes of EVS_L2_2011051_03_007_02.fit.gz copied in 3.61 seconds.
+1086 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6807906 bytes of EVS_L2_2011051_04_007_02.fit.gz copied in 3.60 seconds.
+1087 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6807698 bytes of EVS_L2_2011051_05_007_02.fit.gz copied in 3.76 seconds.
+1088 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6807360 bytes of EVS_L2_2011051_06_007_02.fit.gz copied in 3.54 seconds.
+1089 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6805925 bytes of EVS_L2_2011051_07_007_02.fit.gz copied in 3.58 seconds.
+1090 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6805809 bytes of EVS_L2_2011051_08_007_02.fit.gz copied in 3.73 seconds.
+1091 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6806942 bytes of EVS_L2_2011051_09_007_02.fit.gz copied in 3.54 seconds.
+1092 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6807448 bytes of EVS_L2_2011051_10_007_02.fit.gz copied in 3.49 seconds.
+1093 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6809437 bytes of EVS_L2_2011051_11_007_02.fit.gz copied in 3.67 seconds.
+1094 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808544 bytes of EVS_L2_2011051_12_007_02.fit.gz copied in 3.92 seconds.
+1095 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6124757 bytes of EVS_L2_2011051_13_007_02.fit.gz copied in 3.96 seconds.
+1096 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20348516 bytes of EVS_L2_2011051_14_007_02.fit.gz copied in 22.66 seconds.
+1097 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20345006 bytes of EVS_L2_2011051_15_007_02.fit.gz copied in 4.45 seconds.
+1098 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19121660 bytes of EVS_L2_2011051_16_007_02.fit.gz copied in 4.44 seconds.
+1099 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6809678 bytes of EVS_L2_2011051_17_007_02.fit.gz copied in 3.49 seconds.
+1100 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6807932 bytes of EVS_L2_2011051_18_007_02.fit.gz copied in 3.61 seconds.
+1101 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6808431 bytes of EVS_L2_2011051_19_007_02.fit.gz copied in 3.55 seconds.
+1102 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6806519 bytes of EVS_L2_2011051_20_007_02.fit.gz copied in 3.60 seconds.
+1103 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6806707 bytes of EVS_L2_2011051_21_007_02.fit.gz copied in 3.59 seconds.
+1104 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806150 bytes of EVS_L2_2011051_22_007_02.fit.gz copied in 3.61 seconds.
+1105 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/051/EVS_L2_2011051_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6806650 bytes of EVS_L2_2011051_23_007_02.fit.gz copied in 3.75 seconds.
+1106 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807586 bytes of EVS_L2_2011052_00_007_02.fit.gz copied in 3.65 seconds.
+1107 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_01_007_02.fit.gz
+% SOCK_GET_MAIN: 5932339 bytes of EVS_L2_2011052_01_007_02.fit.gz copied in 3.58 seconds.
+1108 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808487 bytes of EVS_L2_2011052_02_007_02.fit.gz copied in 3.61 seconds.
+1109 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808503 bytes of EVS_L2_2011052_03_007_02.fit.gz copied in 3.63 seconds.
+1110 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6808440 bytes of EVS_L2_2011052_04_007_02.fit.gz copied in 3.78 seconds.
+1111 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6808415 bytes of EVS_L2_2011052_05_007_02.fit.gz copied in 3.72 seconds.
+1112 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6806561 bytes of EVS_L2_2011052_06_007_02.fit.gz copied in 3.52 seconds.
+1113 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6805754 bytes of EVS_L2_2011052_07_007_02.fit.gz copied in 3.83 seconds.
+1114 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6807113 bytes of EVS_L2_2011052_08_007_02.fit.gz copied in 3.59 seconds.
+1115 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6807646 bytes of EVS_L2_2011052_09_007_02.fit.gz copied in 3.44 seconds.
+1116 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808205 bytes of EVS_L2_2011052_10_007_02.fit.gz copied in 19.52 seconds.
+1117 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6806770 bytes of EVS_L2_2011052_11_007_02.fit.gz copied in 3.52 seconds.
+1118 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808880 bytes of EVS_L2_2011052_12_007_02.fit.gz copied in 3.60 seconds.
+1119 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_13_007_02.fit.gz
+% SOCK_GET_MAIN: 8037484 bytes of EVS_L2_2011052_13_007_02.fit.gz copied in 3.63 seconds.
+1120 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_14_007_02.fit.gz
+% SOCK_GET_MAIN: 20352873 bytes of EVS_L2_2011052_14_007_02.fit.gz copied in 4.52 seconds.
+1121 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_15_007_02.fit.gz
+% SOCK_GET_MAIN: 20348062 bytes of EVS_L2_2011052_15_007_02.fit.gz copied in 4.44 seconds.
+1122 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_16_007_02.fit.gz
+% SOCK_GET_MAIN: 19122665 bytes of EVS_L2_2011052_16_007_02.fit.gz copied in 4.36 seconds.
+1123 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6808512 bytes of EVS_L2_2011052_17_007_02.fit.gz copied in 3.65 seconds.
+1124 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6806562 bytes of EVS_L2_2011052_18_007_02.fit.gz copied in 3.74 seconds.
+1125 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6807080 bytes of EVS_L2_2011052_19_007_02.fit.gz copied in 3.88 seconds.
+1126 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6807068 bytes of EVS_L2_2011052_20_007_02.fit.gz copied in 3.61 seconds.
+1127 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6805263 bytes of EVS_L2_2011052_21_007_02.fit.gz copied in 3.71 seconds.
+1128 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6805160 bytes of EVS_L2_2011052_22_007_02.fit.gz copied in 3.60 seconds.
+1129 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/052/EVS_L2_2011052_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6807078 bytes of EVS_L2_2011052_23_007_02.fit.gz copied in 3.88 seconds.
+1130 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6809193 bytes of EVS_L2_2011053_00_007_02.fit.gz copied in 3.64 seconds.
+1131 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6808803 bytes of EVS_L2_2011053_01_007_02.fit.gz copied in 3.65 seconds.
+1132 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809046 bytes of EVS_L2_2011053_02_007_02.fit.gz copied in 3.79 seconds.
+1133 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_03_007_02.fit.gz
+% SOCK_GET_MAIN: 5916686 bytes of EVS_L2_2011053_03_007_02.fit.gz copied in 3.63 seconds.
+1134 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6808632 bytes of EVS_L2_2011053_04_007_02.fit.gz copied in 3.62 seconds.
+1135 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6808008 bytes of EVS_L2_2011053_05_007_02.fit.gz copied in 3.74 seconds.
+1136 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808850 bytes of EVS_L2_2011053_06_007_02.fit.gz copied in 3.60 seconds.
+1137 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6806457 bytes of EVS_L2_2011053_07_007_02.fit.gz copied in 3.60 seconds.
+1138 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6808384 bytes of EVS_L2_2011053_08_007_02.fit.gz copied in 3.79 seconds.
+1139 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6808061 bytes of EVS_L2_2011053_09_007_02.fit.gz copied in 3.77 seconds.
+1140 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808913 bytes of EVS_L2_2011053_10_007_02.fit.gz copied in 3.76 seconds.
+1141 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6808103 bytes of EVS_L2_2011053_11_007_02.fit.gz copied in 3.60 seconds.
+1142 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6806029 bytes of EVS_L2_2011053_12_007_02.fit.gz copied in 3.58 seconds.
+1143 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6809182 bytes of EVS_L2_2011053_13_007_02.fit.gz copied in 3.62 seconds.
+1144 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6808203 bytes of EVS_L2_2011053_14_007_02.fit.gz copied in 3.62 seconds.
+1145 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_15_007_02.fit.gz
+% SOCK_GET_MAIN: 5607397 bytes of EVS_L2_2011053_15_007_02.fit.gz copied in 3.50 seconds.
+1146 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6767353 bytes of EVS_L2_2011053_16_007_02.fit.gz copied in 3.71 seconds.
+1147 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_17_007_02.fit.gz
+% SOCK_GET_MAIN: 6808784 bytes of EVS_L2_2011053_17_007_02.fit.gz copied in 3.83 seconds.
+1148 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_18_007_02.fit.gz
+% SOCK_GET_MAIN: 6808243 bytes of EVS_L2_2011053_18_007_02.fit.gz copied in 3.65 seconds.
+1149 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_19_007_02.fit.gz
+% SOCK_GET_MAIN: 6807370 bytes of EVS_L2_2011053_19_007_02.fit.gz copied in 3.58 seconds.
+1150 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_20_007_02.fit.gz
+% SOCK_GET_MAIN: 6805858 bytes of EVS_L2_2011053_20_007_02.fit.gz copied in 3.61 seconds.
+1151 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6805760 bytes of EVS_L2_2011053_21_007_02.fit.gz copied in 3.57 seconds.
+1152 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6807072 bytes of EVS_L2_2011053_22_007_02.fit.gz copied in 3.54 seconds.
+1153 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/053/EVS_L2_2011053_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6807419 bytes of EVS_L2_2011053_23_007_02.fit.gz copied in 3.61 seconds.
+1154 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807862 bytes of EVS_L2_2011054_00_007_02.fit.gz copied in 3.80 seconds.
+1155 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6807171 bytes of EVS_L2_2011054_01_007_02.fit.gz copied in 3.60 seconds.
+1156 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809073 bytes of EVS_L2_2011054_02_007_02.fit.gz copied in 5.52 seconds.
+1157 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808338 bytes of EVS_L2_2011054_03_007_02.fit.gz copied in 3.57 seconds.
+1158 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6806704 bytes of EVS_L2_2011054_04_007_02.fit.gz copied in 3.45 seconds.
+1159 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_05_007_02.fit.gz
+% SOCK_GET_MAIN: 5915367 bytes of EVS_L2_2011054_05_007_02.fit.gz copied in 3.62 seconds.
+1160 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808463 bytes of EVS_L2_2011054_06_007_02.fit.gz copied in 3.55 seconds.
+1161 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6807947 bytes of EVS_L2_2011054_07_007_02.fit.gz copied in 3.46 seconds.
+1162 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6807096 bytes of EVS_L2_2011054_08_007_02.fit.gz copied in 3.55 seconds.
+1163 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6806813 bytes of EVS_L2_2011054_09_007_02.fit.gz copied in 3.60 seconds.
+1164 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808518 bytes of EVS_L2_2011054_10_007_02.fit.gz copied in 3.60 seconds.
+1165 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6807642 bytes of EVS_L2_2011054_11_007_02.fit.gz copied in 3.54 seconds.
+1166 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808530 bytes of EVS_L2_2011054_12_007_02.fit.gz copied in 3.53 seconds.
+1167 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6808637 bytes of EVS_L2_2011054_13_007_02.fit.gz copied in 3.57 seconds.
+1168 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6809031 bytes of EVS_L2_2011054_14_007_02.fit.gz copied in 3.62 seconds.
+1169 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6807942 bytes of EVS_L2_2011054_15_007_02.fit.gz copied in 3.57 seconds.
+1170 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6808568 bytes of EVS_L2_2011054_16_007_02.fit.gz copied in 3.60 seconds.
+1171 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_17_007_02.fit.gz
+% SOCK_GET_MAIN: 8032588 bytes of EVS_L2_2011054_17_007_02.fit.gz copied in 3.63 seconds.
+1172 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20351162 bytes of EVS_L2_2011054_18_007_02.fit.gz copied in 4.45 seconds.
+1173 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20341735 bytes of EVS_L2_2011054_19_007_02.fit.gz copied in 4.40 seconds.
+1174 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19118223 bytes of EVS_L2_2011054_20_007_02.fit.gz copied in 4.34 seconds.
+1175 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6806536 bytes of EVS_L2_2011054_21_007_02.fit.gz copied in 3.50 seconds.
+1176 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806375 bytes of EVS_L2_2011054_22_007_02.fit.gz copied in 3.71 seconds.
+1177 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/054/EVS_L2_2011054_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6806724 bytes of EVS_L2_2011054_23_007_02.fit.gz copied in 3.35 seconds.
+1178 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807004 bytes of EVS_L2_2011055_00_007_02.fit.gz copied in 6.35 seconds.
+1179 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6806039 bytes of EVS_L2_2011055_01_007_02.fit.gz copied in 3.87 seconds.
+1180 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6807708 bytes of EVS_L2_2011055_02_007_02.fit.gz copied in 3.44 seconds.
+1181 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808437 bytes of EVS_L2_2011055_03_007_02.fit.gz copied in 3.50 seconds.
+1182 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6807468 bytes of EVS_L2_2011055_04_007_02.fit.gz copied in 3.56 seconds.
+1183 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6807307 bytes of EVS_L2_2011055_05_007_02.fit.gz copied in 3.63 seconds.
+1184 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6807640 bytes of EVS_L2_2011055_06_007_02.fit.gz copied in 3.62 seconds.
+1185 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_07_007_02.fit.gz
+% SOCK_GET_MAIN: 5898979 bytes of EVS_L2_2011055_07_007_02.fit.gz copied in 3.44 seconds.
+1186 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6804930 bytes of EVS_L2_2011055_08_007_02.fit.gz copied in 3.64 seconds.
+1187 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6808319 bytes of EVS_L2_2011055_09_007_02.fit.gz copied in 19.25 seconds.
+1188 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808517 bytes of EVS_L2_2011055_10_007_02.fit.gz copied in 3.81 seconds.
+1189 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6808591 bytes of EVS_L2_2011055_11_007_02.fit.gz copied in 3.49 seconds.
+1190 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808831 bytes of EVS_L2_2011055_12_007_02.fit.gz copied in 3.80 seconds.
+1191 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6807755 bytes of EVS_L2_2011055_13_007_02.fit.gz copied in 3.52 seconds.
+1192 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6808861 bytes of EVS_L2_2011055_14_007_02.fit.gz copied in 3.81 seconds.
+1193 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6808892 bytes of EVS_L2_2011055_15_007_02.fit.gz copied in 5.76 seconds.
+1194 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6808393 bytes of EVS_L2_2011055_16_007_02.fit.gz copied in 3.41 seconds.
+1195 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_17_007_02.fit.gz
+% SOCK_GET_MAIN: 8034860 bytes of EVS_L2_2011055_17_007_02.fit.gz copied in 3.83 seconds.
+1196 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20351341 bytes of EVS_L2_2011055_18_007_02.fit.gz copied in 4.79 seconds.
+1197 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20345950 bytes of EVS_L2_2011055_19_007_02.fit.gz copied in 36.83 seconds.
+1198 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19117575 bytes of EVS_L2_2011055_20_007_02.fit.gz copied in 4.25 seconds.
+1199 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6807050 bytes of EVS_L2_2011055_21_007_02.fit.gz copied in 3.49 seconds.
+1200 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806605 bytes of EVS_L2_2011055_22_007_02.fit.gz copied in 3.86 seconds.
+1201 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/055/EVS_L2_2011055_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6807974 bytes of EVS_L2_2011055_23_007_02.fit.gz copied in 3.43 seconds.
+1202 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807748 bytes of EVS_L2_2011056_00_007_02.fit.gz copied in 3.48 seconds.
+1203 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6808233 bytes of EVS_L2_2011056_01_007_02.fit.gz copied in 3.75 seconds.
+1204 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808869 bytes of EVS_L2_2011056_02_007_02.fit.gz copied in 3.40 seconds.
+1205 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808896 bytes of EVS_L2_2011056_03_007_02.fit.gz copied in 3.60 seconds.
+1206 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809032 bytes of EVS_L2_2011056_04_007_02.fit.gz copied in 3.61 seconds.
+1207 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6804977 bytes of EVS_L2_2011056_05_007_02.fit.gz copied in 3.40 seconds.
+1208 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808117 bytes of EVS_L2_2011056_06_007_02.fit.gz copied in 3.62 seconds.
+1209 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6808321 bytes of EVS_L2_2011056_07_007_02.fit.gz copied in 3.67 seconds.
+1210 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6808235 bytes of EVS_L2_2011056_08_007_02.fit.gz copied in 3.41 seconds.
+1211 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_09_007_02.fit.gz
+% SOCK_GET_MAIN: 5900915 bytes of EVS_L2_2011056_09_007_02.fit.gz copied in 3.48 seconds.
+1212 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809161 bytes of EVS_L2_2011056_10_007_02.fit.gz copied in 3.47 seconds.
+1213 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6809529 bytes of EVS_L2_2011056_11_007_02.fit.gz copied in 3.33 seconds.
+1214 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809811 bytes of EVS_L2_2011056_12_007_02.fit.gz copied in 3.65 seconds.
+1215 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6809807 bytes of EVS_L2_2011056_13_007_02.fit.gz copied in 3.52 seconds.
+1216 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6809391 bytes of EVS_L2_2011056_14_007_02.fit.gz copied in 4.02 seconds.
+1217 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6810178 bytes of EVS_L2_2011056_15_007_02.fit.gz copied in 3.63 seconds.
+1218 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6809125 bytes of EVS_L2_2011056_16_007_02.fit.gz copied in 3.57 seconds.
+1219 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_17_007_02.fit.gz
+% SOCK_GET_MAIN: 8033644 bytes of EVS_L2_2011056_17_007_02.fit.gz copied in 18.15 seconds.
+1220 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20351859 bytes of EVS_L2_2011056_18_007_02.fit.gz copied in 4.38 seconds.
+1221 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20347293 bytes of EVS_L2_2011056_19_007_02.fit.gz copied in 4.49 seconds.
+1222 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19115649 bytes of EVS_L2_2011056_20_007_02.fit.gz copied in 4.38 seconds.
+1223 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6808715 bytes of EVS_L2_2011056_21_007_02.fit.gz copied in 3.60 seconds.
+1224 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808190 bytes of EVS_L2_2011056_22_007_02.fit.gz copied in 3.62 seconds.
+1225 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/056/EVS_L2_2011056_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6809236 bytes of EVS_L2_2011056_23_007_02.fit.gz copied in 3.72 seconds.
+1226 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6809465 bytes of EVS_L2_2011057_00_007_02.fit.gz copied in 3.55 seconds.
+1227 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6809754 bytes of EVS_L2_2011057_01_007_02.fit.gz copied in 3.71 seconds.
+1228 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809796 bytes of EVS_L2_2011057_02_007_02.fit.gz copied in 3.61 seconds.
+1229 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808963 bytes of EVS_L2_2011057_03_007_02.fit.gz copied in 3.45 seconds.
+1230 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809604 bytes of EVS_L2_2011057_04_007_02.fit.gz copied in 3.44 seconds.
+1231 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6808700 bytes of EVS_L2_2011057_05_007_02.fit.gz copied in 3.52 seconds.
+1232 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808919 bytes of EVS_L2_2011057_06_007_02.fit.gz copied in 3.60 seconds.
+1233 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6808231 bytes of EVS_L2_2011057_07_007_02.fit.gz copied in 3.62 seconds.
+1234 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6808909 bytes of EVS_L2_2011057_08_007_02.fit.gz copied in 3.71 seconds.
+1235 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6809725 bytes of EVS_L2_2011057_09_007_02.fit.gz copied in 3.57 seconds.
+1236 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6808367 bytes of EVS_L2_2011057_10_007_02.fit.gz copied in 3.65 seconds.
+1237 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_11_007_02.fit.gz
+% SOCK_GET_MAIN: 5902607 bytes of EVS_L2_2011057_11_007_02.fit.gz copied in 3.36 seconds.
+1238 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6808653 bytes of EVS_L2_2011057_12_007_02.fit.gz copied in 3.70 seconds.
+1239 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6809687 bytes of EVS_L2_2011057_13_007_02.fit.gz copied in 3.49 seconds.
+1240 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6808961 bytes of EVS_L2_2011057_14_007_02.fit.gz copied in 3.57 seconds.
+1241 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6810250 bytes of EVS_L2_2011057_15_007_02.fit.gz copied in 3.69 seconds.
+1242 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6808724 bytes of EVS_L2_2011057_16_007_02.fit.gz copied in 3.67 seconds.
+1243 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_17_007_02.fit.gz
+% SOCK_GET_MAIN: 8036597 bytes of EVS_L2_2011057_17_007_02.fit.gz copied in 3.64 seconds.
+1244 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20340967 bytes of EVS_L2_2011057_18_007_02.fit.gz copied in 4.64 seconds.
+1245 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20350012 bytes of EVS_L2_2011057_19_007_02.fit.gz copied in 4.65 seconds.
+1246 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19118201 bytes of EVS_L2_2011057_20_007_02.fit.gz copied in 4.28 seconds.
+1247 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6808200 bytes of EVS_L2_2011057_21_007_02.fit.gz copied in 3.71 seconds.
+1248 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808752 bytes of EVS_L2_2011057_22_007_02.fit.gz copied in 3.55 seconds.
+1249 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/057/EVS_L2_2011057_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6808729 bytes of EVS_L2_2011057_23_007_02.fit.gz copied in 3.55 seconds.
+1250 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6807903 bytes of EVS_L2_2011058_00_007_02.fit.gz copied in 3.60 seconds.
+1251 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6809044 bytes of EVS_L2_2011058_01_007_02.fit.gz copied in 3.63 seconds.
+1252 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809429 bytes of EVS_L2_2011058_02_007_02.fit.gz copied in 3.56 seconds.
+1253 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808273 bytes of EVS_L2_2011058_03_007_02.fit.gz copied in 3.47 seconds.
+1254 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809451 bytes of EVS_L2_2011058_04_007_02.fit.gz copied in 3.74 seconds.
+1255 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6809468 bytes of EVS_L2_2011058_05_007_02.fit.gz copied in 3.77 seconds.
+1256 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6809357 bytes of EVS_L2_2011058_06_007_02.fit.gz copied in 3.54 seconds.
+1257 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6808923 bytes of EVS_L2_2011058_07_007_02.fit.gz copied in 3.63 seconds.
+1258 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6809749 bytes of EVS_L2_2011058_08_007_02.fit.gz copied in 3.63 seconds.
+1259 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6808129 bytes of EVS_L2_2011058_09_007_02.fit.gz copied in 3.81 seconds.
+1260 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809696 bytes of EVS_L2_2011058_10_007_02.fit.gz copied in 3.60 seconds.
+1261 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6807876 bytes of EVS_L2_2011058_11_007_02.fit.gz copied in 3.61 seconds.
+1262 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809065 bytes of EVS_L2_2011058_12_007_02.fit.gz copied in 3.72 seconds.
+1263 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_13_007_02.fit.gz
+% SOCK_GET_MAIN: 4868360 bytes of EVS_L2_2011058_13_007_02.fit.gz copied in 3.37 seconds.
+1264 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6808871 bytes of EVS_L2_2011058_14_007_02.fit.gz copied in 3.77 seconds.
+1265 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6809882 bytes of EVS_L2_2011058_15_007_02.fit.gz copied in 3.74 seconds.
+1266 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6810062 bytes of EVS_L2_2011058_16_007_02.fit.gz copied in 3.63 seconds.
+1267 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_17_007_02.fit.gz
+% SOCK_GET_MAIN: 8035720 bytes of EVS_L2_2011058_17_007_02.fit.gz copied in 3.63 seconds.
+1268 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20339365 bytes of EVS_L2_2011058_18_007_02.fit.gz copied in 4.46 seconds.
+1269 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20344847 bytes of EVS_L2_2011058_19_007_02.fit.gz copied in 24.85 seconds.
+1270 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19117615 bytes of EVS_L2_2011058_20_007_02.fit.gz copied in 4.48 seconds.
+1271 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6808906 bytes of EVS_L2_2011058_21_007_02.fit.gz copied in 3.70 seconds.
+1272 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808821 bytes of EVS_L2_2011058_22_007_02.fit.gz copied in 3.80 seconds.
+1273 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/058/EVS_L2_2011058_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6809610 bytes of EVS_L2_2011058_23_007_02.fit.gz copied in 3.50 seconds.
+1274 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6809437 bytes of EVS_L2_2011059_00_007_02.fit.gz copied in 3.70 seconds.
+1275 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6810272 bytes of EVS_L2_2011059_01_007_02.fit.gz copied in 3.58 seconds.
+1276 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6809850 bytes of EVS_L2_2011059_02_007_02.fit.gz copied in 3.61 seconds.
+1277 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6807726 bytes of EVS_L2_2011059_03_007_02.fit.gz copied in 3.58 seconds.
+1278 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6809188 bytes of EVS_L2_2011059_04_007_02.fit.gz copied in 3.77 seconds.
+1279 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6809791 bytes of EVS_L2_2011059_05_007_02.fit.gz copied in 3.51 seconds.
+1280 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808592 bytes of EVS_L2_2011059_06_007_02.fit.gz copied in 3.46 seconds.
+1281 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6808823 bytes of EVS_L2_2011059_07_007_02.fit.gz copied in 3.55 seconds.
+1282 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6809973 bytes of EVS_L2_2011059_08_007_02.fit.gz copied in 3.58 seconds.
+1283 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6809635 bytes of EVS_L2_2011059_09_007_02.fit.gz copied in 3.56 seconds.
+1284 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809328 bytes of EVS_L2_2011059_10_007_02.fit.gz copied in 3.58 seconds.
+1285 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6809794 bytes of EVS_L2_2011059_11_007_02.fit.gz copied in 3.61 seconds.
+1286 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6793123 bytes of EVS_L2_2011059_12_007_02.fit.gz copied in 3.61 seconds.
+1287 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_13_007_02.fit.gz
+% SOCK_GET_MAIN: 5747349 bytes of EVS_L2_2011059_13_007_02.fit.gz copied in 3.37 seconds.
+1288 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6809588 bytes of EVS_L2_2011059_14_007_02.fit.gz copied in 3.62 seconds.
+1289 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6810150 bytes of EVS_L2_2011059_15_007_02.fit.gz copied in 3.63 seconds.
+1290 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6809275 bytes of EVS_L2_2011059_16_007_02.fit.gz copied in 3.79 seconds.
+1291 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_17_007_02.fit.gz
+% SOCK_GET_MAIN: 8037219 bytes of EVS_L2_2011059_17_007_02.fit.gz copied in 3.63 seconds.
+1292 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20345537 bytes of EVS_L2_2011059_18_007_02.fit.gz copied in 4.76 seconds.
+1293 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20345623 bytes of EVS_L2_2011059_19_007_02.fit.gz copied in 4.63 seconds.
+1294 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19119335 bytes of EVS_L2_2011059_20_007_02.fit.gz copied in 4.55 seconds.
+1295 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6808625 bytes of EVS_L2_2011059_21_007_02.fit.gz copied in 3.82 seconds.
+1296 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6808977 bytes of EVS_L2_2011059_22_007_02.fit.gz copied in 3.82 seconds.
+1297 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/059/EVS_L2_2011059_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6810056 bytes of EVS_L2_2011059_23_007_02.fit.gz copied in 3.59 seconds.
+1298 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_00_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_00_006_02.fit.gz
+1299 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_01_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_01_006_02.fit.gz
+1300 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_02_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_02_006_02.fit.gz
+1301 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_03_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_03_006_02.fit.gz
+1302 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_04_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_04_006_02.fit.gz
+1303 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_05_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_05_006_02.fit.gz
+1304 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_06_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_06_006_02.fit.gz
+1305 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_07_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_07_006_02.fit.gz
+1306 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_08_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_08_006_02.fit.gz
+1307 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_09_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_09_006_02.fit.gz
+1308 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_10_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_10_006_02.fit.gz
+1309 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_11_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_11_006_02.fit.gz
+1310 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_12_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_12_006_02.fit.gz
+1311 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_13_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_13_006_02.fit.gz
+1312 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_14_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_14_006_02.fit.gz
+1313 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_15_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_15_006_02.fit.gz
+1314 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_16_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_16_006_02.fit.gz
+1315 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_17_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_17_006_02.fit.gz
+1316 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_18_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_18_006_02.fit.gz
+1317 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_19_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_19_006_02.fit.gz
+1318 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_20_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_20_006_02.fit.gz
+1319 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_21_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_21_006_02.fit.gz
+1320 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_22_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_22_006_02.fit.gz
+1321 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_23_006_02.fit.gz
+% SOCK_ERROR: Status code = 404. URL not found - http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/060/EVS_L2_2011060_23_006_02.fit.gz
+1322 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6809954 bytes of EVS_L2_2011061_00_007_02.fit.gz copied in 3.74 seconds.
+1323 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_01_007_02.fit.gz
+% SOCK_GET_MAIN: 6809637 bytes of EVS_L2_2011061_01_007_02.fit.gz copied in 3.61 seconds.
+1324 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_02_007_02.fit.gz
+% SOCK_GET_MAIN: 6808246 bytes of EVS_L2_2011061_02_007_02.fit.gz copied in 3.63 seconds.
+1325 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_03_007_02.fit.gz
+% SOCK_GET_MAIN: 6808083 bytes of EVS_L2_2011061_03_007_02.fit.gz copied in 3.58 seconds.
+1326 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_04_007_02.fit.gz
+% SOCK_GET_MAIN: 6808546 bytes of EVS_L2_2011061_04_007_02.fit.gz copied in 4.20 seconds.
+1327 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_05_007_02.fit.gz
+% SOCK_GET_MAIN: 6807674 bytes of EVS_L2_2011061_05_007_02.fit.gz copied in 3.95 seconds.
+1328 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_06_007_02.fit.gz
+% SOCK_GET_MAIN: 6808848 bytes of EVS_L2_2011061_06_007_02.fit.gz copied in 3.66 seconds.
+1329 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_07_007_02.fit.gz
+% SOCK_GET_MAIN: 6808099 bytes of EVS_L2_2011061_07_007_02.fit.gz copied in 3.87 seconds.
+1330 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_08_007_02.fit.gz
+% SOCK_GET_MAIN: 6808784 bytes of EVS_L2_2011061_08_007_02.fit.gz copied in 3.84 seconds.
+1331 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_09_007_02.fit.gz
+% SOCK_GET_MAIN: 6809079 bytes of EVS_L2_2011061_09_007_02.fit.gz copied in 3.76 seconds.
+1332 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_10_007_02.fit.gz
+% SOCK_GET_MAIN: 6809711 bytes of EVS_L2_2011061_10_007_02.fit.gz copied in 3.70 seconds.
+1333 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_11_007_02.fit.gz
+% SOCK_GET_MAIN: 6809489 bytes of EVS_L2_2011061_11_007_02.fit.gz copied in 3.92 seconds.
+1334 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_12_007_02.fit.gz
+% SOCK_GET_MAIN: 6809456 bytes of EVS_L2_2011061_12_007_02.fit.gz copied in 4.06 seconds.
+1335 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_13_007_02.fit.gz
+% SOCK_GET_MAIN: 6809066 bytes of EVS_L2_2011061_13_007_02.fit.gz copied in 3.96 seconds.
+1336 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_14_007_02.fit.gz
+% SOCK_GET_MAIN: 6808031 bytes of EVS_L2_2011061_14_007_02.fit.gz copied in 3.82 seconds.
+1337 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_15_007_02.fit.gz
+% SOCK_GET_MAIN: 6810272 bytes of EVS_L2_2011061_15_007_02.fit.gz copied in 3.55 seconds.
+1338 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_16_007_02.fit.gz
+% SOCK_GET_MAIN: 6809498 bytes of EVS_L2_2011061_16_007_02.fit.gz copied in 3.89 seconds.
+1339 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_17_007_02.fit.gz
+% SOCK_GET_MAIN: 7128659 bytes of EVS_L2_2011061_17_007_02.fit.gz copied in 3.75 seconds.
+1340 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_18_007_02.fit.gz
+% SOCK_GET_MAIN: 20342514 bytes of EVS_L2_2011061_18_007_02.fit.gz copied in 4.97 seconds.
+1341 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_19_007_02.fit.gz
+% SOCK_GET_MAIN: 20337567 bytes of EVS_L2_2011061_19_007_02.fit.gz copied in 20.99 seconds.
+1342 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_20_007_02.fit.gz
+% SOCK_GET_MAIN: 19105880 bytes of EVS_L2_2011061_20_007_02.fit.gz copied in 7.67 seconds.
+1343 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_21_007_02.fit.gz
+% SOCK_GET_MAIN: 6803867 bytes of EVS_L2_2011061_21_007_02.fit.gz copied in 3.78 seconds.
+1344 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_22_007_02.fit.gz
+% SOCK_GET_MAIN: 6806013 bytes of EVS_L2_2011061_22_007_02.fit.gz copied in 3.60 seconds.
+1345 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/061/EVS_L2_2011061_23_007_02.fit.gz
+% SOCK_GET_MAIN: 6808266 bytes of EVS_L2_2011061_23_007_02.fit.gz copied in 3.95 seconds.
+1346 : http://lasp.colorado.edu/eve/data_access/evewebdataproducts/level2/2011/062/EVS_L2_2011062_00_007_02.fit.gz
+% SOCK_GET_MAIN: 6808509 bytes of EVS_L2_2011062_00_007_02.fit.gz copied in 3.71 seconds.
+% VSO_GET: Downloading completed
+IDL> 
