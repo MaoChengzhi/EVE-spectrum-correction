@@ -1,8 +1,8 @@
-result = vso_search('2011-01-01 0:00', '2011-01-02 0:00', inst='aia',wave=304)
-log = vso_get(result, out_dir='data/AIA', filenames=fnames);, /nodownload)
+;result = vso_search('2011-01-01 0:00', '2011-01-02 0:00', inst='aia',wave=304)
+;log = vso_get(result, out_dir='data/AIA', filenames=fnames);, /nodownload)
 
-
-
+result = vso_search('2011-01-27 22:58', '2011-01-27 22:59', inst='aia',wave=304)
+log = vso_get(result, out_dir='data/AIA', filenames=fnames,/nodownload)
 end
 
 ; Extract URLs
