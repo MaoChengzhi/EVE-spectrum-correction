@@ -47,12 +47,12 @@ for i = 0, N_ELEMENTS(files_list) - 1 do begin
   wavelength = meta.wavelength
   data = eve_data.SPECTRUM
   sod_time = data.sod           ; seconds UT day
-  irradiance = data.irradiance ;[1363:1374]
+  irradiance = data.irradiance ;
   sc_flags = data.sc_flags      ; 0=good, other value indicates events
   flags = data.flags
   yyyydoy = data.yyyydoy
 
-  SAVE, wavelength, sod_time, irradiance, sc_flags, flags, yyyydoy, FILENAME=new_filename
+  ;SAVE, wavelength, sod_time, irradiance, sc_flags, flags, yyyydoy, FILENAME=new_filename
   
   
 endfor

@@ -201,7 +201,11 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
     plt.tight_layout()
 
 
-    plt.show()
+    # plt.show()
+    # CLOSE fig
+
+    plt.close(fig)
+
     if fig_name is not None:
         fig.savefig(fig_name, bbox_inches='tight')
     
