@@ -1,0 +1,1 @@
+no solar eclipse data removal

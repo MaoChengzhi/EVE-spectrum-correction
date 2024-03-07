@@ -15,11 +15,11 @@ import matplotlib.pylab as plt
 from matplotlib.gridspec import GridSpec
 import matplotlib.ticker as ticker
 from mpl_toolkits.axes_grid1 import make_axes_locatable
-
+from gaussian_fit_eve import gaussian_fit_eve
 
 def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
                title='Signal', ylabel='Variation', cmap='Purples', 
-               show_peaks=False, fill_nan=True, idx=None, fontsize=15, **kwargs):
+               show_peaks=True, fill_nan=True, idx=None, fontsize=15, **kwargs):
     '''
     sst: equal-grid time series of data
     dt: time difference between two points
@@ -49,6 +49,12 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
 
     # Wavelet transform:
     wave, period, scale, coi = wavelet(sst, dt, **kwargs)
+    # print the shape of wave, period, scale, coi
+    print("wave shape: ", wave.shape)
+    print("period shape: ", period.shape)
+    print("scale shape: ", scale.shape)
+    print("coi shape: ", coi.shape)
+
     power = (np.abs(wave)) ** 2  # compute wavelet power spectrum
     global_ws = (np.sum(power, axis=1) / n)  # time-average over all times
 
@@ -114,6 +120,7 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
     # cone-of-influence, anything "below" is dubious
     # plt.plot(time, coi, 'orange')
     plt.fill_between(time, coi,np.max(period), color='gray',alpha=0.2, zorder=10, hatch='x')
+    
     # format y-scale
     plt3.set_yscale('log', base=2, subs=None)
     plt.ylim([np.min(period), np.max(period)])
@@ -134,6 +141,9 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
     period = np.arange(np.min(period), np.max(period), 0.2)
     global_ws = np.interp(period, period_back, global_ws_back)
     global_signif = np.interp(period, period_back, global_signif_back)
+
+
+
     # find out peaks
     periods = []
     peaks = []
@@ -174,6 +184,28 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
                 break
         ends[i] = period[s]
 
+
+    #use gaussian fit to obtain the precise peak
+    for i in range(nperiods):
+        # print(global_ws[idx[i]])
+        # print(      period[i] )
+        # print(      ends[i]-starts[i] )
+
+
+        intial_guess=[global_ws[idx[i]], period[i], ends[i]-starts[i]] 
+        start_idx = np.where(period==starts[i])[0][0]
+        end_idx = np.where(period==ends[i])[0][0]
+        popt,pcov=gaussian_fit_eve(period[start_idx:end_idx], global_ws[start_idx:end_idx], intial_guess)
+        amplitude, mean, stddev=popt
+
+        peaks[i]=amplitude
+        periods[i]=mean
+    
+
+    print('peaks:', peaks)
+    print('periods:', periods)
+
+
     plt4 = plt.subplot(gs[1, -1])
     plt.plot(global_ws, period, c='black')
     plt.plot(global_signif, period, '--', c='black')
@@ -184,7 +216,7 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
     plt.xlim([0, 1.25 * np.max(global_ws)])
     if show_peaks:
         for i in range(len(peaks)):
-            plt.annotate('{:.1f}'.format(periods[i]), xy=(peaks[i], periods[i]),
+            plt.annotate('{:.3f}'.format(periods[i]), xy=(peaks[i], periods[i]),
                          xycoords='data', c='purple', size=12)
             plt.plot([0, 1.25 * np.max(global_ws)], [starts[i], starts[i]],
                      linestyle=':', c='black')
@@ -201,13 +233,16 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
     plt.tight_layout()
 
 
-    # plt.show()
+    
     # CLOSE fig
 
-    plt.close(fig)
+    
 
     if fig_name is not None:
         fig.savefig(fig_name, bbox_inches='tight')
+        plt.close(fig)
+    else:
+        plt.show()
     
     return(periods, starts, ends)
 
