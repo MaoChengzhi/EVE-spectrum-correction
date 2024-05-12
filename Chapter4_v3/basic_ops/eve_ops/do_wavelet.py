@@ -50,10 +50,10 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
     # Wavelet transform:
     wave, period, scale, coi = wavelet(sst, dt, **kwargs)
     # print the shape of wave, period, scale, coi
-    print("wave shape: ", wave.shape)
-    print("period shape: ", period.shape)
-    print("scale shape: ", scale.shape)
-    print("coi shape: ", coi.shape)
+    # print("wave shape: ", wave.shape)
+    # print("period shape: ", period.shape)
+    # print("scale shape: ", scale.shape)
+    # print("coi shape: ", coi.shape)
 
     power = (np.abs(wave)) ** 2  # compute wavelet power spectrum
     global_ws = (np.sum(power, axis=1) / n)  # time-average over all times
@@ -202,8 +202,8 @@ def do_wavelet(sst, dt, time=None, unit='Year', fig_name=None, num=50,
         periods[i]=mean
     
 
-    print('peaks:', peaks)
-    print('periods:', periods)
+    # print('peaks:', peaks)
+    # print('periods:', periods)
 
 
     plt4 = plt.subplot(gs[1, -1])

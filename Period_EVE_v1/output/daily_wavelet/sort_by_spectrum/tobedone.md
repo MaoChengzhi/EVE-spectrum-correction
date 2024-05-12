@@ -1,0 +1,1 @@
+this part put the three wavelet results of one spectrum together and try to analyze their features

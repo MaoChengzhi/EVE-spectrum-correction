@@ -1,0 +1,1 @@
+I noticed the fwhm of He304 line during some flares decreases, so I collect many flares and many lines to explore more of it.
