@@ -3,12 +3,18 @@ from astropy.stats import gaussian_fwhm_to_sigma
 from .pixel_to_world.my_pixel_to_world import my_pixel_to_world
 
 import cupy as cp
+import numpy as np
+import pandas as pd
+import os
 
-from math import pi
+
+
+
+
 # %%
 
 
-def calculate_DN_5(aia_adjusted_map, a, b,c, d,  e):
+def calculate_DN_cp(image_data,wavelength_list_aia, coeff):
     '''
     a * Tx**2 + b * Tx + c*Ty**2 + d * Ty+e
 
@@ -23,9 +29,18 @@ def calculate_DN_5(aia_adjusted_map, a, b,c, d,  e):
     None.
 
     '''
+    a, b,c, d,  e = coeff
+    # wavelength_list_aia_index = eve_selected_band[eve_selected_band['Line Name'] == line_name]['Wavelength Index'].values[0]
+    # accurate_wavelength = eve_selected_band[eve_selected_band['Line Name'] == line_name]['Accurate Wavelength'].values[0]/10    # unit: nm
+    # wavelength_list_aia = eve_wavelength_full[wavelength_list_aia_index]-accurate_wavelength
 
-    image_data = cp.array(aia_adjusted_map.data)
+
+
+
     image_shape_x, image_shape_y = image_data.shape
+    image_data=cp.asarray(image_data,dtype=cp.float64)
+
+    
 
     total_irradiance = 0
     stddev = cp.zeros((image_shape_x, image_shape_y))+0.1 * \
@@ -34,6 +49,7 @@ def calculate_DN_5(aia_adjusted_map, a, b,c, d,  e):
     # Create NumPy arrays for pixel indices and image data
     pixel_x = cp.arange(image_shape_x)
     pixel_y = cp.arange(image_shape_y)
+
     Px, Py = cp.meshgrid(pixel_x, pixel_y, indexing='ij')
 
     # Compute Tx and Ty for all pixels in parallel
@@ -43,20 +59,21 @@ def calculate_DN_5(aia_adjusted_map, a, b,c, d,  e):
     image_data = image_data*(image_data > 0)
 
     # Compute amplitude, mean, and stddev for all pixels in parallel
-    amplitude = image_data / (cp.sqrt(2 * pi) * stddev)
-    mean = wavelength_shift_5(Tx, Ty, a,b,c, d, e)
+    amplitude = image_data / (cp.sqrt(2 * cp.pi) * stddev)
+
+    mean = wavelength_shift(Tx, Ty, a,b,c, d, e)
     coeff = cp.array([amplitude, mean, stddev])
 
     # Compute total_irradiance using vectorized NumPy operations
-    total_irradiance = cp.sum(my_Gaussian1D(
+    total_irradiance = cp.sum(my_Gaussian1D_cp(
         wavelength_list_aia, *coeff), axis=(1, 2))  # size:(12,4096,4096)
 
-    return total_irradiance
+    return total_irradiance.get()
 
 # %%
 
 
-def wavelength_shift_5(Tx, Ty, a,b,c, d, e):
+def wavelength_shift(Tx, Ty, a,b,c, d, e):
     '''
 
 
@@ -78,7 +95,7 @@ def wavelength_shift_5(Tx, Ty, a,b,c, d, e):
     return a * Tx**2 + b * Tx+c*Ty**2+d * Ty+e
 
 
-def my_Gaussian1D(wavelength_list, amplitude, mean, stddev):
+def my_Gaussian1D_cp(wavelength_list, amplitude, mean, stddev):
     '''
     I use this function written myself, because Gaussian1D in astropy is too slow.
 
