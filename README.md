@@ -1,102 +1,93 @@
-# EVE-Spectrum-Correction
-Verification of the major results in [Cheng et al., 2021]
+# EVE-spectrum-correction
+复现《基于 SDO/EVE光谱观测对太阳大气等离子体运动的研究》第三/四章   
 
-- Calibration of cruciform scan for EVE
-- Long-term spectral observation by EVE
+- 对EVE十字扫描法的修正
 
----
+- EVE长期多普勒观测
+
+
 
 # Chapter 3
 
-### Input Data for Cruciform Scan
-Due to the limited data available, the only input data during the cruciform scan is from Chamberlin (2016):
+第三章用到的EVE扫描期间的结论只有Chamberlin(2016):
 $$
-\Delta \lambda = 19.8\sin^2 \phi + 4.3\sin\theta
+\Delta \lambda=19.8\sin^2 \phi+4.3\sin\theta
 $$
 
----
 
-### Simulation and Observation of Central Wavelength Changes with Incident Angles (𝛼 and 𝛽)
 
-This leads to a difference in corrections: the paper's correction results in a decrease, while my correction results in an increase.
+## 中心波长随入射偏角𝜶和𝜷变化的模拟结果和观测结果
 
-- I used 2048^2 resolution images.  
-  My simulation (blue line) lies below the orange line.
+这导致论文中的修正是变小，我的修正是变大
+
+- 我使用2048^2图片
+  我的蓝线模拟在橙线下方
+
+
 
 <img src="./README.assets/image-20230311161350913.png" alt="image-20230311161350913" style="zoom: 25%;" />
 
-- From the paper (P46):  
-  In the figure below, the red simulated line is above the black dashed observational line.
+- 论文P46
+  下图：红色模拟在观测黑虚线上方
+
+
 
 <img src="./README.assets/image-20230311161545859.png" alt="image-20230311161545859" style="zoom: 67%;" />
 
----
+### beta方向扫描曲线变矮的原因？
 
-### Why Does the Scanning Curve in the Beta Direction Become Flatter?
-
-The total solar radiation during the scan period did not vary significantly, so it is likely caused by the slit blocking the incident light. However, the drop in panel (c) cannot be explained.
+扫描期间太阳总辐射没有大变化，应该是入射的狭缝挡住了。无法解释（c）图中的下降。
 
 <img src="./README.assets/image-20230602120901238.png" alt="image-20230602120901238" style="zoom:50%;" />
 
-Since specific details about the slit are unknown, further analysis cannot continue in this direction. Therefore, long-term Doppler analysis was performed instead.
+但是具体狭缝细节不可知，故无法继续沿此继续分析。故进行长期多普勒分析
 
-#### STEREO A:
+STEREO A
+
 <img src="./README.assets/image-20230416143802583-1681642430415-4.png" alt="image-20230416143802583" style="zoom: 15%;" />
 
-#### STEREO B:
+
+
+STEREO B
+
 <img src="./README.assets/image-20230416143755917.png" alt="image-20230416143755917" style="zoom: 25%;" />
 
-During the beta-direction scan, the brightness of the SDO field of view was calculated for the EUVI 30.4 nm band based on STEREO. No significant changes were observed.
+beta方向扫描期间，根据STEREO，EUVI 30.4nm 波段 计算SDO视野内亮度，可以看出没什么变化
 
 <img src="./README.assets/image-20230416145804719.png" alt="image-20230416145804719" style="zoom: 50%;" />
 
----
+
 
 # Chapter 4
 
-### From the Paper:
-Expected dashed line: the corrected line is a horizontal straight line.
+论文中：
+
+期望虚线：修正后的线 为水平直线
 
 <img src="./README.assets/image-20230416183316726.png" alt="image-20230416183316726" style="zoom: 150%;" />
 
----
 
-## Overview of EVE Data
+
+
+
+## EVE数据概览
 
 <img src="./README.assets/image-20230602120427014.png" alt="image-20230602120427014" style="zoom:50%;" />
 
-EVE He II fitted parameter: blue lines and stddev: light blue and light green areas.
+
 
 ![newplot](./README.assets/newplot-1686219087659-1.png)
 
-_Shadow_: 3× standard deviation region of mean/amplitude/standard deviation for 8640 data points per day.
+shadow: 3*stddev region of mean/amplitude/stddev  of 8640 data per day
 
----
+## AIA数据概览
 
-## Overview of AIA Data
+把4年，每天一张的AIA图片输出到一个pdf里面了
 
-simulation based on AIA image and EVE observation.
+
 
 ![newplot (1)](./README.assets/newplot (1)-1686219585220-3.png)
 
-AIA simulation v.s. EVE simulation.
 
-There are still many difficulties for AIA simulation. (Hudson 2022)
 
 ![newplot (2)](./README.assets/newplot (2).png)
-
-
-
-
-
-# Long term observation
-
-Wavelet transform result of He II line central.
-
-![He II 304_wavelet](./README.assets/He II 304_wavelet.png)
-
-
-
-Putting the peak period of various spectral lines on the scatter plot, exploring the relation between the line parameter period and line temperature.
-
-![{D32AE566-380B-4B46-A4D6-BD5D6EAC465E}](./README.assets/{D32AE566-380B-4B46-A4D6-BD5D6EAC465E}.png)
