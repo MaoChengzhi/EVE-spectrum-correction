@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.interpolate import griddata
 
-def interpolate_to_uniform_grid(x=np.array([]), y=np.array([]), z=np.array([]), scale_factor_x=1,scale_factor_y=1,method='linear'):
+def interpolate_to_uniform_grid(x=np.array([]), y=np.array([]), z=np.array([]), scale_factor_x=10,scale_factor_y=10,method='linear'):
     
 
     if not z.size:

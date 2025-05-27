@@ -1,21 +1,23 @@
-give me  1000days of AIA images , EVE spectrum data for one line.
+# SolarWind_v1
 
+This folder contains scripts and notebooks for cross-calibrating AIA images and EVE spectral data over 1000 days, focusing on a single EVE spectral line.
 
+Inspired by the first phase of this research, this project applies a pixel-by-pixel correction method using AIA images to reconstruct more accurate EVE spectral line signals. For each AIA image pixel, a Gaussian curve is constructed:
 
-fit the get the coeff
+$$
+f(\lambda) = A \frac{1}{\sqrt{2\pi\sigma}} e^{-\frac{(\lambda-\mu)^2}{2\sigma^2}}
+$$
 
+where:
+- **Center wavelength $\mu$**: Corrected as $\mu(T_x, T_y) \approx C_1 T_x^2 + C_2 T_x + C_3 T_y^2 + C_4 T_y + C_5$, with $T_x, T_y$ as pixel angles and $C_i$ as fit coefficients.
+- **Area $A$**: Given by the AIA pixel DN (Digital Number) value.
+- **FWHM**: Treated as a constant.
 
+The constant term represents the 'true' line center offset from the CHIANTI database value (assuming zero-point calibration is sufficiently accurate, though this assumption is quite debatable).
 
-受到本研究第一阶段工作的启发，我采用了基于AIA图像的逐像素修正方法，以期获取更准确的EVE谱线信号。对AIA图像的每一个像素构造一个高斯曲线$f(\lambda)=A \frac{1}{\sqrt{2\pi\sigma}} e^{-\frac{(\lambda-\mu)^2}{2\sigma^2}}$，其中各参数如下：
+The main intended workflow includes, though it has not been implemented:
+- Collecting 1000 days of AIA images and EVE spectra for one line.
+- Fitting the model to determine the correction coefficients.
+- Comparing and analyzing the reconstructed EVE line profiles.
 
-- 中心波长 $\mu$ : 使用公式 $\mu=\mu(T_x,T_y) \approx C_1 T_x^2+ C_2 T_x +C_3 T_y^2+C_4 T_y+C_5$ 进行修正，其中$T_x, \ T_y$代表像素在视野中的角度，$C_1,C_2,C_3,C_4$ 为代拟合参数
-- 积分面积 A：以AIA图像每个像素观测值DN( Digital Number）表示
-- 半高全宽 FWHM:
-
-
-
-
-
-
-
-and the constant term represent the 'true' line central away from chianti database. ( Assuming the zero point calibration is done good enough) (But I strongly disagrees with this assumption irrationally)
+Only a little effort has been devoted to this section.

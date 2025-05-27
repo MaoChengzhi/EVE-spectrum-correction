@@ -1,104 +1,143 @@
-# EVE-Spectrum-Correction
-Verification of the major results in [Cheng et al., 2021]
+# EVE Spectrum Correction
 
-- Calibration of cruciform scan for EVE
-- Long-term spectral observation by EVE
+This project focuses on verifying and extending the results from **“基于 SDO/EVE 光谱观测对太阳大气等离子体运动的研究”** (Cheng et al., 2021).  
+The primary goals are
+
+* to calibrate EVE spectral data (with special attention to the cruciform-scan optics),
+* to analyse long-term spectral behaviour,
+* and to explore how AIA images can be mapped to EVE spectral parameters.
 
 ---
 
-# Chapter 3
+## Project Structure
 
-### Input Data for Cruciform Scan
-Due to the limited data available, the only input data during the cruciform scan is from Chamberlin (2016):
+| Chapter / Folder      | Objective                                                    | Key Files                                                    |
+| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Chapter 3**         | Cruciform-scan calibration; verify solar-plasma-motion study | `AIA_main/`, `data_frame.pkl`, `Func_Performance_Analysis.ipynb`, `结构.xmind` |
+| **Chapter 4 v1**      | First full-pipeline test of EVE L2 processing                | `combine_basic.ipynb`, `constant.py`                         |
+| **Chapter 4 v2**      | Refined mapping of AIA ➔ EVE (He II 304 Å)                   | `basic_ops/`                                                 |
+| **Chapter 4 v3**      | Four-year temporal scan of 46 EVE lines                      | `basic_ops/`, `新建文件夹/`                                  |
+| **Period_EVE_v1**     | Global periodicity search with wavelets                      | `daily_plot.ipynb`, `do_wavelet.py`                          |
+| **Flare Spectrum v1** | Response of EVE lines to solar flares                        | `FirstGlance_Flare.ipynb`, `data/`                           |
+| **SolarWind v1**      | 1000-day cross-calibration of AIA & EVE                      | `combine_basic.ipynb`, `error_function.py`                   |
+
+---
+
+## Chapter 3  — Cruciform-Scan Calibration
+
+### 3.1  Input Data for the Cruciform Scan  
+
+The Chamberlin (2016) relation is adopted as the sole external input:
+
 $$
-\Delta \lambda = 19.8\sin^2 \phi + 4.3\sin\theta
+\Delta\lambda = 19.8\sin^{2}\phi \;+\; 4.3\sin\theta
 $$
 
----
 
-### Simulation and Observation of Central Wavelength Changes with Incident Angles (𝛼 and 𝛽)
 
-This leads to a difference in corrections: the paper's correction results in a decrease, while my correction results in an increase.
-
-- I used 2048^2 resolution images.  
-  My simulation (blue line) lies below the orange line.
-
-<img src="./README.assets/image-20230311161350913.png" alt="image-20230311161350913" style="zoom: 25%;" />
-
-- From the paper (P46):  
-  In the figure below, the red simulated line is above the black dashed observational line.
-
-<img src="./README.assets/image-20230311161545859.png" alt="image-20230311161545859" style="zoom: 67%;" />
 
 ---
 
-### Why Does the Scanning Curve in the Beta Direction Become Flatter?
+### 3.2  Central-Wavelength Shift versus Incident Angles (α, β)
 
-The total solar radiation during the scan period did not vary significantly, so it is likely caused by the slit blocking the incident light. However, the drop in panel (c) cannot be explained.
+<div align="center">
 
-<img src="./README.assets/image-20230602120901238.png" alt="image-20230602120901238" style="zoom:50%;" />
 
-Since specific details about the slit are unknown, further analysis cannot continue in this direction. Therefore, long-term Doppler analysis was performed instead.
+| Simulation (this work, 2048² resolution)                     | From Cheng et al. (2021)                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="./README.assets/image-20230311161350913-1748315765397-1.png" alt="My simulation (blue) vs. paper (orange)" style="zoom:25%;"> | <img src="./README.assets/image-20230311161545859-1748315765398-2.png" alt="Paper figure: simulated (red) vs. observed (black dashed)" style="zoom:67%;"> |
 
-#### STEREO A:
-<img src="./README.assets/image-20230416143802583-1681642430415-4.png" alt="image-20230416143802583" style="zoom: 15%;" />
+</div>
 
-#### STEREO B:
-<img src="./README.assets/image-20230416143755917.png" alt="image-20230416143755917" style="zoom: 25%;" />
-
-During the beta-direction scan, the brightness of the SDO field of view was calculated for the EUVI 30.4 nm band based on STEREO. No significant changes were observed.
-
-<img src="./README.assets/image-20230416145804719.png" alt="image-20230416145804719" style="zoom: 50%;" />
+*My correction (blue) yields a positive-going shift, whereas the paper’s correction yields a negative-going shift.*
 
 ---
 
-# Chapter 4
+### 3.3  Why Does the β-Scan Curve Flatten?
 
-### From the Paper:
-Expected dashed line: the corrected line is a horizontal straight line.
+Solar irradiance was nearly constant during the scan, implying occultation by the entrance slit.  
+Yet the sudden dip in panel (c) below remains unexplained:
 
-<img src="./README.assets/image-20230416183316726.png" alt="image-20230416183316726" style="zoom: 150%;" />
+<img src="./README.assets/image-20230602120901238-1748315765398-3.png" alt="Beta-scan brightness drop" style="zoom:50%;">
+
+Because the detailed slit geometry is unavailable, we diverted to long-term Doppler analysis:
+
+| STEREO-A field brightness                                    | STEREO-B field brightness                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <img src="./README.assets/image-20230416143802583-1681642430415-4-1748315765398-5.png" alt="STEREO A" style="zoom:15%;"> | <img src="./README.assets/image-20230416143755917-1748315765398-4.png" alt="STEREO B" style="zoom:25%;"> |
+
+No appreciable change was found in the EUVI 30.4 nm band throughout the β-scan:
+
+<img src="./README.assets/image-20230416145804719-1748315765398-6.png" alt="STEREO EUVI brightness trend" style="zoom:50%;">
 
 ---
 
-## Overview of EVE Data
+## Chapter 4  — EVE Spectral Analysis
 
-<img src="./README.assets/image-20230602120427014.png" alt="image-20230602120427014" style="zoom:50%;" />
+### 4.1  Expected Optical-Correction Trend
 
-![newplot](./README.assets/newplot-1686219087659-1.png)
+Corrected line-centre should be flat (dashed reference):
 
-_Shadow_: 3× standard deviation region of mean/amplitude/standard deviation for 8640 data points per day.
+<img src="./README.assets/image-20230416183316726-1748315765398-7.png" alt="Expected horizontal correction" style="zoom:150%;">
 
 ---
 
-## AIA simulation v.s. EVE observation
+### 4.2  Overview of EVE L2 Data
 
-AIA simulation v.s. EVE observation
+<img src="./README.assets/image-20230602120427014-1748315765398-8.png" alt="EVE L2 overview" style="zoom:50%;">
 
-![newplot (1)](./README.assets/newplot_(1)-1686219585220-3.png)
+Daily statistics (8640 points day⁻¹) with ±3 σ shading:
 
+![newplot](./README.assets/newplot-1686219087659-1-1748315765398-9.png)
 
+---
 
-AIA simulation v.s. EVE observation
+### 4.3  AIA Simulation vs. EVE Observation
 
-![newplot (2)](./README.assets/newplot_(2).png)
+| Constant FWHM assumption                                     | Variable FWHM                                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![newplot (1)](./README.assets/newplot_(1)-1686219585220-3-1748315765399-10.png) | ![newplot (2)](./README.assets/newplot_(2)-1748315765399-11.png) |
 
+---
 
+### 4.4  Long-Term Monitoring of He II 304 Å
 
+*Amplitude, centre, and FWHM have been tracked continuously since 2010-05-01.*
 
+Wavelet transform of the line-centre parameter:
 
+![He II 304_wavelet](./README.assets/He_II_304_wavelet-1748315765399-12.png)
 
+Peak periods across 46 lines versus formation temperature:
 
+![{D32AE566-380B-4B46-A4D6-BD5D6EAC465E}](./README.assets/{D32AE566-380B-4B46-A4D6-BD5D6EAC465E}-1748315765399-13.png)
 
+No single global periodicity emerges, although individual lines show strong 27-day and 13-day signatures.
 
-# Long term Observation
+---
 
-Wavelet transform of He II line central parameter.
+## Chapter 5  Solar Flares
 
-![He II 304_wavelet](./README.assets/He_II_304_wavelet.png)
+During several M- and X-class flares the He II 304 Å FWHM narrows, while amplitude spikes and line centre blueshifts by ≈ 20 km s⁻¹.  
+Data for 50+ flares have been collected for statistical study (see *Flare Spectrum v1*).
 
+---
 
+## Chapter 6  Cross-Calibration with Solar Wind
 
-Peak period in the Wavelet transform of various EVE spectral lines with respect to line temperture.
+A 1000-day pixel-wise correction scheme links AIA EUV images to synthetic EVE spectra.  
+Gaussian models for 12 strong lines are fitted, but full propagation of AIA errors is pending.
 
-![{D32AE566-380B-4B46-A4D6-BD5D6EAC465E}](./README.assets/{D32AE566-380B-4B46-A4D6-BD5D6EAC465E}.png)
+---
+
+## Summary
+
+This repository delivers
+
+1. **A reproducible cruciform-scan calibration** that exposes a sign error in the published correction curve.  
+2. **A four-year archive of EVE He II 304 Å diagnostics** with daily wavelet analysis, revealing persistent rotational periodicities but no multi-line global mode.  
+3. **Preliminary flare and solar-wind cross-calibrations** laying the groundwork for future automated prediction of EVE spectra from AIA images.
+
+Further work will refine the pixel-by-pixel AIA➔EVE mapping, incorporate slit-diffraction modelling, and extend the flare database to Solar Cycle 25.
+
+---
